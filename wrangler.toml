@@ -1,33 +1,9 @@
-# wrangler.toml - Cloudflare Configuration
+# wrangler.toml - Cloudflare Pages Configuration
 
-name = "elc-baru"
-type = "javascript"
-account_id = ""  # Diisi dengan account ID Cloudflare Anda
-workers_dev = true
-main = "dist/index.js"
-site = { bucket = ".next/static" }
-
-[env.production]
-routes = [
-  { pattern = "edelweisslearning.id/*", zone_name = "edelweisslearning.id" }
-]
-
-[build]
-command = "npm run build"
-cwd = "./"
-
-[build.upload]
-format = "modules"
-
-[[rules]]
-type = "CompiledContentType"
-globs = ["**/*.wasm"]
-fallthrough = true
+name = "elc-website-blv"
+pages_build_output_dir = ".next/static"
 
 # Environment variables
 [env.production.vars]
 ENVIRONMENT = "production"
 NODE_ENV = "production"
-
-# Setup untuk Cloudflare Pages (jika menggunakan Pages, ignore bagian di atas)
-# Gunakan UI di https://dash.cloudflare.com untuk konfigurasi Pages
