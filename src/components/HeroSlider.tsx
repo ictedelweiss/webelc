@@ -6,42 +6,32 @@ const slides = [
   {
     img: "/Rectangle48.png",
     titleLeft: "Seven Values",
-    titleLeftClass: "text-[64px] font-semibold w-[438px] h-24 left-[99px] top-[448px]",
-    subtitleLeft: "Respect, Inependent, Religious, Accomplished, Knowledgeable, Integrity, Socially Responsible",
-    showSubtitle: true,
+    subtitle: "Respect, Independent, Religious, Accomplished, Knowledgeable, Integrity, Socially Responsible",
     titleRight: null,
   },
   {
-    img: "/Rectangle48(1).png",
+    img: "/Rectangle48(6).png", // using the high-res image
     titleLeft: "Designed for You",
-    titleLeftClass: "text-5xl font-semibold leading-none w-[250px] h-24 left-[99px] top-[466px]",
-    showSubtitle: false,
+    subtitle: null,
     titleRight: "Elite Academia",
-    titleRightClass: "text-5xl font-semibold w-[367px] h-[72px] left-[973px] top-[461px] text-right",
   },
   {
     img: "/Rectangle48(2).png",
-    titleLeft: "own your english",
-    titleLeftClass: "text-5xl font-semibold leading-none w-[295px] h-24 left-[99px] top-[466px]",
-    showSubtitle: false,
-    titleRight: "english Course",
-    titleRightClass: "text-5xl font-semibold w-[361px] h-[72px] left-[979px] top-[461px] text-right",
+    titleLeft: "Own your English",
+    subtitle: null,
+    titleRight: "English Course",
   },
   {
     img: "/Rectangle48(3).png",
     titleLeft: "Find your words",
-    titleLeftClass: "text-5xl font-semibold leading-none w-[295px] h-24 left-[99px] top-[466px]",
-    showSubtitle: false,
-    titleRight: "playteracy",
-    titleRightClass: "text-5xl font-semibold w-[263px] h-[72px] left-[1077px] top-[461px] text-right",
+    subtitle: null,
+    titleRight: "Playteracy",
   },
   {
     img: "/Rectangle48(4).png",
-    titleLeft: "teach with impact",
-    titleLeftClass: "text-5xl font-semibold leading-none w-[295px] h-24 left-[99px] top-[466px]",
-    showSubtitle: false,
+    titleLeft: "Teach with impact",
+    subtitle: null,
     titleRight: "IPDC",
-    titleRightClass: "text-5xl font-semibold w-[114px] h-[72px] left-[1226px] top-[461px] text-right",
   },
 ];
 
@@ -83,79 +73,86 @@ export default function HeroSlider() {
     goTo((current - 1 + slides.length) % slides.length);
   }, [current, goTo]);
 
-
   return (
-    <div className="w-full max-w-screen-xl mx-auto h-[678px] relative overflow-hidden">
-      {/* All slides stacked, only current is visible */}
+    <div className="w-full relative overflow-hidden bg-black rounded-b-[40px] shadow-lg rounded-t-3xl min-h-[500px] md:min-h-[678px] group">
+      {/* Slides Container */}
       {slides.map((s, i) => (
         <div
           key={i}
-          className="absolute inset-0 transition-opacity duration-700"
-          style={{ opacity: i === current ? 1 : 0, pointerEvents: i === current ? "auto" : "none" }}
+          className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+          style={{
+            opacity: i === current ? 1 : 0,
+            pointerEvents: i === current ? "auto" : "none",
+            zIndex: i === current ? 10 : 0,
+          }}
         >
-          {/* Background image */}
+          {/* Background Image */}
           <img
             src={s.img}
-            className="w-full h-[678px] absolute left-0 top-0 max-w-none object-cover"
-            alt={`slide ${i + 1}`}
+            className="w-full h-full object-cover object-center absolute inset-0"
+            alt={s.titleLeft}
           />
 
-          {/* Gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/45" />
+          {/* Gradient Overlay for Text Readability */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
-          {/* Yellow divider line */}
-          <div className="bg-[#FFF4BA] w-[1241px] h-[2px] absolute left-[99px] top-[434px]" />
+          {/* Text Content overlaying the image */}
+          <div className="absolute bottom-12 md:bottom-20 left-0 w-full px-6 md:px-16 lg:px-24 flex flex-col">
+            {/* Dividing Yellow Line */}
+            <div className="w-full h-[3px] bg-[#FFF4BA] mb-6 md:mb-8 rounded-full" />
 
-          {/* Left title */}
-          <p className={`text-[#FFF4BA] font-poppins font-semibold absolute ${s.titleLeftClass}`}>
-            {s.titleLeft}
-          </p>
-
-          {/* Right title */}
-          {s.titleRight && (
-            <p className={`text-[#FFF4BA] font-poppins font-semibold absolute ${s.titleRightClass}`}>
-              {s.titleRight}
-            </p>
-          )}
-
-          {/* Subtitle */}
-          {s.showSubtitle && (
-            <p className="text-[#FFF] font-poppins text-xl font-medium w-[937px] h-[30px] absolute left-[99px] top-[529px]">
-              Respect, Inependent, Religious, Accomplished, Knowledgeable, Integrity, Socially Responsible
-            </p>
-          )}
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-4">
+              <div className="flex flex-col flex-1 max-w-3xl">
+                <h2 className="text-[#FFF4BA] font-poppins text-4xl md:text-5xl lg:text-[64px] font-semibold leading-tight tracking-wide drop-shadow-md capitalize">
+                  {s.titleLeft}
+                </h2>
+                {s.subtitle && (
+                  <p className="text-white font-poppins text-sm md:text-lg lg:text-xl font-medium mt-3 md:mt-4 leading-relaxed tracking-wide opacity-90">
+                    {s.subtitle}
+                  </p>
+                )}
+              </div>
+              
+              {s.titleRight && (
+                <div className="flex-shrink-0 mt-2 md:mt-0">
+                  <h2 className="text-[#FFF4BA] font-poppins text-3xl md:text-5xl lg:text-[52px] font-semibold text-left md:text-right drop-shadow-md capitalize">
+                    {s.titleRight}
+                  </h2>
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       ))}
 
-      {/* Prev / Next arrow buttons */}
+      {/* Navigation Arrows (visible on hover or larger screens) */}
       <button
         onClick={prev}
-        className="absolute left-6 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-black/30 hover:bg-black/50 transition-colors text-white"
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 flex items-center justify-center rounded-full bg-black/40 hover:bg-black/70 backdrop-blur-sm transition-all duration-300 text-white opacity-0 group-hover:opacity-100 hidden md:flex"
         aria-label="Previous slide"
       >
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M13 4L7 10L13 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M15 4L7 12L15 20" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </button>
       <button
         onClick={next}
-        className="absolute right-6 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-black/30 hover:bg-black/50 transition-colors text-white"
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 flex items-center justify-center rounded-full bg-black/40 hover:bg-black/70 backdrop-blur-sm transition-all duration-300 text-white opacity-0 group-hover:opacity-100 hidden md:flex"
         aria-label="Next slide"
       >
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M7 4L13 10L7 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M9 4L17 12L9 20" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </button>
 
-      {/* Dot indicators */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+      {/* Pagination Dots */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-3">
         {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => goTo(i)}
-            style={{ width: i === current ? "24px" : "10px" }}
-            className={`h-2.5 rounded-full transition-all duration-300 ${
-              i === current ? "bg-[#FFF4BA]" : "bg-white/50 hover:bg-white/80"
+            className={`transition-all duration-300 rounded-full h-2.5 ${
+              i === current ? "bg-[#FFF4BA] w-8 md:w-10 opacity-100 shadow-[0_0_8px_rgba(255,244,186,0.8)]" : "bg-white/50 w-2.5 hover:bg-white/80"
             }`}
             aria-label={`Go to slide ${i + 1}`}
           />
