@@ -5,10 +5,10 @@
  * Replace placeholders with actual credentials from DomaiNesia cPanel.
  */
 
-$host = 'localhost'; // Usually 'localhost' in cPanel
-$db   = 'u1234567_webelc_db'; // Your DB name from cPanel
-$user = 'u1234567_webelc_user'; // Your DB user from cPanel
-$pass = 'YOUR_SECURE_PASSWORD'; // Your DB password
+$host = 'localhost'; // localhost di cPanel
+$db   = 'eliteac1_webelc';
+$user = 'eliteac1_webelc';
+$pass = '123Q@zaqw';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
