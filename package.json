@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "wrangler pages deploy out --project-name=elc-website-blv"
   },
   "dependencies": {
     "next": "16.1.6",

@@ -1,9 +1,10 @@
 # wrangler.toml - Cloudflare Pages Configuration
 
 name = "elc-website-blv"
-pages_build_output_dir = ".next/static"
+pages_build_output_dir = "out"
+compatibility_date = "2024-03-31"
 
 # Environment variables
-[env.production.vars]
+[vars]
 ENVIRONMENT = "production"
 NODE_ENV = "production"
