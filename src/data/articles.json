@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "title": "Selamat Datang di Portal Artikel Edelweiss",
+    "slug": "selamat-datang-di-portal-artikel-edelweiss",
+    "content": "<p>Ini adalah artikel percobaan pertama Anda. Anda dapat mengedit atau menghapusnya dari halaman <b>Dashboard Admin</b>.</p><p>Gunakan CMS ini untuk berbagi berita, program terbaru, atau artikel pendidikan dengan audiens Edelweiss Learning Center.</p>",
+    "excerpt": "Ini adalah artikel percobaan pertama Anda. Anda dapat mengedit atau menghapusnya dari halaman Dashboard Admin.",
+    "thumbnail": "",
+    "createdAt": "2026-03-30T10:00:00.000Z",
+    "updatedAt": "2026-03-30T10:00:00.000Z"
+  }
+]

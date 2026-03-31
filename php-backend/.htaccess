@@ -1,0 +1,21 @@
+# Block direct access to helper/config files
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+<Files "db.php">
+    Order allow,deny
+    Deny from all
+</Files>
+<Files "cors.php">
+    Order allow,deny
+    Deny from all
+</Files>
+<Files "token.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Remove PHP extension from URLs (optional, cosmetic)
+# RewriteEngine On
+# RewriteRule ^(auth|articles|setup)$ $1.php [L]

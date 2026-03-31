@@ -1,0 +1,24 @@
+# Matikan eksekusi script PHP dan perl di folder ini untuk mencegah backdoor
+<FilesMatch "\.(php|php4|php5|php7|php8|phtml|pl|py|jsp|asp|htm|shtml|sh|cgi)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Matikan engine PHP
+php_flag engine off
+
+# Izinkan hanya ekstensi gambar yang bisa diakses publik
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Order Deny,Allow
+    Allow from all
+</FilesMatch>
+
+# Berikan header Cache-Control
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access 1 year"
+    ExpiresByType image/jpeg "access 1 year"
+    ExpiresByType image/gif "access 1 year"
+    ExpiresByType image/png "access 1 year"
+    ExpiresByType image/webp "access 1 year"
+</IfModule>
