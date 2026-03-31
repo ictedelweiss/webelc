@@ -35,9 +35,9 @@ jobs:
       - name: Upload to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: cfut_M0FiT0DA1GzgMFmrfpOVHUksJdiBvYksXGqjBhs0bc1cac65
-          accountId: d8416a427e68e27b0c75e37a202fe17a
-          projectName: elc-website-blv
+          apiToken: cfut_p0pGufckfRVBEYEbCIZYJreTudwFfxDesPVOhDrX63cee58f
+          accountId: 636e8a088ef5153e9ba1b416d7ba59b1
+          projectName: webelc
           directory: out
           branch: main
 

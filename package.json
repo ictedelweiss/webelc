@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "wrangler pages deploy out --project-name=elc-website-blv"
+    "deploy": "wrangler pages deploy out --project-name=webelc"
   },
   "dependencies": {
     "next": "16.1.6",
