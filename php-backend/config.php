@@ -23,8 +23,8 @@ define('DB_CHARSET', 'utf8mb4');
 
 // === CORS Allowed Origins ===
 define('ALLOWED_ORIGINS', [
-    'https://edelweisslearningcenter.com',
-    'https://www.edelweisslearningcenter.com',
+    'https://edelweiss.sch.id',
+    'https://www.edelweiss.sch.id',
     'https://elc-website-blv.pages.dev',
     'http://localhost:3000',
     'http://localhost:3001',

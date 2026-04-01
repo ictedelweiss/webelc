@@ -3,10 +3,10 @@
  * Strict CORS Configuration for Edelweiss Learning Center
  * 
  * Only allows requests from the frontend origin:
- * https://edelweisslearningcenter.com
+ * https://edelweiss.sch.id
  */
 
-$allowed_origin = "https://edelweisslearningcenter.com";
+$allowed_origin = "https://edelweiss.sch.id";
 
 // Check the Origin header
 if (isset($_SERVER['HTTP_ORIGIN']) && $_SERVER['HTTP_ORIGIN'] === $allowed_origin) {
