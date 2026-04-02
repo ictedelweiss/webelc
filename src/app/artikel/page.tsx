@@ -203,8 +203,8 @@ function ArtikelContent() {
   const slug = searchParams.get("slug");
 
   return (
-    <div className="bg-white min-h-screen pt-24 pb-16 font-poppins">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-white min-h-screen pb-16 font-poppins">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         {!slug && (
           <div className="text-center mb-14">
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#293C88] tracking-tight mb-4">

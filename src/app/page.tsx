@@ -1,16 +1,9 @@
 import HeroSlider from "@/components/HeroSlider";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <div className="bg-[#FFF] min-h-screen relative overflow-hidden font-poppins">
       <div className="max-w-screen-xl mx-auto px-4 lg:px-8">
-        
-        {/* ── NAVBAR ─────────────────────────────────────────────────── */}
-        <div className="relative z-50">
-          <Navbar />
-        </div>
 
         {/* ── HERO ─────────────────────────────────────────────── */}
         <section className="relative w-full z-10 pt-4">
@@ -272,9 +265,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── FOOTER ───────────────────────────────────────────────────── */}
-      <Footer />
-      
     </div>
   );
 }
