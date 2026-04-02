@@ -188,7 +188,7 @@ function ArtikelDetail({ slug }: { slug: string }) {
         )}
 
         <div
-          className="prose prose-lg max-w-none text-gray-700 prose-headings:text-[#293C88] prose-a:text-[#293C88]"
+          className="prose prose-lg max-w-none text-gray-700 prose-headings:text-[#293C88] prose-a:text-[#293C88] prose-p:leading-8"
           dangerouslySetInnerHTML={{ __html: article.content }}
         />
       </article>
