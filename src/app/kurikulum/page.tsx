@@ -1,13 +1,10 @@
 'use client';
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 
 export default function Kurikulum() {
   return (
-    <div className="bg-white min-h-screen w-full pt-20">
-      <Navbar />
+    <div className="bg-white min-h-screen w-full">
 
       {/* SECTION 1: Yellow Hero with Breadcrumb and Title */}
       <div className="relative w-full bg-[#FFF4BA] py-16 overflow-hidden">
@@ -206,7 +203,6 @@ export default function Kurikulum() {
         </div>
       </div>
 
-      <Footer />
     </div>
   );
 }

@@ -1,12 +1,8 @@
 'use client';
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-
 export default function EliteAcademia() {
   return (
     <div className="bg-white min-h-screen w-full">
-      <Navbar />
 
       {/* SECTION 1: Yellow Hero with Breadcrumb and Title */}
       <div className="relative w-full bg-[#FFF4BA] pt-[120px] pb-[80px] overflow-hidden">
@@ -245,7 +241,6 @@ export default function EliteAcademia() {
         </div>
       </div>
 
-      <Footer />
     </div>
   );
 }

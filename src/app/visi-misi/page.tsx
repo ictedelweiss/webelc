@@ -1,11 +1,6 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-
 export default function VisiMisi() {
   return (
     <div className="bg-[#FFF] min-w-screen min-h-screen">
-      {/* Navbar */}
-      <Navbar />
 
       {/* Hero Section with yellow accent */}
       <div className="relative pt-[70px]">
@@ -143,8 +138,6 @@ export default function VisiMisi() {
       {/* Spacer before footer */}
       <div className="h-24"></div>
 
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }

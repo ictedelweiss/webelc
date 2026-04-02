@@ -1,10 +1,6 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-
 export default function Foundation() {
   return (
     <div className="bg-white min-h-screen relative w-full">
-      <Navbar />
 
       <div className="relative w-full">
         {/* Breadcrumb */}
@@ -89,8 +85,6 @@ export default function Foundation() {
           />
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

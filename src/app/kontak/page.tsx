@@ -1,14 +1,9 @@
 'use client';
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-
 export default function Kontak() {
   return (
     <div className="bg-white min-h-screen overflow-hidden">
-      <Navbar />
-
-      <main className="pt-[100px] relative">
+      <main className="relative">
         {/* Hero Section */}
         <div className="relative pb-20">
           <div className="absolute right-0 top-20 w-[150px] h-[280px] bg-[#FED700] -z-10" />
@@ -283,8 +278,6 @@ export default function Kontak() {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }
