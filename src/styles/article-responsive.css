@@ -1,0 +1,98 @@
+/*
+ * Responsive Article Image Styling
+ *
+ * Tambahkan stylesheet ini ke <head> atau import di layout.
+ * Membuat semua gambar dalam artikel secara otomatis responsive.
+ */
+
+/* Responsive Images dalam artikel */
+article img,
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container untuk menjaga aspect ratio */
+.article-content figure {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.article-content figcaption {
+  margin-top: 0.5rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* Responsive video/iframe */
+.article-content iframe,
+.article-content video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Mobile-first responsive typography */
+@media (max-width: 768px) {
+  article img,
+  .article-content img {
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+  }
+}
+
+/* Ensure proper spacing for article content */
+.article-content {
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.article-content p {
+  margin-bottom: 1rem;
+}
+
+.article-content h2 {
+  margin: 1.5rem 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.article-content h3 {
+  margin: 1rem 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.article-content ul,
+.article-content ol {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+}
+
+.article-content a {
+  color: #293c88;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.article-content a:hover {
+  color: #1e2b66;
+}
+
+.article-content code {
+  background: #f3f4f6;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  color: #dc2626;
+}

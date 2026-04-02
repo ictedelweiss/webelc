@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { PHP_API_BASE, AUTH_STORAGE_KEY } from "@/lib/api-config";
+import RichTextEditor from "@/components/RichTextEditor";
+import ConfirmDialog from "@/components/ConfirmDialog";
 
 function slugify(text: string): string {
   return text
@@ -27,6 +29,7 @@ export default function NewArticle() {
   const [loading, setLoading] = useState(false);
   const [uploadingImage, setUploadingImage] = useState(false);
   const [error, setError] = useState("");
+  const [showConfirm, setShowConfirm] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -85,8 +88,12 @@ export default function NewArticle() {
     }
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setShowConfirm(true);
+  };
+
+  const handleConfirmSubmit = async () => {
     setLoading(true);
     setError("");
 
@@ -108,9 +115,11 @@ export default function NewArticle() {
         router.push("/admin/dashboard");
       } else {
         setError(data.message || "Gagal menyimpan artikel");
+        setShowConfirm(false);
       }
     } catch {
       setError("Tidak dapat terhubung ke server");
+      setShowConfirm(false);
     } finally {
       setLoading(false);
     }
@@ -218,13 +227,11 @@ export default function NewArticle() {
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-1.5">
               Konten Artikel *
-              <span className="font-normal text-gray-400 ml-2 text-xs">HTML didukung: &lt;p&gt; &lt;b&gt; &lt;h2&gt; &lt;ul&gt; dll</span>
             </label>
-            <textarea
-              name="content" rows={14} required
-              value={formData.content} onChange={handleChange}
+            <RichTextEditor
+              value={formData.content}
+              onChange={(value) => setFormData((prev) => ({ ...prev, content: value }))}
               placeholder="<p>Tulis konten artikel Anda di sini...</p>"
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all font-mono"
             />
           </div>
         </div>
@@ -246,6 +253,18 @@ export default function NewArticle() {
           </button>
         </div>
       </form>
+
+      {/* Confirm Dialog */}
+      <ConfirmDialog
+        isOpen={showConfirm}
+        title="Simpan Artikel Baru?"
+        message={`Anda akan menyimpan artikel "${formData.title}" ke database. Pastikan semua data sudah benar sebelum melanjutkan.`}
+        confirmText="Ya, Simpan"
+        cancelText="Batal"
+        isLoading={loading}
+        onConfirm={handleConfirmSubmit}
+        onCancel={() => setShowConfirm(false)}
+      />
     </div>
   );
 }

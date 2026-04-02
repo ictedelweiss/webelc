@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { PHP_API_BASE, AUTH_STORAGE_KEY } from "@/lib/api-config";
+import ConfirmDialog from "@/components/ConfirmDialog";
 
 interface Article {
   id: number;
@@ -19,6 +20,8 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [deletingId, setDeletingId] = useState<number | null>(null);
   const [error, setError] = useState("");
+  const [showConfirm, setShowConfirm] = useState(false);
+  const [confirmArticle, setConfirmArticle] = useState<Article | null>(null);
 
   const fetchArticles = async () => {
     try {
@@ -39,20 +42,25 @@ export default function Dashboard() {
     fetchArticles();
   }, []);
 
-  const handleDelete = async (id: number, title: string) => {
-    if (!window.confirm(`Hapus artikel "${title}"? Tindakan ini tidak bisa dibatalkan.`)) return;
+  const handleDelete = (article: Article) => {
+    setConfirmArticle(article);
+    setShowConfirm(true);
+  };
 
-    setDeletingId(id);
+  const handleConfirmDelete = async () => {
+    if (!confirmArticle) return;
+
+    setDeletingId(confirmArticle.id);
     const token = localStorage.getItem(AUTH_STORAGE_KEY);
 
     try {
-      const res = await fetch(`${PHP_API_BASE}/articles.php?id=${id}`, {
+      const res = await fetch(`${PHP_API_BASE}/articles.php?id=${confirmArticle.id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
 
       if (res.ok) {
-        setArticles((prev) => prev.filter((a) => a.id !== id));
+        setArticles((prev) => prev.filter((a) => a.id !== confirmArticle.id));
       } else {
         const data = await res.json();
         alert(data.message || "Gagal menghapus artikel");
@@ -61,6 +69,8 @@ export default function Dashboard() {
       alert("Terjadi kesalahan koneksi");
     } finally {
       setDeletingId(null);
+      setShowConfirm(false);
+      setConfirmArticle(null);
     }
   };
 
@@ -156,7 +166,7 @@ export default function Dashboard() {
                         Edit
                       </Link>
                       <button
-                        onClick={() => handleDelete(article.id, article.title)}
+                        onClick={() => handleDelete(article)}
                         disabled={deletingId === article.id}
                         className="text-red-600 hover:bg-red-50 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors disabled:opacity-50"
                       >
@@ -170,6 +180,22 @@ export default function Dashboard() {
           </table>
         </div>
       )}
+
+      {/* Confirm Delete Dialog */}
+      <ConfirmDialog
+        isOpen={showConfirm}
+        title="Hapus Artikel?"
+        message={`Anda akan menghapus artikel "${confirmArticle?.title}". Tindakan ini tidak bisa dibatalkan.`}
+        confirmText="Ya, Hapus"
+        cancelText="Batal"
+        isDangerous={true}
+        isLoading={deletingId !== null}
+        onConfirm={handleConfirmDelete}
+        onCancel={() => {
+          setShowConfirm(false);
+          setConfirmArticle(null);
+        }}
+      />
     </div>
   );
 }

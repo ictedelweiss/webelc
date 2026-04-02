@@ -4,6 +4,8 @@ import { useState, useEffect, use } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { PHP_API_BASE, AUTH_STORAGE_KEY } from "@/lib/api-config";
+import RichTextEditor from "@/components/RichTextEditor";
+import ConfirmDialog from "@/components/ConfirmDialog";
 
 export default function EditArticleClient({ params }: { params: Promise<{ id: string }> }) {
   const router = useRouter();
@@ -20,6 +22,7 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
   const [loading, setLoading] = useState(false);
   const [uploadingImage, setUploadingImage] = useState(false);
   const [error, setError] = useState("");
+  const [showConfirm, setShowConfirm] = useState(false);
 
   useEffect(() => {
     const load = async () => {
@@ -95,8 +98,12 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
     }
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setShowConfirm(true);
+  };
+
+  const handleConfirmSubmit = async () => {
     setLoading(true);
     setError("");
 
@@ -118,9 +125,11 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
         router.push("/admin/dashboard");
       } else {
         setError(data.message || "Gagal memperbarui artikel");
+        setShowConfirm(false);
       }
     } catch {
       setError("Tidak dapat terhubung ke server");
+      setShowConfirm(false);
     } finally {
       setLoading(false);
     }
@@ -229,10 +238,10 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
               Konten Artikel *
               <span className="font-normal text-gray-400 ml-2 text-xs">Tag HTML didukung</span>
             </label>
-            <textarea
-              name="content" rows={14} required
-              value={formData.content} onChange={handleChange}
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all font-mono"
+            <RichTextEditor
+              value={formData.content}
+              onChange={(value) => setFormData((prev) => ({ ...prev, content: value }))}
+              placeholder="<p>Tulis konten artikel Anda di sini...</p>"
             />
           </div>
         </div>
@@ -254,6 +263,18 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
           </button>
         </div>
       </form>
+
+      {/* Confirm Dialog */}
+      <ConfirmDialog
+        isOpen={showConfirm}
+        title="Update Artikel?"
+        message={`Anda akan mengupdate artikel "${formData.title}". Pastikan semua perubahan sudah benar.`}
+        confirmText="Ya, Update"
+        cancelText="Batal"
+        isLoading={loading}
+        onConfirm={handleConfirmSubmit}
+        onCancel={() => setShowConfirm(false)}
+      />
     </div>
   );
 }
