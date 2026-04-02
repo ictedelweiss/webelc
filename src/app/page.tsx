@@ -113,32 +113,32 @@ export default function Home() {
 
         <div className="max-w-screen-xl mx-auto px-4 lg:px-8 relative z-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            
+
             {/* Left Content */}
-            <div className="flex flex-col space-y-4 pt-10 lg:pt-0">
-              <p className="text-[#293C88] text-xl font-semibold tracking-wide">
+            <div className="flex flex-col space-y-6 pt-10 lg:pt-0">
+              <p className="text-[#293C88] text-base font-semibold">
                 Keunggulan Kami
               </p>
-              <h2 className="text-[#293C88] text-4xl md:text-5xl lg:text-7xl font-bold leading-tight uppercase font-poppins">
-                <span className="block mb-2 md:text-6xl lg:text-7xl">why Choose</span>
-                <span className="block font-semibold pb-1">edelweiss</span>
-                <span className="block text-[#4357B6]">Learning Center</span>
+              <h2 className="text-[#293C88] text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                Why Choose Edelweiss Learning Center
               </h2>
-              <p className="text-[#868686] text-sm md:text-base max-w-md pt-4 leading-relaxed font-medium">
-                Kami berkomitmen menghadirkan lingkungan belajar yang inspiratif, aman, dan berstandar tinggi — karena setiap anak berhak tumbuh menjadi yang terbaik.
+              <p className="text-[#6B6B6B] text-sm md:text-base max-w-lg leading-relaxed">
+                Kami Berkomitmen Menyediakan Lingkungan Belajar Yang Inspiratif, Aman, Dan Terstandardisasi Untuk Mendukung Potensi Terbaik Buah Hati Anda Buatkan Kalimat Tersebut Lebih Menarik Dalam Bahasa Indonesia
               </p>
             </div>
 
-            {/* Right Photos (Mobile friendly, overlapping on md) */}
-            <div className="relative h-auto md:h-[650px] w-full flex flex-col md:block items-center justify-center lg:justify-end mt-4 md:mt-0 pb-8 md:pb-0">
-              {/* Photo 1: Higher / Left */}
-              <div className="md:absolute top-0 right-[40%] md:right-1/2 z-10 hover:z-30 transition-all duration-300">
-                <img src="/Rectangle76.png" className="w-[85%] max-w-[280px] md:max-w-none md:w-[229px] h-[340px] md:h-[462px] object-cover shadow-2xl rounded-lg mx-auto md:mx-0" alt="Student learning" />
+            {/* Right Photos - offset layout */}
+            <div className="relative w-full h-[500px] md:h-[520px] flex items-start justify-center gap-6 md:gap-4 mt-8 lg:mt-0">
+              {/* Photo 1: Left - taller, top-aligned */}
+              <div className="flex-shrink-0 flex items-start">
+                <img src="/Rectangle76.png" className="w-[200px] md:w-[240px] h-[420px] md:h-[480px] object-cover shadow-xl rounded-2xl" alt="Student learning" />
               </div>
-              
-              {/* Photo 2: Lower / Right */}
-              <div className="md:absolute top-24 right-0 md:right-12 z-20 hover:z-30 transition-all duration-300 -mt-20 md:mt-0">
-                <img src="/Rectangle75.png" className="w-[85%] max-w-[280px] md:max-w-none md:w-[229px] h-[340px] md:h-[462px] object-cover shadow-2xl rounded-lg border-[6px] border-[#FFF4BA] mx-auto md:mx-0 md:border-[6px]" alt="Student happy" />
+
+              {/* Photo 2: Right - shorter, positioned lower with white frame */}
+              <div className="flex-shrink-0 flex items-end pb-4 md:pb-12">
+                <div className="bg-white p-5 md:p-8 rounded-2xl shadow-2xl">
+                  <img src="/Rectangle75.png" className="w-[200px] md:w-[240px] h-[340px] md:h-[380px] object-cover rounded-lg" alt="Student happy" />
+                </div>
               </div>
             </div>
 
@@ -246,17 +246,19 @@ export default function Home() {
         
         <div className="max-w-screen-xl mx-auto px-4 lg:px-8 flex flex-col items-center">
           
+          {/* Baris 1: Kurikulum Nasional, Pearson Edexcel, Letterland */}
           <div className="flex items-center justify-center flex-wrap gap-x-12 gap-y-10 mb-12">
-            <img src="/Image2.png" className="h-[50px] md:h-[66px] w-auto object-contain" alt="Partner" />
-            <img src="/Image1.png" className="h-[36px] md:h-[46px] w-auto object-contain" alt="Partner" />
-            <img src="/Image3.png" className="h-[55px] md:h-[74px] w-auto object-contain" alt="Partner" />
-            <img src="/BkHorizontal14.png" className="h-[40px] md:h-[48px] w-auto object-contain" alt="BK Horizontal" />
-            <img src="/ElitePng142.png" className="h-[75px] md:h-[95px] w-auto object-contain" alt="Elite" />
+            <img src="/Image2.png" className="h-[50px] md:h-[66px] w-auto object-contain" alt="Kurikulum Nasional" />
+            <img src="/Image1.png" className="h-[36px] md:h-[46px] w-auto object-contain" alt="Pearson Edexcel" />
+            <img src="/Image3.png" className="h-[55px] md:h-[74px] w-auto object-contain" alt="Letterland" />
           </div>
 
-          <div className="flex items-center justify-center gap-8 md:gap-14">
-            <img src="/ElitePng112.png" className="h-[45px] md:h-[59px] w-auto object-contain" alt="Partner" />
-            <img src="/EdelweissHorizontalBiru1.png" className="h-[45px] md:h-[59px] w-auto object-contain" alt="Edelweiss Logo" />
+          {/* Baris 2: Elite Academia, IPDC, Edelweiss LC, Edelweiss School */}
+          <div className="flex items-center justify-center flex-wrap gap-x-10 gap-y-8 md:gap-x-14">
+            <img src="/BkHorizontal14.png" className="h-[45px] md:h-[58px] w-auto object-contain" alt="Elite Academia" />
+            <img src="/ElitePng142.png" className="h-[50px] md:h-[65px] w-auto object-contain" alt="IPDC" />
+            <img src="/ElitePng112.png" className="h-[45px] md:h-[59px] w-auto object-contain" alt="Edelweiss Learning Center" />
+            <img src="/EdelweissHorizontalBiru1.png" className="h-[40px] md:h-[50px] w-auto object-contain" alt="Edelweiss School" />
           </div>
           
         </div>

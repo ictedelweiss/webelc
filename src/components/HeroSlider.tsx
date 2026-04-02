@@ -5,31 +5,36 @@ import { useState, useEffect, useCallback, useRef } from "react";
 const slides = [
   {
     img: "/Rectangle48.png",
-    titleLeft: "Seven Values",
+    titleLine1: "Seven Values",
+    titleLine2: null,
     subtitle: "Respect, Independent, Religious, Accomplished, Knowledgeable, Integrity, Socially Responsible",
     titleRight: null,
   },
   {
-    img: "/Rectangle48(6).png", // using the high-res image
-    titleLeft: "Designed for You",
+    img: "/Rectangle48(6).png",
+    titleLine1: "Designed",
+    titleLine2: "for You",
     subtitle: null,
     titleRight: "Elite Academia",
   },
   {
     img: "/Rectangle48(2).png",
-    titleLeft: "Own your English",
+    titleLine1: "Own Your",
+    titleLine2: "English",
     subtitle: null,
     titleRight: "English Course",
   },
   {
     img: "/Rectangle48(3).png",
-    titleLeft: "Find your words",
+    titleLine1: "Find Your",
+    titleLine2: "Words",
     subtitle: null,
     titleRight: "Playteracy",
   },
   {
     img: "/Rectangle48(4).png",
-    titleLeft: "Teach with impact",
+    titleLine1: "Teach with",
+    titleLine2: "Impact",
     subtitle: null,
     titleRight: "IPDC",
   },
@@ -90,7 +95,7 @@ export default function HeroSlider() {
           <img
             src={s.img}
             className="w-full h-full object-cover object-center absolute inset-0"
-            alt={s.titleLeft}
+            alt={s.titleLine1}
           />
 
           {/* Gradient Overlay for Text Readability */}
@@ -99,15 +104,16 @@ export default function HeroSlider() {
           {/* Text Content overlaying the image */}
           <div className="absolute bottom-12 md:bottom-20 left-0 w-full px-6 md:px-16 lg:px-24 flex flex-col">
             {/* Dividing Yellow Line */}
-            <div className="w-full h-[3px] bg-[#FFF4BA] mb-6 md:mb-8 rounded-full" />
+            <div className="w-full h-[3px] bg-[#FFF4BA] mb-4 md:mb-6 rounded-full" />
 
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-4">
-              <div className="flex flex-col flex-1 max-w-3xl">
-                <h2 className="text-[#FFF4BA] font-poppins text-4xl md:text-5xl lg:text-[64px] font-semibold leading-tight tracking-wide drop-shadow-md capitalize">
-                  {s.titleLeft}
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-end w-full gap-4">
+              <div className="flex flex-col flex-1 max-w-xl">
+                <h2 className="text-[#FFF4BA] font-poppins text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.1] tracking-wide drop-shadow-md capitalize">
+                  {s.titleLine1}<br />
+                  {s.titleLine2 && <span>{s.titleLine2}</span>}
                 </h2>
                 {s.subtitle && (
-                  <p className="text-white font-poppins text-sm md:text-lg lg:text-xl font-medium mt-3 md:mt-4 leading-relaxed tracking-wide opacity-90">
+                  <p className="text-white font-poppins text-sm md:text-base lg:text-lg font-medium mt-3 leading-relaxed tracking-wide opacity-90">
                     {s.subtitle}
                   </p>
                 )}
@@ -115,9 +121,9 @@ export default function HeroSlider() {
               
               {s.titleRight && (
                 <div className="flex-shrink-0 mt-2 md:mt-0">
-                  <h2 className="text-[#FFF4BA] font-poppins text-3xl md:text-5xl lg:text-[52px] font-semibold text-left md:text-right drop-shadow-md capitalize">
+                  <h3 className="text-[#FFF4BA] font-poppins text-xl md:text-2xl lg:text-3xl font-semibold text-left md:text-right drop-shadow-md capitalize tracking-wide">
                     {s.titleRight}
-                  </h2>
+                  </h3>
                 </div>
               )}
             </div>
