@@ -1,14 +1,35 @@
 import EditArticleClient from "./EditArticleClient";
+import { PHP_API_BASE } from "@/lib/api-config";
 
-// Since output: export is used, we must provide at least one static param.
-// dynamicParams must be false for static export.
+// Must be false with output: export
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  console.log("Generating static params for [id] (satisfying export check)...");
-  // We return an empty or dummy list. Some versions of Next.js 15/16 
-  // might explicitly check if the function exists and return something.
-  return [{ id: "new" }]; 
+  try {
+    // Fetch all articles from API to generate static params
+    const res = await fetch(`${PHP_API_BASE}/articles.php`, {
+      cache: 'no-store'
+    });
+
+    if (!res.ok) {
+      console.log("Warning: Could not fetch articles for static generation");
+      return [{ id: "new" }];
+    }
+
+    const articles = await res.json();
+
+    // Generate params for each article ID plus "new"
+    const params = [
+      { id: "new" },
+      ...articles.map((article: any) => ({ id: String(article.id) }))
+    ];
+
+    console.log(`Generated static params for ${params.length} edit pages`);
+    return params;
+  } catch (error) {
+    console.log("Error fetching articles for static generation:", error);
+    return [{ id: "new" }];
+  }
 }
 
 export default function Page({ params }: { params: Promise<{ id: string }> }) {
