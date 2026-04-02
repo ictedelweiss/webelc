@@ -166,7 +166,8 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
             <input
               type="text" name="title" required
               value={formData.title} onChange={handleChange}
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all"
+              placeholder="Masukkan judul artikel"
+              className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all"
             />
           </div>
 
@@ -176,11 +177,12 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
               <span className="font-normal text-amber-600 ml-2 text-xs">⚠ Mengubah slug dapat memutus link yang sudah tersebar</span>
             </label>
             <div className="flex rounded-xl overflow-hidden border border-gray-200 focus-within:ring-2 focus-within:ring-[#293C88] focus-within:border-transparent">
-              <span className="bg-gray-50 text-gray-400 px-3 py-2.5 text-sm border-r border-gray-200 flex-shrink-0">/artikel?slug=</span>
+              <span className="bg-gray-50 text-gray-700 px-3 py-2.5 text-sm border-r border-gray-200 flex-shrink-0">/artikel?slug=</span>
               <input
                 type="text" name="slug" required
                 value={formData.slug} onChange={handleChange}
-                className="flex-1 px-3 py-2.5 text-sm focus:outline-none"
+                placeholder="elite-academia-mengubah-paradigma-homeschooling"
+                className="flex-1 px-3 py-2.5 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none"
               />
             </div>
           </div>
@@ -213,12 +215,12 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
                 )}
               </div>
               <div>
-                <span className="text-xs text-gray-500 mb-1 block">Atau masukkan URL manual:</span>
+                <span className="text-xs text-gray-600 mb-1 block">Atau masukkan URL manual:</span>
                 <input
                   type="text" name="thumbnail"
                   value={formData.thumbnail} onChange={handleChange}
                   placeholder="https://contoh.com/gambar.jpg"
-                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all"
+                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all"
                 />
               </div>
             </div>
@@ -229,7 +231,8 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
             <textarea
               name="excerpt" rows={2}
               value={formData.excerpt} onChange={handleChange}
-              className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all resize-none"
+              placeholder="Tulis ringkasan singkat artikel (akan tampil di daftar artikel)"
+              className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#293C88] focus:border-transparent transition-all resize-none"
             />
           </div>
 
