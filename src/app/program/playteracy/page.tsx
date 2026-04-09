@@ -25,7 +25,7 @@ export default function Playteracy() {
               Play &amp; Literacy
             </h1>
             <p className="text-[#000] font-poppins text-sm md:text-base font-medium leading-relaxed">
-              Playteracy adalah program unggulan Edelweiss Learning Course untuk anak usia 2–8 tahun yang membantu mengenal huruf, bunyi, dan membaca Bahasa Inggris melalui metode Phonics Letterland. Menggabungkan konsep play + literacy, setiap sesi dikemas dengan cerita, lagu, permainan, dan aktivitas kreatif.
+              Playteracy merupakan program unggulan Edelweiss Learning Course yang dirancang khusus untuk anak usia 2–8 tahun. Program ini membantu anak mengenal huruf, bunyi, dan membaca dalam Bahasa Inggris melalui metode Phonics Letterland yang merupakan sebuah pendekatan belajar yang menyenangkan, kontekstual, dan terbukti efektif digunakan di lebih dari 110 negara di dunia. 
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Playteracy() {
             </h2>
             <div className="border-l-4 border-l-[#FED700] pl-6">
               <p className="text-[#000] font-poppins text-sm md:text-base leading-relaxed">
-                Playteracy menghadirkan pembelajaran yang personal dan mendukung perkembangan kemampuan serta kepercayaan diri siswa dengan metode inovatif yang terbukti efektif.
+                Playteracy menghadirkan pengalaman belajar yang menyatukan bermain dan literasi (play + literacy). Setiap sesi pembelajaran dikemas dengan cerita menarik, lagu, permainan, dan kegiatan kreatif yang membuat anak-anak belajar tanpa merasa sedang belajar. 
               </p>
             </div>
           </div>
@@ -63,17 +63,17 @@ export default function Playteracy() {
                 Metode Letterland
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Metode Letterland yang berasal dari Inggris dan sudah digunakan di 110 negara
+                Playteracy merupakan metode Letterland yang berasal dari Inggris dan sudah digunakan di 110 negara 
               </p>
             </div>
 
             {/* Card 2 */}
             <div className="bg-[#F5F5F5] border-l-4 border-l-[#FED700] p-6 rounded-lg">
               <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3">
-                Belajar lewat cerita dan karakter
+                Mengajarkan menggunakan cerita dan karakter
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Setiap huruf diperkenalkan melalui karakter unik dan cerita yang mudah diingat
+                Setiap huruf diperkenalkan lewat tokoh karakter unik dan kisah yang mudah diingat, sehingga anak dapat mengenal bunyi huruf secara alami. Dengan metode phonics ini anak akan mengingat bunyi baru hanya dengan ceritanya 
               </p>
             </div>
 
@@ -83,7 +83,7 @@ export default function Playteracy() {
                 Metode pembelajaran multisensory
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Anak belajar melalui musik, gerakan, permainan, seni, lagu, dan role play
+                Metode pembelajaran multisensory melalui music, Gerakan, permainan, seni, lagu, dan peran. Anak-anak belajar dengan melibatkan seluruh indera—melalui musik, gerakan, permainan, seni, lagu, dan role play, membuat proses belajar lebih bermakna dan menyenangkan. 
               </p>
             </div>
 
@@ -93,7 +93,7 @@ export default function Playteracy() {
                 Guru tersertifikasi letterland
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Pengajar telah mengikuti training resmi dan bersertifikat Letterland
+                Guru tersertifikasi letterland, semua pengajar Playteracy di Edelweiss Learning Course telah mengikuti training resmi dan bersertifikat Letterland, menjamin kualitas pengajaran yang profesional dan sesuai standar internasional. Semua pengajar Playteracy di Edelweiss Learning Course telah mengikuti training resmi dan bersertifikat Letterland, menjamin kualitas pengajaran yang profesional dan sesuai standar internasional. 
               </p>
             </div>
           </div>
@@ -123,10 +123,10 @@ export default function Playteracy() {
               </div>
               <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
-                  Berkenalan dengan karakter bunyi
+                  Bertemu dan berkenalan dengan karakter – karakter bunyi. 
                 </h3>
                 <p className="text-[#000] font-poppins text-xs text-center leading-relaxed">
-                  Setiap huruf memiliki tokoh dan cerita yang unik
+                  Setiap huruf memiliki tokoh dan cerita yang unik, membantu anak mengingat bunyi dengan mudah. 
                 </p>
               </div>
             </div>
@@ -140,10 +140,10 @@ export default function Playteracy() {
               </div>
               <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
-                  Belajar bunyi huruf melalui lagu dan cerita
+                  Belajar bunyi dari huruf dalam Bahasa inggris dengan metode bernyanyi dan bercerita. 
                 </h3>
                 <p className="text-[#000] font-poppins text-xs text-center leading-relaxed">
-                  Lagu dan cerita membuat anak cepat mengenal hubungan antara huruf dan bunyinya
+                  Lagu dan cerita membuat anak cepat mengenal hubungan antara huruf dan bunyinya. 
                 </p>
               </div>
             </div>
@@ -157,10 +157,10 @@ export default function Playteracy() {
               </div>
               <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
-                  Mengenal bentuk huruf
+                  Mengenal bentuk huruf.
                 </h3>
                 <p className="text-[#000] font-poppins text-xs text-center leading-relaxed">
-                  Anak belajar menulis dengan kegiatan motorik halus
+                  Anak belajar menulis dan mengenali bentuk huruf dengan kegiatan motorik halus yang menyenangkan. 
                 </p>
               </div>
             </div>
@@ -183,7 +183,7 @@ export default function Playteracy() {
                   Mulai membaca kata sederhana
                 </h3>
                 <p className="text-[#000] font-poppins text-xs text-center leading-relaxed">
-                  Anak mulai membaca kata dan kalimat pendek dengan percaya diri
+                  Setelah mengenal bunyi dan bentuk huruf, anak mulai membaca kata dan kalimat pendek dengan percaya diri. 
                 </p>
               </div>
             </div>
@@ -200,7 +200,7 @@ export default function Playteracy() {
                   Aktivitas pendukung
                 </h3>
                 <p className="text-[#000] font-poppins text-xs text-center leading-relaxed">
-                  Permainan, kerajinan, dan aktivitas berbasis proyek
+                  Melalui permainan, kerajinan, dan aktivitas berbasis proyek, anak menguatkan pemahaman dan rasa ingin tahu. 
                 </p>
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function Playteracy() {
                 Fun Class
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Anak diperkenalkan huruf dan bunyi melalui karakter-karakter Letterland menggunakan lagu, cerita, dan permainan.
+                Pada tahap ini, anak diperkenalkan huruf dan bunyi melalui karakter-karakter Letterland menggunakan lagu, cerita, dan permainan. Anak mulai mengenal bentuk huruf, bunyi huruf awal, dan mengembangkan rasa percaya diri terhadap aktivitas membaca. 
               </p>
             </div>
 
@@ -243,7 +243,7 @@ export default function Playteracy() {
                 Explorer Class
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Anak belajar menggabungkan dan memisahkan bunyi untuk membaca serta menulis kata sederhana.
+                Pada tahap explorer anak mulai menggabungkan (blending) dan memisahkan (segmenting) bunyi untuk membaca dan menulis kata sederhana. Anak juga belajar mengenal huruf besar dan kecil, memahami pola bunyi rangkap, serta mulai membaca kata dengan konsonan gabung (bl, cl, tr, dst.). Kegiatan dirancang tetap menyenangkan melalui lagu, permainan, dan aktivitas multisensori. 
               </p>
             </div>
 
@@ -258,7 +258,7 @@ export default function Playteracy() {
                 Beyond Class
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Anak mengenal digraf dan membaca kalimat pendek melalui lagu, kerajinan, dan permainan interaktif.
+                Pada tahap Beyond, anak memperluas kemampuan membaca melalui pengenalan berbagai digraf (seperti sh, ch, th, ph, wh) dan kombinasi huruf yang menghasilkan bunyi baru. Anak juga berlatih membaca kalimat pendek serta memperkuat pemahaman bunyi melalui lagu, kerajinan, dan permainan interaktif. 
               </p>
             </div>
 
@@ -273,7 +273,7 @@ export default function Playteracy() {
                 Far Beyond Class
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Anak mengenal pola ejaan lanjutan, membaca teks lebih panjang, dan menjadi pembaca yang mandiri.
+                Pada tahap Far Beyond, anak belajar mengenali pola ejaan lanjutan seperti “magic e” dan bunyi kompleks seperti ar, or ir, oy, dan oi. Anak mulai membaca teks yang lebih panjang, memahami isi bacaan, serta berlatih mengeja dan mendengarkan (dictation & listening). Program ini mempersiapkan anak menjadi pembaca mandiri dan percaya diri dalam Bahasa Inggris.
               </p>
             </div>
           </div>

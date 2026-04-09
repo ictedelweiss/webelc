@@ -58,10 +58,9 @@ export default function VisiMisi() {
           <div className="w-[80px] h-[3px] bg-[#FED700] mx-auto mt-2"></div>
 
           <p className="text-[#333] font-poppins text-base mt-8 leading-relaxed">
-            &ldquo;Menjadi Lembaga Pendidikan Yang Berkontribusi<br />
-            Dalam Mencerdaskan Bangsa Dan Melahirkan<br />
-            Generasi Unggul Yang Siap Berperan Dalam Kehidupannya<br />
-            Berlandaskan Pada Ketuhanan Yang Maha Esa Dan Nilai-Nilai Universal&rdquo;
+            &ldquo;Menjadi lembaga pendidikan yang berkontribusi dalam mencerdaskan 
+            bangsa dan melahirkan generasi unggul yang siap berperan dalam 
+            kehidupannya berlandaskan pada Ketuhanan Yang Maha Esa dan Nilai-Nilai universal  &rdquo;
           </p>
         </div>
       </section>

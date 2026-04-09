@@ -28,7 +28,8 @@ export default function EliteAcademia() {
               World class Homeschooling
             </h1>
             <p className="text-[#868686] font-poppins text-base font-medium leading-relaxed">
-              Elite Academia Homeschooling adalah Program inovatif yang menghadirkan fleksibilitas, terstruktur, dan terpersonalisasi. Pembelajaran Hybrid yang mendukung siswa dengan kegiatan aktif dibidang non-akademik dengan berbagai pilihan kurikulum
+              Elite Academia Homeschooling adalah program inovatif yang menyediakan pendidikan fleksibel, terstruktur, dan terpersonalisasi. Elite Academia menawarkan model pembelajaran hybrid yang mendukung siswa yang memiliki kegiatan aktif di bidang non-akademik, 
+              dengan pilihan kurikulum yang disesuaikan dengan kebutuhan masing-masing peserta didik. 
             </p>
           </div>
         </div>
@@ -46,28 +47,28 @@ export default function EliteAcademia() {
             {/* Box 1 - Top Left */}
             <div className="border-l-4 border-l-[#293C88] bg-[#F5F5F5] p-8 min-h-[120px] flex items-center">
               <p className="text-black font-poppins text-base font-medium">
-                Memberikan alternatif pendidikan yang fleksibel dan berkualitas
+                Memberikan alternatif pendidikan yang fleksibel dan berkualitas.
               </p>
             </div>
 
             {/* Box 3 - Top Right */}
             <div className="border-l-4 border-l-[#293C88] bg-[#F6F6F6] p-8 min-h-[120px] flex items-center">
               <p className="text-black font-poppins text-base font-medium">
-                Memberikan alternatif pilihan kurikulum internasional, kurikulum nasional atau integrasi keduanya sesuai dengan kebutuhan
+                Memberikan alternatif pilihan kurikulum internasional, nasional dan integrasi keduanya sesuai dengan kebutuhan siswa.
               </p>
             </div>
 
             {/* Box 2 - Bottom Left */}
             <div className="border-l-4 border-l-[#293C88] bg-[#F1F1F1] p-8 min-h-[120px] flex items-center">
               <p className="text-black font-poppins text-base font-medium">
-                Mendukung peserta didik dalam mengembangkan potensi diri secara maksimal, baik di bidang akademik maupun non-akademik
+                Mendukung peserta didik dalam mengembangkan potensi diri secara maksimal, baik di bidang akademik maupun non-akademik.
               </p>
             </div>
 
             {/* Box 4 - Bottom Right */}
             <div className="border-l-4 border-l-[#293C88] bg-[rgba(244,244,244,0.83)] p-8 min-h-[120px] flex items-center">
               <p className="text-black font-poppins text-base font-medium">
-                Menyediakan sistem pembelajaran yang terpersonalisasi
+                Menyediakan sistem pembelajaran yang terpersonalisasi.
               </p>
             </div>
           </div>
@@ -99,7 +100,8 @@ export default function EliteAcademia() {
                 Why Choose<br />Elite Academia
               </h2>
               <p className="text-[#868686] font-poppins text-base leading-relaxed">
-                Elite Academia Homeschooling percaya bahwa setiap anak berhak mendapatkan pendidikan terbaik yang sesuai dengan kebutuhan, minat, dan cita-citanya
+                Elite Academia Homeschooling percaya bahwa setiap anak berhak mendapatkan 
+                pendidikan terbaik yang sesuai dengan kebutuhan, minat, dan cita-citanya. 
               </p>
             </div>
           </div>
@@ -120,22 +122,22 @@ export default function EliteAcademia() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="bg-[#F1F1F1] p-6 rounded-lg">
               <p className="text-[#293C88] font-poppins text-base font-medium">
-                Program belajar yang personalized
+                Program belajar yang terpersonalisasi.
               </p>
             </div>
             <div className="bg-[#F1F1F1] p-6 rounded-lg">
               <p className="text-[#293C88] font-poppins text-base font-medium">
-                Pilihan kurikulum nasional, internasional atau integrasi
+                Pilihan kurikulum nasional, internasional atau integrasi keduanya.
               </p>
             </div>
             <div className="bg-[#F1F1F1] p-6 rounded-lg">
               <p className="text-[#293C88] font-poppins text-base font-medium">
-                Guru berpengalaman &amp; pendampingan intensif
+                Guru berpengalaman &amp; pendampingan intensif.
               </p>
             </div>
             <div className="bg-[#F1F1F1] p-6 rounded-lg">
               <p className="text-[#293C88] font-poppins text-base font-medium">
-                Hybrid learning yang lebih fleksibel &amp; terstruktur
+                Hybrid learning yang lebih fleksibel &amp; terstruktur.
               </p>
             </div>
           </div>
@@ -153,7 +155,8 @@ export default function EliteAcademia() {
           </h2>
 
           <p className="text-[#868686] font-poppins text-base mb-12 max-w-[600px]">
-            Elite Academia mengkombinasikan pembelajaran tatap muka (online dan offline) dengan belajar mandiri terstruktur untuk menghadirkan pengalaman belajar yang fleksibel dan personal
+            Elite Academia menggabungkan pembelajaran sinkronus (tatap muka langsung, baik online maupun offline) dan asinkronus (belajar mandiri terstruktur) untuk 
+            menciptakan pengalaman belajar yang fleksibel, interaktif, dan terpersonalisasi.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -163,17 +166,17 @@ export default function EliteAcademia() {
                 Guided Learning Class (GLC)
               </h3>
               <p className="text-black font-poppins text-base">
-                Pembelajaran dengan bimbingan langsung melalui kelas online interaktif maupun tatap muka
+                Pembelajaran dengan bimbingan langsung dengan guru, baik melalui kelas daring interaktif maupun pertemuan tatap muka.
               </p>
             </div>
 
             {/* GLC Program 2 */}
             <div className="bg-[#FFF4BA] rounded-[20px] p-8 relative overflow-hidden min-h-[200px]">
               <h3 className="text-[#293C88] text-2xl font-bold mb-4">
-                Guided Learning Class (GLC)
+                Guided Self Learning Class (GLSC) 
               </h3>
               <p className="text-black font-poppins text-base">
-                Belajar mandiri terarah melalui LMS dengan target mingguan serta pemantauan dan feedback dari guru
+                Belajar mandiri namun tetap terarah menggunakan LMS dengan panduan mingguan, target capaian, serta pemantauan & feedback rutin dari guru.
               </p>
             </div>
           </div>
@@ -191,52 +194,48 @@ export default function EliteAcademia() {
           </h2>
 
           <p className="text-black font-poppins text-base max-w-[800px] mb-12">
-            Elite Academia Homeschooling menyediakan berbagai pilihan kurikulum yang dapat disesuaikan dengan kebutuhan dan arah pendidikan setiap siswa, sesuai dengan jenjang yang ditempuh
+            Elite academia homeschooling memberi fleksibilitas pada siswa untuk memilih kurikulum sesuai dengan kebutuhan dan tujuannya. 
+            Berikut ini pilihan kurikulum yang dapat dipilih oleh siswa berdasarkan jenjangnya : 
           </p>
 
           {/* Jenjang & Kurikulum Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
             {/* Row 1 */}
-            <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-xl font-bold text-[#FED700]">SD</p>
+            <div className="rounded-[52px] bg-[#FED700] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
+              <p className="font-poppins text-base font-bold text-[#293C88]">SD</p>
             </div>
             <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
               <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Nasional</p>
             </div>
-            <div className="rounded-[52px] bg-[#FED700] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-base font-bold text-[#293C88]">Kurikulum Internasional</p>
+            <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
+              <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Internasional</p>
             </div>
             <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Elite</p>
+              <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum ELITS</p>
             </div>
 
             {/* Row 2 */}
-            <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-xl font-bold text-[#FED700]">SMP</p>
+            <div className="rounded-[52px] bg-[#FED700] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
+              <p className="font-poppins text-base font-bold text-[#293C88]">SMP</p>
             </div>
             <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
               <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Nasional</p>
             </div>
-            <div className="rounded-[52px] bg-[#FED700] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-base font-bold text-[#293C88]">Kurikulum Internasional</p>
+            <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
+              <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Internasional</p>
             </div>
             <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Elite</p>
+              <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum ELITS</p>
             </div>
 
             {/* Row 3 */}
-            <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-xl font-bold text-[#FED700]">SMA</p>
+            <div className="rounded-[52px] bg-[#FED700] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
+              <p className="font-poppins text-base font-bold text-[#293C88]">SMA</p>
             </div>
             <div className="rounded-[52px] bg-[#293C88] text-white text-center py-4 flex items-center justify-center min-h-[60px]">
               <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Nasional</p>
             </div>
-            <div className="hidden md:flex rounded-[52px] bg-[#FED700] text-white text-center py-4 items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-base font-bold text-[#293C88]">Kurikulum Internasional</p>
-            </div>
-            <div className="hidden md:flex rounded-[52px] bg-[#293C88] text-white text-center py-4 items-center justify-center min-h-[60px]">
-              <p className="font-poppins text-base font-bold text-[#FED700]">Kurikulum Elite</p>
-            </div>
+            
           </div>
         </div>
       </div>

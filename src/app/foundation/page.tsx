@@ -17,12 +17,10 @@ export default function Foundation() {
 
           {/* Description */}
           <p className="text-[#868686] font-poppins text-sm md:text-base mx-auto text-center max-w-[692px] leading-relaxed">
-            Yayasan Sinar Putih Edelweiss didirikan pada tanggal 29 Maret 2005,
-            dengan tujuan untuk menyelenggarakan layanan world class education
-            melalui berbagai program yang berorientasi pada pengembangan potensi
-            individu secara menyeluruh. Yayasan Sinar Putih Edelweiss berkomitmen
-            untuk menumbuhkembangkan generasi yang cerdas, berkarakter, berjiwa
-            nasionalis, dan memiliki wawasan global
+            Yayasan Sinar Putih Edelweiss didirikan pada tanggal 29 Maret 2005, dengan tujuan untuk menyelenggarakan layanan 
+            pendidikan berkualitas bagi masyarakat melalui berbagai program yang berorientasi pada pengembangan potensi 
+            individu secara menyeluruh. Yayasan Sinar Putih Edelweiss berkomitmen untuk menumbuhkembangkan generasi yang cerdas, 
+            berkarakter, berjiwa nasionalis, dan memiliki wawasan global.
           </p>
         </div>
 
@@ -36,10 +34,10 @@ export default function Foundation() {
         {/* Section Title and Subtitle */}
         <div className="max-w-screen-xl mx-auto px-6 mb-12">
           <p className="text-[#293C88] font-poppins text-[28px] md:text-[32px] font-bold mb-4">
-            yayasan Sinar Putih Edelweiss
+            Yayasan Sinar Putih Edelweiss
           </p>
           <p className="text-[#293C88] font-poppins text-sm md:text-base">
-            Menaungi dua layanan pendidikan utama yaitu:
+            Dalam upaya mewujudkan tujuan tersebut, yayasan ini menyediakan layanan Pendidikan formal dan non formal: 
           </p>
         </div>
 
@@ -48,25 +46,24 @@ export default function Foundation() {
           {/* Edelweiss School Card */}
           <div className="rounded-[44px] bg-[rgba(244,244,244,0.83)] p-8 md:p-12 overflow-hidden">
             <p className="text-[#293C88] font-poppins text-[22px] md:text-[26px] font-bold mb-4">
-              edelweiss School
+              Edelweiss School
             </p>
             <div className="bg-[#FED700] w-[227px] h-1 mb-6" />
             <p className="text-[#868686] font-poppins text-sm md:text-base leading-relaxed max-w-[437px]">
-              Penyelenggara pendidikan formal yang berfokus pada pembelajaran
-              holistik melalui jenjang KB, TK, SD dan SMP
+              Penyelenggara pendidikan formal yang berfokus 
+              pada pembelajaran holistik melalui jenjang KB, TK, SD, dan SMP.
             </p>
           </div>
 
           {/* Edelweiss Learning Center Card */}
           <div className="rounded-[44px] bg-[rgba(244,244,244,0.83)] p-8 md:p-12 overflow-hidden">
             <p className="text-[#293C88] font-poppins text-[22px] md:text-[26px] font-bold mb-4">
-              edelweiss Learning Center
+              Edelweiss Learning Center
             </p>
             <div className="bg-[#FED700] w-[355px] h-1 mb-6" />
             <p className="text-[#868686] font-poppins text-sm md:text-base leading-relaxed max-w-[437px]">
-              Penyelenggara pendidikan non formal seperti Elite Academia
-              Homeschooling, Playteracy, English Course, dan Indonesia Pedagogic
-              Development Center
+              Penyelenggara Pendidikan non formal yang menaungi beberapa program seperti Elite Academia Homeschooling, 
+              Playteracy, English Course, dan Teacher Development Program.
             </p>
           </div>
         </div>

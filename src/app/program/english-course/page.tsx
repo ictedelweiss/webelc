@@ -28,7 +28,10 @@ export default function EnglishCourse() {
               Achieve English Excellence
             </h1>
             <p className="text-[#000] font-poppins text-base font-medium leading-relaxed">
-              Program kursus Bahasa Inggris yang sudah berdiri sejak 2005 dan menjadi salah satu program unggulan dalam pengajaran Bahasa Inggris bagi anak dan remaja usia 7–17 tahun. Program ini menggunakan standar Common European Framework of Reference (CEFR) melalui kurikulum pearson Edexcel. Program ini dirancang untuk membantu siswa menguasai kemampuan Bahasa Inggris secara komprehensif dengan pendekatan yang menyenangkan, komunikatif, dan sesuai kebutuhan setiap jenjang usia
+              Program kursus Bahasa inggris di Edelweiss Learning Center yang sudah berdiri sejak 2005 dan menjadi salah satu program 
+              unggulan dalam pengajaran Bahasa Inggris bagi anak dan remaja usia 7–17 tahun. Program ini menggunakan standar Common European 
+              Framework of Reference (CEFR) melalui kurikulum pearson Edexcel. Program ini dirancang untuk membantu siswa menguasai kemampuan Bahasa Inggris secara 
+              komprehensif dengan pendekatan yang menyenangkan, komunikatif, dan sesuai kebutuhan setiap jenjang usia. 
             </p>
           </div>
         </div>
@@ -73,17 +76,17 @@ export default function EnglishCourse() {
                 Berstandar Internasional
               </h3>
               <p className="text-[#000] font-poppins text-base leading-relaxed">
-                Menggunakan acuan CEFR dan kurikulum Pearson Edexcel yang diakui secara global
+                Menggunakan acuan CEFR dan kurikulum Pearson Edexcel yang diakui secara global. 
               </p>
             </div>
 
             {/* Card 2 */}
             <div className="bg-[#FFF4BA] rounded-[20px] p-8 min-h-[180px]">
               <h3 className="text-[#293C88] text-2xl font-bold mb-4">
-                Fokus pada Bahasa Sehari-hari
+                Fokus pada Penggunaan Bahasa Sehari-hari  
               </h3>
               <p className="text-[#000] font-poppins text-base leading-relaxed">
-                Materi dan kegiatan belajar disusun agar siswa mampu menggunakan Bahasa Inggris secara alami dalam konteks kehidupan nyata
+                Materi dan kegiatan belajar disusun agar siswa mampu menggunakan Bahasa Inggris secara alami dalam konteks kehidupan nyata.  
               </p>
             </div>
 
@@ -93,17 +96,17 @@ export default function EnglishCourse() {
                 Tenaga Pengajar Profesional
               </h3>
               <p className="text-[#000] font-poppins text-base leading-relaxed">
-                Guru berpengalaman menerapkan metode interaktif sehingga siswa aktif dan percaya diri menggunakan Bahasa Inggris di setiap sesi
+                Guru-guru berpengalaman menerapkan metode pembelajaran yang interaktif dan partisipatif, sehingga siswa aktif berkomunikasi dan berani menggunakan Bahasa Inggris dalam setiap sesi. 
               </p>
             </div>
 
             {/* Card 4 */}
             <div className="bg-[#FFF4BA] rounded-[20px] p-8 min-h-[180px]">
               <h3 className="text-[#293C88] text-2xl font-bold mb-4">
-                Pembelajaran yang menyenangkan
+                Belajar dengan Cara yang Menyenangkan 
               </h3>
               <p className="text-[#000] font-poppins text-base leading-relaxed">
-                Pembelajaran diintegrasikan dengan permainan, lagu, diskusi, proyek, dan teknologi agar kegiatan belajar menjadi lebih bermakna, engaging, dan menyenangkan
+                Pembelajaran diintegrasikan dengan permainan, lagu, diskusi, proyek, dan teknologi agar kegiatan belajar menjadi lebih bermakna, interaktif, dan menyenangkan. 
               </p>
             </div>
           </div>
@@ -150,7 +153,7 @@ export default function EnglishCourse() {
                 Elementary
               </h3>
               <p className="text-[#000] font-poppins text-base leading-relaxed">
-                "Penguatan kemampuan mendengar, berbicara, membaca, dan menulis melalui aktivitas komunikatif yang kontekstual dan menarik."
+                "Penguatan kemampuan mendengar, berbicara, membaca, dan menulis melalui aktivitas komunikatif yang kontekstual dan menarik. "
               </p>
             </div>
 
@@ -173,7 +176,7 @@ export default function EnglishCourse() {
             <div className="bg-[#F5F5F5] rounded-[14px] p-8 min-h-[300px] flex flex-col items-center text-center">
               <div className="rounded-[64px] bg-[#293C88] px-8 py-3 mb-8 inline-block">
                 <p className="text-[#FED700] font-poppins text-lg font-bold">
-                  Grade 1-6
+                  Grade 10-12
                 </p>
               </div>
               <h3 className="text-[#293C88] text-2xl font-bold mb-6">
