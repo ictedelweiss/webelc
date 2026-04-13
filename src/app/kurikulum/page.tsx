@@ -9,7 +9,7 @@ export default function Kurikulum() {
       <div className="relative w-full bg-white py-16 overflow-hidden">
         {/* Decoration - top right blue shape */}
         <div className="absolute -right-20 -top-20 w-96 h-96 bg-[#293C88] opacity-20 rounded-full hidden lg:block"></div>
-        
+
         {/* Decoration - bottom left blue shape */}
         <div className="absolute -left-32 bottom-40 w-64 h-64 bg-[#293C88] opacity-30 rounded-full hidden lg:block"></div>
 
@@ -75,7 +75,7 @@ export default function Kurikulum() {
           {/* Single white card wrapping both diagram and text */}
           <div className="relative bg-white rounded-[32px] shadow-[0_4px_24px_rgba(0,0,0,0.08)] overflow-visible">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center min-h-[280px]">
-              
+
               {/* Left: ELITS Circular Diagram */}
               <div className="flex justify-center items-center py-10 px-8 lg:px-12">
                 <img
@@ -89,7 +89,7 @@ export default function Kurikulum() {
               <div className="relative flex items-center py-10 px-8 lg:px-12 border-l-0 lg:border-l border-gray-100">
                 {/* Yellow accent bar - left side of text block */}
                 <div className="absolute left-0 top-10 bottom-10 w-[5px] bg-[#FED700] rounded-full hidden lg:block"></div>
-                
+
                 <div className="lg:pl-8">
                   <p className="text-[#FED700] font-poppins text-sm font-bold mb-2 tracking-wide uppercase">
                     Integrasi Kurikulum
@@ -98,10 +98,10 @@ export default function Kurikulum() {
                     Elits Curriculum
                   </h2>
                   <p className="text-[#4a4a4a] font-poppins text-[15px] leading-relaxed max-w-[420px]">
-                    ELITS Curriculum merupakan integrasi antara kurikulum internasional
-                    dan kurikulum nasional. Pendekatan ini dirancang untuk memberikan pengalaman
-                    belajar yang seimbang antara standar akademik global dan penguatan karakter
-                    serta wawasan kebangsaan.
+                    ELITS Curriculum merupakan integrasi antara kurikulum internasional (Pearson Edexcel) dan kurikulum nasional.
+                    Pendekatan ini dirancang untuk memberikan pengalaman belajar yang seimbang antara standar akademik global dan
+                    penguatan karakter serta wawasan kebangsaan. Melalui ELITS Curriculum, siswa memperoleh kesempatan untuk mengembangkan
+                    kemampuan akademik tingkat internasional sekaligus menumbuhkan identitas dan nilai-nilai kebangsaan yang kuat.
                   </p>
                 </div>
               </div>
@@ -123,18 +123,18 @@ export default function Kurikulum() {
       <div className="w-full py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-16">
-            <img 
-              src="/Image2.png" 
+            <img
+              src="/Image2.png"
               className="h-20 object-contain"
               alt="Kurikulum Nasional"
             />
-            <img 
-              src="/Image1.png" 
+            <img
+              src="/Image1.png"
               className="h-20 object-contain"
               alt="Pearson Edexcel"
             />
-            <img 
-              src="/Image3.png" 
+            <img
+              src="/Image3.png"
               className="h-20 object-contain"
               alt="Letterland"
             />
@@ -158,7 +158,9 @@ export default function Kurikulum() {
               </div>
               <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed">
-                  Kurikulum Nasional dengan pendekatan Deep Learning yang menekankan pemahaman mendalam, keterkaitan konsep, dan penerapan nyata
+                  Kurikulum Nasional menggunakan pendekatan Deep Learning, yaitu pembelajaran yang berfokus pada pemahaman mendalam
+                  terhadap konsep, keterkaitan antartopik, dan penerapan pengetahuan dalam situasi nyata.
+                  Pendekatan ini mendorong siswa untuk berpikir reflektif, kolaboratif, dan kreatif, serta menumbuhkan karakter.
                 </p>
               </div>
             </div>
@@ -174,7 +176,9 @@ export default function Kurikulum() {
               </div>
               <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed">
-                  Menggunakan kurikulum Pearson Edexcel yaitu kurikulum internasional berbasis standar Inggris yang menekankan pada penguasaan konsep, kemampuan berpikir kritis, analitis, serta keterampilan pemecahan masalah
+                  Pearson Edexcel Curriculum adalah kurikulum internasional berbasis standar Inggris yang menekankan pada penguasaan konsep,
+                  kemampuan berpikir kritis, analitis, serta keterampilan pemecahan masalah.
+                  Kurikulum ini mendorong siswa untuk memahami konsep secara mendalam dan menerapkannya dalam berbagai konteks kehidupan nyata.
                 </p>
               </div>
             </div>
@@ -192,7 +196,9 @@ export default function Kurikulum() {
               </div>
               <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center justify-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed text-center">
-                  Letterland adalah metode pembelajaran phonics dari Inggris yang mengenalkan huruf dan bunyi melalui karakter visual dan cerita, membuat anak mudah memahami hubungan huruf suara secara menyenangkan
+                  Letterland adalah program phonics dari Inggris yang digunakan dalam pembelajaran literasi bahasa Inggris anak usia dini.
+                  Melalui pendekatan visual, imajinatif, dan berbasis cerita, setiap huruf dan bunyi diwakili oleh karakter yang menarik,
+                  membantu anak-anak mengenal hubungan antara huruf dan suara dengan cara yang menyenangkan.
                 </p>
               </div>
             </div>
