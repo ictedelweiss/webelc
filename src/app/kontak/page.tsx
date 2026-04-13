@@ -68,8 +68,8 @@ export default function Kontak() {
                       Telepon
                     </h3>
                     <p className="text-[#868686] font-poppins text-sm">
-                      <a href="tel:+62217142" className="hover:text-[#FED700] transition-colors">
-                        +62 21 7142
+                      <a href="https://wa.me/628118817757" className="hover:text-[#FED700] transition-colors">
+                        +62 811-8817-757
                       </a>
                     </p>
                     <p className="text-[#868686] font-poppins text-sm">
@@ -90,15 +90,11 @@ export default function Kontak() {
                       Email
                     </h3>
                     <p className="text-[#868686] font-poppins text-sm">
-                      <a href="mailto:info@edelweiss.com" className="hover:text-[#FED700] transition-colors">
-                        info@edelweiss.com
+                      <a href="mailto:cs@edelweiss.sch.id" className="hover:text-[#FED700] transition-colors">
+                        cs@edelweiss.sch.id
                       </a>
                     </p>
-                    <p className="text-[#868686] font-poppins text-sm">
-                      <a href="mailto:pendaftaran@edelweiss.com" className="hover:text-[#FED700] transition-colors">
-                        pendaftaran@edelweiss.com
-                      </a>
-                    </p>
+
                   </div>
                 </div>
 
@@ -148,77 +144,7 @@ export default function Kontak() {
             </div>
 
             {/* Contact Form */}
-            <div>
-              <h2 className="text-[32px] font-bold text-[#293C88] mb-8">
-                Kirim Pesan Kami
-              </h2>
 
-              <form className="space-y-6">
-                <div>
-                  <label className="block text-[#293C88] font-poppins font-semibold text-sm mb-2">
-                    Nama Lengkap
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Masukkan nama Anda"
-                    className="w-full px-4 py-3 rounded-lg border border-[#E0E0E0] font-poppins text-sm focus:outline-none focus:border-[#FED700] focus:ring-1 focus:ring-[#FED700] transition-colors"
-                  />
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-[#293C88] font-poppins font-semibold text-sm mb-2">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      placeholder="Email Anda"
-                      className="w-full px-4 py-3 rounded-lg border border-[#E0E0E0] font-poppins text-sm focus:outline-none focus:border-[#FED700] focus:ring-1 focus:ring-[#FED700] transition-colors"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-[#293C88] font-poppins font-semibold text-sm mb-2">
-                      Telepon
-                    </label>
-                    <input
-                      type="tel"
-                      placeholder="Nomor telepon"
-                      className="w-full px-4 py-3 rounded-lg border border-[#E0E0E0] font-poppins text-sm focus:outline-none focus:border-[#FED700] focus:ring-1 focus:ring-[#FED700] transition-colors"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-[#293C88] font-poppins font-semibold text-sm mb-2">
-                    Subjek
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Subjek pesan"
-                    className="w-full px-4 py-3 rounded-lg border border-[#E0E0E0] font-poppins text-sm focus:outline-none focus:border-[#FED700] focus:ring-1 focus:ring-[#FED700] transition-colors"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-[#293C88] font-poppins font-semibold text-sm mb-2">
-                    Pesan
-                  </label>
-                  <textarea
-                    placeholder="Tulis pesan Anda di sini..."
-                    rows={5}
-                    className="w-full px-4 py-3 rounded-lg border border-[#E0E0E0] font-poppins text-sm focus:outline-none focus:border-[#FED700] focus:ring-1 focus:ring-[#FED700] transition-colors resize-none"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-[#293C88] text-white px-8 py-3 rounded-lg font-poppins font-semibold hover:bg-[#1a2554] transition-colors"
-                >
-                  Kirim Pesan
-                </button>
-              </form>
-            </div>
           </div>
 
           {/* Map Section */}
@@ -232,7 +158,7 @@ export default function Kontak() {
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3246819849604!2d107.0255!3d-6.309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e695e9c5c5c5c5d%3A0x5c5c5c5c5c5c5c5c!2sJatibening%20Estate%2C%20Jl.%20Ratna!5e0!3m2!1sid!2sid!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.998557662383!2d106.9510884018424!3d-6.263918357921127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d05859a48d5%3A0x427dc1fc4ce74b69!2sEdelweiss%20School!5e0!3m2!1sen!2sid!4v1776048872135!5m2!1sen!2sid"
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
