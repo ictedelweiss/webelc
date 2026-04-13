@@ -4,8 +4,8 @@ export default function VisiMisi() {
 
       {/* Hero Section with yellow accent */}
       <div className="relative pt-[70px]">
-        {/* Yellow decorative block on right */}
-        <div className="absolute right-0 top-[70px] w-[120px] h-[280px] bg-[#FED700]"></div>
+        {/* Yellow decorative block on right - hidden on mobile */}
+        <div className="hidden md:block absolute right-0 top-[70px] w-[120px] h-[280px] bg-[#FED700]"></div>
 
         {/* Content */}
         <div className="max-w-[1200px] mx-auto px-8 pt-8">
@@ -19,7 +19,7 @@ export default function VisiMisi() {
           </p>
 
           {/* Title */}
-          <h1 className="text-[#293C88] font-poppins text-[42px] font-bold mt-6">
+          <h1 className="text-[#293C88] font-poppins text-2xl sm:text-3xl md:text-[42px] font-bold mt-6">
             Mission & Vision
           </h1>
 
@@ -33,8 +33,8 @@ export default function VisiMisi() {
 
       {/* Visi Section */}
       <section className="relative mt-20 pb-16">
-        {/* Blue decorative curve on left */}
-        <div className="absolute left-0 top-0">
+        {/* Blue decorative curve on left - hidden on mobile */}
+        <div className="absolute left-0 top-0 hidden md:block">
           <img
             src="/ElitePng121.png"
             className="w-[200px] h-[180px] object-contain -ml-8"
@@ -43,7 +43,7 @@ export default function VisiMisi() {
         </div>
 
         {/* Yellow circle icon on right */}
-        <div className="absolute right-[100px] top-[20px]">
+        <div className="absolute right-4 md:right-[100px] top-[20px]">
           <div className="w-[60px] h-[60px] rounded-full bg-[#FED700] flex items-center justify-center">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#293C88" strokeWidth="2">
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
@@ -51,8 +51,8 @@ export default function VisiMisi() {
           </div>
         </div>
 
-        <div className="max-w-[800px] mx-auto text-center px-8">
-          <h2 className="text-[#293C88] font-poppins text-[42px] font-bold">
+        <div className="max-w-[800px] mx-auto text-center px-4 md:px-8">
+          <h2 className="text-[#293C88] font-poppins text-2xl md:text-[42px] font-bold">
             Visi
           </h2>
           <div className="w-[80px] h-[3px] bg-[#FED700] mx-auto mt-2"></div>
@@ -67,8 +67,8 @@ export default function VisiMisi() {
 
       {/* Misi Section */}
       <section className="relative py-16">
-        {/* Blue decorative shape on right */}
-        <div className="absolute right-[80px] top-0">
+        {/* Blue decorative shape on right - hidden on mobile */}
+        <div className="absolute right-[80px] top-0 hidden md:block">
           <img
             src="/ElitePng127.png"
             className="w-[80px] h-[100px] object-contain"
@@ -76,9 +76,9 @@ export default function VisiMisi() {
           />
         </div>
 
-        <div className="max-w-[900px] mx-auto px-8">
+        <div className="max-w-[900px] mx-auto px-4 md:px-8">
           <div className="text-center">
-            <h2 className="text-[#293C88] font-poppins text-[42px] font-bold">
+            <h2 className="text-[#293C88] font-poppins text-2xl md:text-[42px] font-bold">
               Misi
             </h2>
             <div className="w-[80px] h-[3px] bg-[#FED700] mx-auto mt-2"></div>
@@ -125,7 +125,7 @@ export default function VisiMisi() {
         </div>
 
         {/* Blue decorative curve at bottom */}
-        <div className="absolute left-[100px] bottom-[-50px]">
+        <div className="absolute left-4 md:left-[100px] bottom-[-50px]">
           <img
             src="/ElitePng123.png"
             className="w-[120px] h-[100px] object-contain"

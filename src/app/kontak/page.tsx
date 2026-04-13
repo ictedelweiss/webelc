@@ -6,7 +6,7 @@ export default function Kontak() {
       <main className="relative">
         {/* Hero Section */}
         <div className="relative pb-20">
-          <div className="absolute right-0 top-20 w-[150px] h-[280px] bg-[#FED700] -z-10" />
+          <div className="absolute right-0 top-20 w-[60px] md:w-[150px] h-[160px] md:h-[280px] bg-[#FED700] -z-10" />
 
           <div className="max-w-screen-xl mx-auto px-6 pt-8">
             {/* Breadcrumb */}
@@ -16,7 +16,7 @@ export default function Kontak() {
 
             {/* Title Section */}
             <div className="mt-12">
-              <h1 className="text-[48px] md:text-[56px] font-bold text-[#293C88] mb-4">
+              <h1 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] font-bold text-[#293C88] mb-4">
                 Hubungi Kami
               </h1>
               <p className="text-[#868686] font-poppins text-base md:text-lg max-w-[700px] leading-relaxed">
@@ -167,7 +167,7 @@ export default function Kontak() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-[#F5F5F5] rounded-[20px] p-12">
+          <div className="bg-[#F5F5F5] rounded-[20px] p-6 md:p-12">
             <h2 className="text-[32px] font-bold text-[#293C88] mb-12 text-center">
               Pertanyaan yang Sering Diajukan
             </h2>

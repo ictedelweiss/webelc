@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="max-w-[1200px] mx-auto px-6 py-12 md:px-8 md:py-16">
         <div className="flex flex-col lg:flex-row flex-wrap justify-between gap-10 md:gap-12">
           {/* Logo & Info */}
-          <div className="flex flex-col gap-6 max-w-[280px]">
+          <div className="flex flex-col gap-6">
             <img src="/ElitePng131.png" className="w-[180px] h-[160px] object-contain" alt="Edelweiss Logo" />
             <div>
               <p className="text-white font-poppins text-xl font-semibold leading-tight">
@@ -102,8 +102,8 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/30">
-        <div className="max-w-[1200px] mx-auto px-8 py-4">
-          <p className="text-white font-poppins text-sm">
+        <div className="max-w-[1200px] mx-auto px-4 md:px-8 py-4">
+          <p className="text-white font-poppins text-sm text-center md:text-left">
             Edelweiss Learning Center - Excellence in Education since 2005 Copyright © 2026
           </p>
         </div>

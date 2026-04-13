@@ -4,12 +4,12 @@ export default function Foundation() {
 
       <div className="relative w-full">
         {/* Breadcrumb */}
-        <p className="text-[#FED700] font-poppins text-sm pt-[180px] pl-[20px] md:pl-[139px] md:pt-[177px] mb-12">
+        <p className="text-[#FED700] font-poppins text-sm pt-8 md:pt-[177px] px-4 md:pl-[139px] mb-8 md:mb-12">
           Homepage <span className="text-[#868686]">|</span> About Us <span className="text-[#868686]">|</span> foundation
         </p>
 
         {/* Gray background box with content */}
-        <div className="rounded-[15px] bg-[rgba(244,244,244,0.83)] mx-auto w-[90%] md:w-[1124px] h-auto md:h-[360px] p-8 md:p-12 mb-20 relative">
+        <div className="rounded-[15px] bg-[rgba(244,244,244,0.83)] mx-auto w-[90%] h-auto p-8 md:p-12 mb-20 relative">
           {/* Main title */}
           <p className="text-[#293C88] font-poppins text-[28px] md:text-[34px] font-bold text-center mx-auto mb-6 md:mb-8">
             Yayasan Sinar Putih Edelweiss
@@ -48,7 +48,7 @@ export default function Foundation() {
             <p className="text-[#293C88] font-poppins text-[22px] md:text-[26px] font-bold mb-4">
               Edelweiss School
             </p>
-            <div className="bg-[#FED700] w-[227px] h-1 mb-6" />
+            <div className="bg-[#FED700] w-full max-w-[227px] h-1 mb-6" />
             <p className="text-[#868686] font-poppins text-sm md:text-base leading-relaxed max-w-[437px]">
               Penyelenggara pendidikan formal yang berfokus 
               pada pembelajaran holistik melalui jenjang KB, TK, SD, dan SMP.
@@ -60,7 +60,7 @@ export default function Foundation() {
             <p className="text-[#293C88] font-poppins text-[22px] md:text-[26px] font-bold mb-4">
               Edelweiss Learning Center
             </p>
-            <div className="bg-[#FED700] w-[355px] h-1 mb-6" />
+            <div className="bg-[#FED700] w-full max-w-[355px] h-1 mb-6" />
             <p className="text-[#868686] font-poppins text-sm md:text-base leading-relaxed max-w-[437px]">
               Penyelenggara Pendidikan non formal yang menaungi beberapa program seperti Elite Academia Homeschooling, 
               Playteracy, English Course, dan Teacher Development Program.

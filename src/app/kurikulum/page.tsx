@@ -52,8 +52,8 @@ export default function Kurikulum() {
               </div>
             </div>
 
-            {/* Right: Student Images - Large */}
-            <div className="lg:col-span-2 flex justify-end gap-6 items-start">
+            {/* Right: Student Images - hanya tampil di lg+ */}
+            <div className="hidden lg:flex lg:col-span-2 justify-end gap-6 items-start">
               <img
                 src="/Rectangle108.png"
                 className="w-40 lg:w-48 h-64 lg:h-80 rounded-lg shadow-lg object-cover"
@@ -122,20 +122,20 @@ export default function Kurikulum() {
       {/* SECTION 3: Curriculum Provider Logos */}
       <div className="w-full py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-16">
+          <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-16">
             <img
               src="/Image2.png"
-              className="h-20 object-contain"
+              className="h-12 md:h-20 object-contain"
               alt="Kurikulum Nasional"
             />
             <img
               src="/Image1.png"
-              className="h-20 object-contain"
+              className="h-12 md:h-20 object-contain"
               alt="Pearson Edexcel"
             />
             <img
               src="/Image3.png"
-              className="h-20 object-contain"
+              className="h-12 md:h-20 object-contain"
               alt="Letterland"
             />
           </div>

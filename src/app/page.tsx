@@ -11,14 +11,14 @@ export default function Home() {
         </section>
 
         {/* ── A SAFE PLACE TO LEARN ─────────────────────────────────────────── */}
-        <section className="relative w-full py-24 flex flex-col items-center text-center mt-12 bg-white rounded-[43px] shadow-[0_4px_4px_0_rgba(0,0,0,0.05)] z-20">
+        <section className="relative w-full py-12 md:py-24 flex flex-col items-center text-center mt-6 md:mt-12 bg-white rounded-[43px] shadow-[0_4px_4px_0_rgba(0,0,0,0.05)] z-20">
           {/* Decorative Leaf Blobs */}
           <img src="/ElitePng121.png" className="absolute -left-10 top-0 w-[317px] h-[276px] max-w-none opacity-90 hidden md:block" alt="Leaf Decoration 1" />
           <img src="/ElitePng129.png" className="absolute right-10 top-10 w-[87px] h-[76px] max-w-none hidden md:block" alt="Leaf Decoration 2" />
 
           
           <div className="max-w-2xl relative z-10 space-y-6">
-            <h2 className="text-[#293C88] text-3xl font-bold">
+            <h2 className="text-[#293C88] text-2xl md:text-3xl font-bold">
               A Safe Place to Learn, Grow, and Shine
             </h2>
             <div className="w-full h-0.5 bg-[#FED700] mx-auto rounded-full"></div>
@@ -39,11 +39,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 w-full max-w-screen-xl rounded-3xl lg:rounded-[69px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] bg-white overflow-hidden">
             
             {/* Elite Academia */}
-            <div className="group relative w-full h-[469px] overflow-hidden">
+            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden">
               <img src="/Rectangle123.png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Elite Academia" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-              <div className="absolute inset-x-0 bottom-0 p-8 flex flex-col items-start text-white">
-                <h3 className="text-[32px] font-semibold mb-4 leading-tight">Elite Academia</h3>
+                <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
+                  <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">Elite Academia</h3>
                 <hr className="w-full border-white/50 mb-4" />
                 <a href="/program/elite-academia" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
@@ -55,11 +55,11 @@ export default function Home() {
             </div>
 
             {/* IPDC */}
-            <div className="group relative w-full h-[469px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
+            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
               <img src="/Rectangle123(1).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 object-center" alt="IPDC" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-              <div className="absolute inset-x-0 bottom-0 p-8 flex flex-col items-start text-white">
-                <h3 className="text-[32px] font-semibold mb-4 leading-tight">IPDC</h3>
+                <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
+                  <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">IPDC</h3>
                 <hr className="w-full border-white/50 mb-4" />
                 <a href="/program/ipdc" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
@@ -71,11 +71,11 @@ export default function Home() {
             </div>
 
             {/* Playteracy */}
-            <div className="group relative w-full h-[469px] overflow-hidden border-t md:border-t-0 md:border-l lg:border-t-0 border-white/20">
+            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden border-t md:border-t-0 md:border-l lg:border-t-0 border-white/20">
               <img src="/Rectangle123(3).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Playteracy" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-              <div className="absolute inset-x-0 bottom-0 p-8 flex flex-col items-start text-white">
-                <h3 className="text-[32px] font-semibold mb-4 leading-tight">Playteracy</h3>
+                <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
+                  <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">Playteracy</h3>
                 <hr className="w-full border-white/50 mb-4" />
                 <a href="/program/playteracy" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
@@ -87,11 +87,11 @@ export default function Home() {
             </div>
 
             {/* English Course */}
-            <div className="group relative w-full h-[469px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
+            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
               <img src="/Rectangle123(2).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="English Course" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-              <div className="absolute inset-x-0 bottom-0 p-8 flex flex-col items-start text-white">
-                <h3 className="text-[32px] font-semibold mb-4 leading-tight">English Course</h3>
+                <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
+                  <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">English Course</h3>
                 <hr className="w-full border-white/50 mb-4" />
                 <a href="/program/english-course" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
@@ -105,7 +105,7 @@ export default function Home() {
         </section>
 
       {/* ── WHY CHOOSE US SECTION ────────────────────────────────────── */}
-      <section className="relative w-full bg-[#FFF4BA] mt-32 overflow-hidden py-24">
+      <section className="relative w-full bg-[#FFF4BA] mt-12 md:mt-32 overflow-hidden py-12 md:py-24">
         {/* Background Decorative Blob */}
         <img src="/ElitePng124.png" className="absolute right-[5%] top-[10%] w-[136px] h-[118px] opacity-70 hidden md:block" alt="Decoration" />
         <img src="/ElitePng123.png" className="absolute right-[10%] bottom-[10%] w-[115px] h-[100px] z-10 hidden md:block" alt="Decoration" />
@@ -119,7 +119,7 @@ export default function Home() {
               <p className="text-[#293C88] text-base font-semibold">
                 Keunggulan Kami
               </p>
-              <h2 className="text-[#293C88] text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              <h2 className="text-[#293C88] text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 Why Choose Edelweiss Learning Center
               </h2>
               <p className="text-[#6B6B6B] text-sm md:text-base max-w-lg leading-relaxed">
@@ -128,16 +128,16 @@ export default function Home() {
             </div>
 
             {/* Right Photos - offset layout */}
-            <div className="relative w-full h-[500px] md:h-[520px] flex items-start justify-center gap-6 md:gap-4 mt-8 lg:mt-0">
+            <div className="relative w-full flex items-start justify-center gap-4 md:gap-6 mt-8 lg:mt-0">
               {/* Photo 1: Left - taller, top-aligned */}
               <div className="flex-shrink-0 flex items-start">
-                <img src="/Rectangle76.png" className="w-[200px] md:w-[240px] h-[420px] md:h-[480px] object-cover shadow-xl rounded-2xl" alt="Student learning" />
+                <img src="/Rectangle76.png" className="w-[140px] sm:w-[180px] md:w-[240px] h-[280px] sm:h-[360px] md:h-[480px] object-cover shadow-xl rounded-2xl" alt="Student learning" />
               </div>
 
               {/* Photo 2: Right - shorter, positioned lower with white frame */}
               <div className="flex-shrink-0 flex items-end pb-4 md:pb-12">
-                <div className="bg-white p-5 md:p-8 rounded-2xl shadow-2xl">
-                  <img src="/Rectangle75.png" className="w-[200px] md:w-[240px] h-[340px] md:h-[380px] object-cover rounded-lg" alt="Student happy" />
+                <div className="bg-white p-3 md:p-8 rounded-2xl shadow-2xl">
+                  <img src="/Rectangle75.png" className="w-[130px] sm:w-[170px] md:w-[240px] h-[220px] sm:h-[290px] md:h-[380px] object-cover rounded-lg" alt="Student happy" />
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function Home() {
       </section>
 
       {/* ── KEUNGGULAN CARDS ─────────────────────────────────────────── */}
-      <section className="relative w-full py-20 bg-[#FFF] z-30 lg:-mt-20 overflow-hidden">
+      <section className="relative w-full py-12 md:py-20 bg-[#FFF] z-30 lg:-mt-20 overflow-hidden">
         <div className="w-full relative">
           
           <div className="animate-marquee hover:[animation-play-state:paused]">
