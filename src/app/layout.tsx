@@ -12,8 +12,36 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Edelweiss Learning Center",
-  description: "Excellence in Education since 2005",
+  title: {
+    default: "Edelweiss Learning Center",
+    template: "%s | Edelweiss Learning Center",
+  },
+  description: "Edelweiss Learning Center — Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi dengan program Elite Academia, English Course, Playteracy, dan IPDC sejak 2005.",
+  keywords: ["lembaga pendidikan Bekasi", "homeschooling Bekasi", "kursus bahasa Inggris anak", "Playteracy", "IPDC guru", "Elite Academia", "Edelweiss Learning Center"],
+  authors: [{ name: "Edelweiss Learning Center" }],
+  metadataBase: new URL("https://www.edelweisslearningcenter.com"),
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "https://www.edelweisslearningcenter.com",
+    siteName: "Edelweiss Learning Center",
+    title: "Edelweiss Learning Center",
+    description: "Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi dengan program Elite Academia, English Course, Playteracy, dan IPDC sejak 2005.",
+    images: [
+      {
+        url: "/ElitsFix1.png",
+        width: 1200,
+        height: 630,
+        alt: "Edelweiss Learning Center",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Edelweiss Learning Center",
+    description: "Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi sejak 2005.",
+    images: ["/ElitsFix1.png"],
+  },
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
@@ -27,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${poppins.variable}`}>
+    <html lang="id" className={`${poppins.variable}`}>
       <body className="scroll-smooth">
         {/* Sticky Navbar - visible on all pages */}
         <div className="fixed top-0 left-0 w-full z-50">

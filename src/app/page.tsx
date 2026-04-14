@@ -1,8 +1,54 @@
 import HeroSlider from "@/components/HeroSlider";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Edelweiss Learning Center | A Safe Place to Learn, Grow, and Shine",
+  description: "Edelweiss Learning Center — Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi. Program unggulan: Elite Academia, English Course, Playteracy, dan IPDC sejak 2005.",
+  openGraph: {
+    title: "Edelweiss Learning Center | A Safe Place to Learn, Grow, and Shine",
+    description: "Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi dengan program unggulan sejak 2005.",
+    url: "https://www.edelweisslearningcenter.com",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Edelweiss Learning Center",
+  "url": "https://www.edelweisslearningcenter.com",
+  "logo": "https://www.edelweisslearningcenter.com/ElitePng112.png",
+  "description": "Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi dengan program Elite Academia, English Course, Playteracy, dan IPDC sejak 2005.",
+  "foundingDate": "2005",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Ratna Jatibening, Jatibening Estate",
+    "addressLocality": "Pondok Gede",
+    "addressRegion": "Jawa Barat",
+    "postalCode": "17142",
+    "addressCountry": "ID"
+  },
+  "telephone": "+628118817757",
+  "email": "cs@edelweiss.sch.id",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Program Pendidikan",
+    "itemListElement": [
+      { "@type": "Course", "name": "Elite Academia", "url": "https://www.edelweisslearningcenter.com/program/elite-academia" },
+      { "@type": "Course", "name": "English Course", "url": "https://www.edelweisslearningcenter.com/program/english-course" },
+      { "@type": "Course", "name": "Playteracy", "url": "https://www.edelweisslearningcenter.com/program/playteracy" },
+      { "@type": "Course", "name": "IPDC", "url": "https://www.edelweisslearningcenter.com/program/ipdc" }
+    ]
+  }
+};
 
 export default function Home() {
   return (
     <div className="bg-[#FFF] min-h-screen relative overflow-hidden font-poppins">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-screen-xl mx-auto px-4 lg:px-8">
 
         {/* ── HERO ─────────────────────────────────────────────── */}
@@ -18,9 +64,9 @@ export default function Home() {
 
           
           <div className="max-w-2xl relative z-10 space-y-6">
-            <h2 className="text-[#293C88] text-2xl md:text-3xl font-bold">
+            <h1 className="text-[#293C88] text-2xl md:text-3xl font-bold">
               A Safe Place to Learn, Grow, and Shine
-            </h2>
+            </h1>
             <div className="w-full h-0.5 bg-[#FED700] mx-auto rounded-full"></div>
             <p className="text-[#293C88] text-lg font-medium leading-relaxed px-4">
               We provide a supportive and inspiring environment<br className="hidden md:block"/> where every child feels valued, confident, and ready to succeed

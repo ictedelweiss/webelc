@@ -1,0 +1,13 @@
+# Robots.txt — Edelweiss Learning Center
+# https://www.edelweisslearningcenter.com
+
+User-agent: *
+Allow: /
+
+# Jangan index halaman admin
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /admin/dashboard
+
+# Sitemap
+Sitemap: https://www.edelweisslearningcenter.com/sitemap.xml
