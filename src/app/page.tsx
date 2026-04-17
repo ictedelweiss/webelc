@@ -169,9 +169,9 @@ export default function Home() {
                 <p className="text-[#293C88] text-base font-semibold">
                   Keunggulan Kami
                 </p>
-                <h2 className="text-[#293C88] text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                <h3 className="text-[#293C88] text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
                   Why Choose Edelweiss Learning Center
-                </h2>
+                </h3>
                 <p className="text-[#6B6B6B] text-sm md:text-base max-w-lg leading-relaxed">
                   Di Edelweiss Learning Center, kami percaya bahwa setiap peserta didik berhak mendapatkan pendidikan
                   yang mengembangkan kemampuan intelektual sekaligus membentuk karakter. Program kami dirancang untuk
@@ -188,11 +188,11 @@ export default function Home() {
                 </div>
 
                 {/* Photo 2: Right - shorter, positioned lower with white frame */}
-                <div className="flex-shrink-0 flex items-end pb-4 md:pb-12">
-                  <div className="bg-white p-3 md:p-8 rounded-2xl shadow-2xl">
-                    <img src="/Rectangle75.png" className="w-[130px] sm:w-[170px] md:w-[240px] h-[220px] sm:h-[290px] md:h-[380px] object-cover rounded-lg" alt="Student happy" />
-                  </div>
+
+                <div>
+                  <img src="/Rectangle75.png" className="w-[130px] sm:w-[170px] md:w-[240px] h-[240px] sm:h-[290px] md:h-[380px] object-cover rounded-lg" alt="Student happy" />
                 </div>
+
               </div>
 
             </div>
