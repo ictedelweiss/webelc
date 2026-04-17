@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 const slides = [
   {
     img: "/Rectangle48.png",
-    titleLine1: "Seven Values",
+    titleLine1: "Seven Values Edelweiss",
     titleLine2: null,
     subtitle: "Respect, Independent, Religious, Accomplished, Knowledgeable, Integrity, Socially Responsible",
     titleRight: null,
@@ -16,6 +16,7 @@ const slides = [
     titleLine2: "for You",
     subtitle: null,
     titleRight: "Elite Academia",
+    titleRightLine2: "Homeschooling",
   },
   {
     img: "/Rectangle48(2).png",
@@ -36,7 +37,8 @@ const slides = [
     titleLine1: "Teach with",
     titleLine2: "Impact",
     subtitle: null,
-    titleRight: "IPDC",
+    titleRight: "Indonesia Pedagogics",
+    titleRightLine2: "Development Center",
   },
 ];
 
@@ -49,7 +51,7 @@ export default function HeroSlider() {
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
       setCurrent((c) => (c + 1) % slides.length);
-    }, 5000);
+    }, 2000);
   }, []);
 
   useEffect(() => {
@@ -106,23 +108,39 @@ export default function HeroSlider() {
             {/* Dividing Yellow Line */}
             <div className="w-full h-[3px] bg-[#FFF4BA] mb-3 md:mb-6 rounded-full" />
 
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-end w-full gap-2 md:gap-4">
-              <div className="flex flex-col flex-1 max-w-xl">
-                <h2 className="text-[#FFF4BA] font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.1] tracking-wide drop-shadow-md capitalize">
-                  {s.titleLine1}<br />
-                  {s.titleLine2 && <span>{s.titleLine2}</span>}
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-end w-full gap-3 md:gap-8">
+              {/* Left: Main Title */}
+              <div className="flex flex-col flex-1">
+                <h2 className="text-[#FFF4BA] font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-wide drop-shadow-md capitalize">
+                  {s.titleLine1}
+                  {s.titleLine2 && (
+                    <>
+                      <br />
+                      <span>{s.titleLine2}</span>
+                    </>
+                  )}
                 </h2>
                 {s.subtitle && (
-                  <p className="text-white font-poppins text-xs sm:text-sm md:text-base lg:text-lg font-medium mt-2 md:mt-3 leading-relaxed tracking-wide opacity-90">
+                  <p className="text-white/90 font-poppins text-xs sm:text-sm md:text-base font-medium mt-2 md:mt-3 leading-relaxed tracking-wide max-w-2xl">
                     {s.subtitle}
                   </p>
                 )}
               </div>
-              
+
+              {/* Right: Program Name */}
               {s.titleRight && (
-                <div className="flex-shrink-0 mt-1 md:mt-0">
-                  <h3 className="text-[#FFF4BA] font-poppins text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-left md:text-right drop-shadow-md capitalize tracking-wide">
+                <div className="flex-shrink-0 md:text-right">
+                  <span className="block text-white/60 font-poppins text-[10px] sm:text-xs uppercase tracking-[0.2em] mb-1">
+                    Program
+                  </span>
+                  <h3 className="text-[#FFF4BA] font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.15] drop-shadow-md capitalize tracking-wide">
                     {s.titleRight}
+                    {s.titleRightLine2 && (
+                      <>
+                        <br />
+                        <span>{s.titleRightLine2}</span>
+                      </>
+                    )}
                   </h3>
                 </div>
               )}
@@ -157,9 +175,8 @@ export default function HeroSlider() {
           <button
             key={i}
             onClick={() => goTo(i)}
-            className={`transition-all duration-300 rounded-full h-2 md:h-2.5 ${
-              i === current ? "bg-[#FFF4BA] w-6 md:w-10 opacity-100 shadow-[0_0_8px_rgba(255,244,186,0.8)]" : "bg-white/50 w-2 md:w-2.5 hover:bg-white/80"
-            }`}
+            className={`transition-all duration-300 rounded-full h-2 md:h-2.5 ${i === current ? "bg-[#FFF4BA] w-6 md:w-10 opacity-100 shadow-[0_0_8px_rgba(255,244,186,0.8)]" : "bg-white/50 w-2 md:w-2.5 hover:bg-white/80"
+              }`}
             aria-label={`Go to slide ${i + 1}`}
           />
         ))}

@@ -84,13 +84,13 @@ export default function Footer() {
                 </svg>
               </a>
               {/* Email */}
-              <a href="mailto:info@edelweiss.com" className="w-10 h-10 flex items-center justify-center text-white hover:text-[#FED700] transition-colors">
+              <a href="mailto:cs@edelweiss.sch.id" className="w-10 h-10 flex items-center justify-center text-white hover:text-[#FED700] transition-colors">
                 <svg width="28" height="28" viewBox="0 0 40 40" fill="currentColor">
                   <path d="M35.0502 10.4836L20.0002 1.06689L4.95016 10.4836C3.9835 11.0669 3.3335 12.1169 3.3335 13.3336V30.0002C3.3335 31.8336 4.8335 33.3336 6.66683 33.3336H33.3335C35.1668 33.3336 36.6668 31.8336 36.6668 30.0002V13.3336C36.6668 12.1169 36.0168 11.0669 35.0502 10.4836ZM33.3335 30.0002H6.66683V16.6669L20.0002 25.0002L33.3335 16.6669V30.0002ZM20.0002 21.6669L6.66683 13.3336L20.0002 5.00023L33.3335 13.3336L20.0002 21.6669Z" />
                 </svg>
               </a>
               {/* Phone */}
-              <a href="tel:+62" className="w-10 h-10 flex items-center justify-center text-white hover:text-[#FED700] transition-colors">
+              <a href="tel:+628118817757" className="w-10 h-10 flex items-center justify-center text-white hover:text-[#FED700] transition-colors">
                 <svg width="28" height="28" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M14.2826 6.27393C14.8757 6.27393 15.4221 6.59557 15.7101 7.11414L17.7071 10.7115C17.9686 11.1826 17.9809 11.7523 17.7399 12.2341L15.816 16.0821C15.816 16.0821 16.3736 18.9485 18.707 21.2819C21.0404 23.6153 23.8972 24.1632 23.8972 24.1632L27.7445 22.2396C28.2267 21.9985 28.7968 22.011 29.268 22.2729L32.8756 24.2786C33.3937 24.5667 33.715 25.1128 33.715 25.7056V29.8472C33.715 31.9564 31.7559 33.4797 29.7575 32.8053C25.653 31.4204 19.2818 28.7835 15.2436 24.7452C11.2054 20.707 8.56845 14.3359 7.18352 10.2315C6.50922 8.233 8.03256 6.27393 10.1417 6.27393H14.2826Z" strokeLinejoin="round" />
                 </svg>
