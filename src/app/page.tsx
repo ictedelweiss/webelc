@@ -85,12 +85,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 w-full max-w-screen-xl rounded-3xl lg:rounded-[69px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] bg-white overflow-hidden">
 
             {/* Elite Academia */}
-            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden">
+            <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden">
               <img src="/Rectangle123.png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Elite Academia" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">Elite Academia</h3>
-                <hr className="w-full border-white/50 mb-4" />
+                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Elite Academia Homeschooling</h3>
+                <hr className="w-full border-white/50 mb-3" />
+                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program homeschooling yang fleksibel dan memberikan pengalaman belajar personal sesuai kebutuhan dan tujuan setiap individu.</p>
                 <a href="/program/elite-academia" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
                   <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
@@ -101,12 +102,13 @@ export default function Home() {
             </div>
 
             {/* IPDC */}
-            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
+            <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
               <img src="/Rectangle123(1).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 object-center" alt="IPDC" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">IPDC</h3>
-                <hr className="w-full border-white/50 mb-4" />
+                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Indonesia Pedagogics Development Center</h3>
+                <hr className="w-full border-white/50 mb-3" />
+                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program pengembangan profesional bagi guru untuk memperkuat strategi mengajar inovatif dan kemampuan kepemimpinan.</p>
                 <a href="/program/ipdc" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
                   <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
@@ -117,12 +119,13 @@ export default function Home() {
             </div>
 
             {/* Playteracy */}
-            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden border-t md:border-t-0 md:border-l lg:border-t-0 border-white/20">
+            <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l lg:border-t-0 border-white/20">
               <img src="/Rectangle123(3).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Playteracy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">Playteracy</h3>
-                <hr className="w-full border-white/50 mb-4" />
+                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Playteracy</h3>
+                <hr className="w-full border-white/50 mb-3" />
+                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program literasi Bahasa Inggris berbasis metode Letterland Phonics yang membantu anak-anak mengembangkan kemampuan membaca dan menulis secara menyenangkan.</p>
                 <a href="/program/playteracy" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
                   <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
@@ -133,12 +136,13 @@ export default function Home() {
             </div>
 
             {/* English Course */}
-            <div className="group relative w-full h-[260px] sm:h-[340px] md:h-[380px] lg:h-[469px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
+            <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
               <img src="/Rectangle123(2).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="English Course" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[32px] font-semibold mb-2 md:mb-4 leading-tight">English Course</h3>
-                <hr className="w-full border-white/50 mb-4" />
+                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">English Course</h3>
+                <hr className="w-full border-white/50 mb-3" />
+                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program Bahasa Inggris komunikatif dan interaktif yang menekankan penguasaan keempat keterampilan berbahasa.</p>
                 <a href="/program/english-course" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                   Pelajari Selengkapnya
                   <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
@@ -231,6 +235,20 @@ export default function Home() {
                 </div>
 
                 {/* Rasio Siswa yang Ideal */}
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 mt-1">
+                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                  </div>
+                  <div className="flex flex-col">
+                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Rasio Siswa yang Ideal</h3>
+                    <p className="text-[#868686] text-sm leading-relaxed">
+                      Edelweiss Learning Center menjaga rasio siswa agar tetap ideal demi memastikan proses pembelajaran yang personal dan efektif bagi setiap siswa. Dengan jumlah siswa yang proporsional,
+                      mereka dapat lebih aktif berpartisipasi, membangun kepercayaan diri, dan membuat kemajuan belajar yang bermakna.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Fasilitas Moderen */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
                     <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />

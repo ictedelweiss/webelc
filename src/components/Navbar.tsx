@@ -7,7 +7,7 @@ export default function Navbar() {
   const [tentangKamiOpen, setTentangKamiOpen] = useState(false);
   const [programOpen, setProgramOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  
+
   // Mobile accordion states
   const [mobileTentangKamiOpen, setMobileTentangKamiOpen] = useState(false);
   const [mobileProgramOpen, setMobileProgramOpen] = useState(false);
@@ -87,10 +87,10 @@ export default function Navbar() {
             </button>
             {programOpen && (
               <div className="absolute top-full left-0 mt-0 bg-white rounded-lg shadow-xl py-2 min-w-[200px] border border-gray-100 z-50">
-                <Link href="/program/elite-academia" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Elite Academia</Link>
+                <Link href="/program/elite-academia" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Elite Academia Homeschooling</Link>
                 <Link href="/program/english-course" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">English Course</Link>
                 <Link href="/program/playteracy" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Playteracy</Link>
-                <Link href="/program/ipdc" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">IPDC</Link>
+                <Link href="/program/ipdc" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Indonesia Pedagogics Development Center</Link>
               </div>
             )}
           </div>
@@ -124,7 +124,7 @@ export default function Navbar() {
 
             {/* Mobile Tentang Kami Accordion */}
             <div>
-              <button 
+              <button
                 onClick={() => setMobileTentangKamiOpen(!mobileTentangKamiOpen)}
                 className="w-full text-left px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50 flex justify-between items-center"
               >
@@ -143,7 +143,7 @@ export default function Navbar() {
 
             {/* Mobile Program Accordion */}
             <div>
-              <button 
+              <button
                 onClick={() => setMobileProgramOpen(!mobileProgramOpen)}
                 className="w-full text-left px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50 flex justify-between items-center"
               >
