@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import ProgramPageClient from "./ProgramPageClient";
+import PageClientSwitcher from "@/components/PageClientSwitcher";
+import ProgramPageID from "@/components/id/ProgramPageID";
+import ProgramPageEN from "@/components/en/ProgramPageEN";
 
 export const metadata: Metadata = {
   title: "Program Unggulan",
@@ -12,5 +14,10 @@ export const metadata: Metadata = {
 };
 
 export default function ProgramPage() {
-  return <ProgramPageClient />;
+  return (
+    <PageClientSwitcher 
+      idComponent={<ProgramPageID />} 
+      enComponent={<ProgramPageEN />} 
+    />
+  );
 }

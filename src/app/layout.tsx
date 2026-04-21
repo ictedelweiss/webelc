@@ -4,6 +4,7 @@ import "./globals.css";
 import "@/styles/article-responsive.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -57,18 +58,20 @@ export default function RootLayout({
   return (
     <html lang="id" className={`${poppins.variable}`}>
       <body className="scroll-smooth">
-        {/* Sticky Navbar - visible on all pages */}
-        <div className="fixed top-0 left-0 w-full z-50">
-          <Navbar />
-        </div>
+        <LanguageProvider>
+          {/* Sticky Navbar - visible on all pages */}
+          <div className="fixed top-0 left-0 w-full z-50">
+            <Navbar />
+          </div>
 
-        {/* Main content with top padding for sticky navbar */}
-        <main className="pt-[70px] md:pt-[75px]">
-          {children}
-        </main>
+          {/* Main content with top padding for sticky navbar */}
+          <main className="pt-[70px] md:pt-[75px]">
+            {children}
+          </main>
 
-        {/* Footer */}
-        <Footer />
+          {/* Footer */}
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

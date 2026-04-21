@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from "next/link";
 
-export default function ProgramPageClient() {
+export default function ProgramPageID() {
   const [programDropdown, setProgramDropdown] = useState(false);
   const [kurikulumDropdown, setKurikulumDropdown] = useState(false);
 
