@@ -214,8 +214,7 @@ export default function HomeEN() {
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Diverse Learning Programs</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      We offer various educational pathways for learners of different ages and goals,
-                      ranging from Elite Academia Homeschooling, Edelweiss Educator Institute, English Course, to Playteracy.
+                      We offer various educational pathways that can be followed by learners.
                     </p>
                   </div>
                 </div>
@@ -228,8 +227,7 @@ export default function HomeEN() {
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Ideal Student Ratio</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      Edelweiss Learning Center maintains an ideal student ratio to ensure a personalized and effective learning process for each student. With a proportional number of students,
-                      they can participate more actively, build self-confidence, and make meaningful learning progress.
+                      An ideal student ratio to ensure a personalized and effective learning process for every student.
                     </p>
                   </div>
                 </div>
@@ -240,10 +238,9 @@ export default function HomeEN() {
                     <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
                   </div>
                   <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Ideal Student Ratio</h3>
+                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Modern Facilities</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      Edelweiss Learning Center maintains an ideal student ratio to ensure a personalized and effective learning process for each student. With a proportional number of students,
-                      they can participate more actively, build self-confidence, and make meaningful learning progress.
+                      Modern facilities designed to support a comfortable, modern, and effective learning process.
                     </p>
                   </div>
                 </div>
@@ -283,9 +280,9 @@ export default function HomeEN() {
                     <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
                   </div>
                   <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Professional Teachers</h3>
+                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Fun Learning</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      Supported by a highly dedicated, competent teaching team who understands child development psychology
+                      Creating an enjoyable and memorable learning experience, so students not only understand concepts but also enjoy the learning process itself.
                     </p>
                   </div>
                 </div>

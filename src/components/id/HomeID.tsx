@@ -217,8 +217,7 @@ export default function HomeID() {
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Program Belajar yang Beragam</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      Kami menawarkan berbagai jalur pendidikan yang dapat diikuti oleh peserta didik dari berbagai usia dan tujuan belajar,
-                      mulai dari Elite Academia Homeschooling, Edelweiss Educator Institute, English Course, hingga Playteracy.
+                      Kami menawarkan berbagai jalur pendidikan yang dapat diikuti oleh peserta didik.
                     </p>
                   </div>
                 </div>
@@ -231,8 +230,7 @@ export default function HomeID() {
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Rasio Siswa yang Ideal</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      Edelweiss Learning Center menjaga rasio siswa agar tetap ideal demi memastikan proses pembelajaran yang personal dan efektif bagi setiap siswa. Dengan jumlah siswa yang proporsional,
-                      mereka dapat lebih aktif berpartisipasi, membangun kepercayaan diri, dan membuat kemajuan belajar yang bermakna.
+                      Rasio siswa ideal demi memastikan proses pembelajaran yang personal dan efektif bagi setiap siswa.
                     </p>
                   </div>
                 </div>
@@ -243,10 +241,9 @@ export default function HomeID() {
                     <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
                   </div>
                   <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Rasio Siswa yang Ideal</h3>
+                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Fasilitas Moderen</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      Edelweiss Learning Center menjaga rasio siswa agar tetap ideal demi memastikan proses pembelajaran yang personal dan efektif bagi setiap siswa. Dengan jumlah siswa yang proporsional,
-                      mereka dapat lebih aktif berpartisipasi, membangun kepercayaan diri, dan membuat kemajuan belajar yang bermakna.
+                      Fasilitas modern yang dirancang untuk mendukung proses belajar yang nyaman, modern dan efektif.
                     </p>
                   </div>
                 </div>
@@ -286,9 +283,9 @@ export default function HomeID() {
                     <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
                   </div>
                   <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Pengajar Profesional</h3>
+                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Pembelajaran yang Menyenangkan</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      Didukung oleh tim pengajar yang berdedikasi tinggi, kompeten, dan memahami psikologi perkembangan anak
+                      menciptakan pengalaman belajar yang menyenangkan dan berkesan, sehingga siswa tidak hanya memahami konsep, tetapi juga menikmati proses belajar itu sendiri.
                     </p>
                   </div>
                 </div>

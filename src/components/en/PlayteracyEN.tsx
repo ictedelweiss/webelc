@@ -23,7 +23,7 @@ export default function PlayteracyEN() {
               Play &amp; Literacy
             </h1>
             <p className="text-[#000] font-poppins text-sm md:text-base font-medium leading-relaxed">
-              Playteracy is a flagship program of Edelweiss Learning Course specially designed for children aged 2–8 years. This program helps children recognize letters, sounds, and read in English through the Letterland Phonics method, which is a fun, contextual, and proven effective learning approach used in more than 110 countries worldwide. 
+              Playteracy is a flagship program of Edelweiss Learning Center specially designed for children aged 2–8 years. This program helps children recognize letters, sounds, and read in English through the Letterland Phonics method, which is a fun, contextual, and proven effective learning approach used in more than 110 countries worldwide.
             </p>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function PlayteracyEN() {
                 Letterland certified teachers
               </h3>
               <p className="text-[#000] font-poppins text-sm leading-relaxed">
-                Letterland certified teachers, all Playteracy educators at Edelweiss Learning Course have attended official training and are Letterland certified, ensuring professional teaching quality that meets international standards. 
+                Letterland certified teachers, all Playteracy educators at Edelweiss Learning Center have attended official training and are Letterland certified, ensuring professional teaching quality that meets international standards.
               </p>
             </div>
           </div>

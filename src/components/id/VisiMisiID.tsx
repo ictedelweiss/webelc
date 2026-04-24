@@ -58,8 +58,8 @@ export default function VisiMisiID() {
           <div className="w-[80px] h-[3px] bg-[#FED700] mx-auto mt-2"></div>
 
           <p className="text-[#333] font-poppins text-base mt-8 leading-relaxed">
-            &ldquo;Menjadi lembaga pendidikan yang berkontribusi dalam mencerdaskan 
-            bangsa dan melahirkan generasi unggul yang siap berperan dalam 
+            &ldquo;Menjadi lembaga pendidikan yang berkontribusi dalam mencerdaskan
+            bangsa dan melahirkan generasi unggul yang siap berperan dalam
             kehidupannya berlandaskan pada Ketuhanan Yang Maha Esa dan Nilai-Nilai universal  &rdquo;
           </p>
         </div>
@@ -88,37 +88,37 @@ export default function VisiMisiID() {
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Mengembangkan Sistem Pendidikan Yang Berkualitas
+                Mengembangkan sistem pendidikan yang berkualitas
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Mengembangkan Peserta Didik Yang Sehat, Berintelektual Tinggi, Berakhlak Mulia, Dan Memiliki Wawasan Local Dan Global
+                Mengembangkan peserta didik yang sehat, berintelektual tinggi, berakhlak mulia, dan memiliki wawasan lokal dan global
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Mengembangkan Pendidik Dan Tenaga Kependidikan Yang Kompeten Dalam Melaksanakan Tugas Profesinya
+                Mengembangkan pendidik dan tenaga kependidikan yang kompeten dalam melaksanakan tugas profesinya
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Mengembangkan Proses Pembelajaran Yang Inspiratif, Inovatif Dan Adaptif Pada Perubahan Dan Lingkungan
+                Mengembangkan proses pembelajaran yang inspiratif, inovatif dan adaptif pada perubahan dan lingkungan
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Menyiapkan Lingkungan Pendidikan Yang Menyenangkan Dan Menantang Guna Mendukung Proses Pembelajaran Yang Bermutu.
+                Menyiapkan lingkungan pendidikan yang menyenangkan dan menantang guna mendukung proses pembelajaran yang bermutu.
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Menjalin Kemitraan Strategis Untuk Mencapai Tujuan Pendidikan
+                Menjalin kemitraan strategis untuk mencapai tujuan pendidikan
               </p>
             </li>
           </ul>

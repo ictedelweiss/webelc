@@ -93,7 +93,7 @@ export default function KurikulumEN() {
                     Curriculum Integration
                   </p>
                   <h2 className="text-3xl lg:text-4xl font-bold text-[#1a2a6c] mb-5 leading-tight">
-                    Elits Curriculum
+                    ELITS CURRICULUM
                   </h2>
                   <p className="text-[#4a4a4a] font-poppins text-[15px] leading-relaxed max-w-[420px]">
                     The ELITS Curriculum is an integration between the international curriculum (Pearson Edexcel) and the national curriculum.

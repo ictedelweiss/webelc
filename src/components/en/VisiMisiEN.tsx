@@ -88,37 +88,37 @@ export default function VisiMisiEN() {
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Developing a Quality Educational System
+                Developing a quality educational system
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Developing Healthy Students with High Intellect, Noble Character, and Local and Global Perspectives
+                Developing healthy students with high intellect, noble character, and local and global perspectives
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Developing Competent Educators and Educational Staff in Carrying Out Their Professional Duties
+                Developing competent educators and educational staff in carrying out their professional duties
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Developing an Inspiring, Innovative, and Adaptive Learning Process to Change and the Environment
+                Developing an inspiring, innovative, and adaptive learning process to change and the environment
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Preparing a Fun and Challenging Educational Environment to Support a Quality Learning Process
+                Preparing a fun and challenging educational environment to support a quality learning process
               </p>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#293C88] font-bold mt-1">•</span>
               <p className="text-[#333] font-poppins text-base">
-                Establishing Strategic Partnerships to Achieve Educational Goals
+                Establishing strategic partnerships to achieve educational goals
               </p>
             </li>
           </ul>
