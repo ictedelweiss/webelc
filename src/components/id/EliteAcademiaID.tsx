@@ -13,11 +13,13 @@ export default function EliteAcademiaID() {
             Homepage <span className="text-[#868686]">|</span> Programs <span className="text-[#868686]">|</span> Elite Academia
           </p>
 
-          {/* White Container for Title Only */}
-          <div className="w-[298px] h-[75px] rounded-[68px] bg-white shadow-lg flex items-center justify-center mx-auto mb-12">
-            <p className="text-[#293C88] font-poppins text-2xl font-bold text-center">
-              Elite Academia
-            </p>
+          {/* Elite Academia Logo */}
+          <div className="flex items-center justify-center mx-auto mb-12">
+            <img
+              src="/BkHorizontal14.png"
+              alt="Elite Academia"
+              className="h-[60px] md:h-[75px] w-auto object-contain"
+            />
           </div>
 
           {/* Main Title Section */}
