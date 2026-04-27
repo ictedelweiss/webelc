@@ -4,6 +4,7 @@ import "./globals.css";
 import "@/styles/article-responsive.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 import { LanguageProvider } from "@/context/LanguageContext";
 
 const poppins = Poppins({
@@ -71,6 +72,9 @@ export default function RootLayout({
 
           {/* Footer */}
           <Footer />
+
+          {/* WhatsApp Floating Button */}
+          <WhatsAppFloatingButton />
         </LanguageProvider>
       </body>
     </html>
