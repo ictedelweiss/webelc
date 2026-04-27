@@ -5,8 +5,8 @@
  */
 
 import { useState, useCallback, useEffect, useRef } from 'react';
-import { ApiResponse } from '../types';
-import { logError } from '../utils/error-handler';
+import { ApiResponse } from '../lib/types';
+import { logError } from '../lib/utils/error-handler';
 
 // ─────────────────────────────────────────────
 // useAsync - Manage async operations
@@ -151,7 +151,7 @@ export function useToggle(initialValue: boolean = false) {
 // ─────────────────────────────────────────────
 
 export function usePrevious<T>(value: T): T | undefined {
-  const ref = useRef<T>();
+  const ref = useRef<T>(undefined);
 
   useEffect(() => {
     ref.current = value;

@@ -139,7 +139,7 @@ export async function retryAsync<T>(
 export function validateFile(
   file: File,
   maxSize: number,
-  acceptedTypes: string[],
+  acceptedTypes: readonly string[],
 ): { valid: boolean; error?: string } {
   if (file.size > maxSize) {
     return {

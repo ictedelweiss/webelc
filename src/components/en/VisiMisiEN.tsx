@@ -42,15 +42,6 @@ export default function VisiMisiEN() {
           />
         </div>
 
-        {/* Yellow circle icon on right */}
-        <div className="absolute right-4 md:right-[100px] top-[20px]">
-          <div className="w-[60px] h-[60px] rounded-full bg-[#FED700] flex items-center justify-center">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#293C88" strokeWidth="2">
-              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-            </svg>
-          </div>
-        </div>
-
         <div className="max-w-[800px] mx-auto text-center px-4 md:px-8">
           <h2 className="text-[#293C88] font-poppins text-2xl md:text-[42px] font-bold">
             Vision
