@@ -16,9 +16,9 @@ export default function EliteAcademiaEN() {
           {/* Elite Academia Logo */}
           <div className="flex items-center justify-center mx-auto mb-12">
             <img
-              src="/BkHorizontal14.png"
+              src="/logo-elite-academia.png"
               alt="Elite Academia"
-              className="h-[60px] md:h-[75px] w-auto object-contain"
+              className="h-[60px] md:h-[80px] w-auto object-contain"
             />
           </div>
 
