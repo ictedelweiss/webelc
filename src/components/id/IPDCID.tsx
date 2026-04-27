@@ -1,259 +1,176 @@
 export default function IPDCID() {
   return (
-    <div className="bg-white min-h-screen w-full">
+    <div className="bg-white min-h-screen w-full font-poppins">
 
-      {/* SECTION 1: Yellow Hero with Breadcrumb and Title */}
-      <div className="relative w-full bg-[#FFF4BA] py-16 overflow-hidden">
-        <div className="max-w-screen-xl mx-auto px-6">
-          {/* Breadcrumb */}
-          <p className="text-[#293C88] font-poppins text-sm mb-8">
-            Homepage <span className="text-[#868686]">|</span> Programs <span className="text-[#868686]">|</span> IPDC
-          </p>
-
-          {/* White Container for Title - Rounded pill shape */}
-          <div className="w-56 h-16 rounded-full bg-white shadow-md flex items-center justify-center mx-auto mb-6">
-            <p className="text-[#293C88] font-poppins text-2xl font-bold text-center">
-              IPDC
-            </p>
-          </div>
-
-          {/* Main Title and Description Section */}
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-bold text-[#293C88] mb-4">
-              Indonesia Pedagogics Development Center
-            </h1>
-            <p className="text-[#000] font-poppins text-sm md:text-base font-medium leading-relaxed">
-              Program pengembangan kepemimpinan dan profesional guru kualitas global yang memperkuat strategi mengajar inovatif, melalui pelatihan intensif pada kurikulum internasional.
-            </p>
-          </div>
-        </div>
-
-        {/* Decorative image */}
+      {/* ── HERO SECTION ───────────────────────────────────────────── */}
+      <div className="relative w-full bg-[#FFF4BA] overflow-hidden">
+        {/* Decorative blobs */}
+        <div className="absolute -top-10 -left-10 w-72 h-72 bg-[#293C88] opacity-5 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#293C88] opacity-5 rounded-full blur-3xl" />
         <img
           src="/ElitePng142.png"
-          className="w-40 h-32 absolute right-20 top-16 max-w-none hidden md:block"
+          className="w-36 h-28 absolute right-16 top-12 max-w-none hidden md:block opacity-80"
           alt="Decoration"
         />
+
+        <div className="max-w-screen-xl mx-auto px-6 py-20 relative z-10">
+          {/* Breadcrumb */}
+          <p className="text-[#293C88] text-sm mb-10">
+            Homepage <span className="text-[#868686] mx-1">|</span> Programs <span className="text-[#868686] mx-1">|</span> IPDC
+          </p>
+
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 bg-[#293C88] text-white text-xs font-semibold px-5 py-2 rounded-full mb-6 tracking-wide uppercase">
+            <span className="w-2 h-2 rounded-full bg-[#FED700] inline-block" />
+            Program Profesional
+          </div>
+
+          {/* Title */}
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#293C88] leading-tight mb-6 max-w-3xl">
+            Indonesia Pedagogic<br />
+            <span className="text-[#FED700] drop-shadow-sm">Development Centre</span>
+          </h1>
+
+          {/* Underline accent */}
+          <div className="w-24 h-1.5 bg-[#293C88] rounded-full mb-8" />
+
+          {/* Description */}
+          <p className="text-[#1a1a1a] text-base md:text-lg font-medium leading-relaxed max-w-2xl">
+            Akademi pelatihan profesional yang berfokus pada pengembangan guru untuk berkarier secara sukses di lingkungan sekolah internasional.
+          </p>
+        </div>
       </div>
 
-      {/* SECTION 2: Image Gallery */}
+      {/* ── ABOUT SECTION ──────────────────────────────────────────── */}
       <div className="w-full py-20 bg-white relative overflow-hidden">
-        <div className="max-w-screen-xl mx-auto px-6">
-          <h2 className="text-[40px] font-bold text-[#293C88] text-center mb-16">
-            Galeri Program
-          </h2>
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#FFF4BA] rounded-full opacity-40 blur-3xl -z-0" />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="rounded-[15px] overflow-hidden shadow-md">
-              <img 
-                src="/Rectangle112.png" 
-                alt="Program Gallery 1"
-                className="w-full h-64 object-cover"
-              />
+        <div className="max-w-screen-xl mx-auto px-6 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+            {/* Left — text */}
+            <div className="flex flex-col space-y-6">
+              <p className="text-[#293C88] font-semibold text-sm uppercase tracking-widest">Tentang IPDC</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#293C88] leading-snug">
+                Membentuk Guru Kelas Dunia
+              </h2>
+              <div className="w-16 h-1 bg-[#FED700] rounded-full" />
+              <p className="text-[#444] text-base leading-relaxed">
+                Indonesia Pedagogic Development Centre (IPDC) adalah akademi pelatihan profesional yang berfokus pada pengembangan guru untuk berkarier secara sukses di lingkungan sekolah internasional.
+              </p>
+              <p className="text-[#444] text-base leading-relaxed">
+                Tujuannya adalah membekali para pendidik dengan pengetahuan khusus dan keterampilan praktis yang dibutuhkan untuk mencapai dan mempertahankan keunggulan dalam mengajar di lingkungan akademik global.
+              </p>
             </div>
-            <div className="rounded-[15px] overflow-hidden shadow-md">
-              <img 
-                src="/Rectangle113.png" 
-                alt="Program Gallery 2"
-                className="w-full h-64 object-cover"
-              />
+
+            {/* Right — quote card */}
+            <div className="relative">
+              <div className="bg-[#293C88] rounded-3xl p-10 text-white shadow-2xl relative overflow-hidden">
+                <div className="absolute -top-6 -right-6 w-32 h-32 bg-white opacity-5 rounded-full" />
+                <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#FED700] opacity-10 rounded-full blur-xl" />
+                <span className="text-6xl font-serif text-[#FED700] leading-none block mb-4">"</span>
+                <p className="text-white/90 text-lg leading-relaxed font-medium italic">
+                  Membekali para pendidik dengan pengetahuan khusus dan keterampilan praktis untuk mencapai keunggulan mengajar di lingkungan akademik global.
+                </p>
+                <div className="mt-8 pt-6 border-t border-white/20 flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-[#FED700] flex items-center justify-center text-[#293C88] font-bold text-sm">IP</div>
+                  <div>
+                    <p className="font-bold text-white text-sm">IPDC</p>
+                    <p className="text-white/60 text-xs">Indonesia Pedagogic Development Centre</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="rounded-[15px] overflow-hidden shadow-md">
-              <img 
-                src="/Rectangle114.png" 
-                alt="Program Gallery 3"
-                className="w-full h-64 object-cover"
-              />
-            </div>
+
           </div>
         </div>
       </div>
 
-      {/* SECTION 3: Core Programs */}
-      <div className="w-full py-20 relative overflow-hidden">
+      {/* ── TRAINING HIGHLIGHTS ────────────────────────────────────── */}
+      <div className="w-full py-20 bg-[#F8F8F8] relative overflow-hidden">
         <div className="max-w-screen-xl mx-auto px-6">
-          <h2 className="text-[40px] font-bold text-[#293C88] mb-12">
-            Program Kami
-          </h2>
 
-          {/* 4 Program Cards in 2x2 Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="text-center mb-14">
+            <p className="text-[#293C88] font-semibold text-sm uppercase tracking-widest mb-3">Apa Yang Kami Tawarkan</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#293C88]">Pelatihan Intensif Pendidikan Global</h2>
+            <p className="text-[#666] text-base mt-4 max-w-xl mx-auto leading-relaxed">
+              Lembaga ini menawarkan pelatihan intensif dalam elemen utama pendidikan global yang mencakup berbagai aspek kunci.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 */}
-            <div className="bg-[#FFF4BA] rounded-[20px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-3">
-                Pengembangan Kurikulum
-              </h3>
-              <p className="text-[#000] font-poppins text-base">
-                Penelitian dan pengembangan kurikulum yang disesuaikan dengan kebutuhan pendidikan Indonesia dan standar internasional
+            <div className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-xl bg-[#FFF4BA] flex items-center justify-center mb-5 group-hover:bg-[#293C88] transition-colors duration-300">
+                <svg className="w-6 h-6 text-[#293C88] group-hover:text-[#FED700] transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="text-[#293C88] text-lg font-bold mb-2 leading-snug">Kurikulum Internasional</h3>
+              <p className="text-[#868686] text-sm leading-relaxed">
+                Penguasaan struktur & penerapan kurikulum global seperti Pearson, Cambridge, dan IB.
               </p>
             </div>
 
             {/* Card 2 */}
-            <div className="bg-[#FFF4BA] rounded-[20px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-3">
-                Pelatihan Pendidik
-              </h3>
-              <p className="text-[#000] font-poppins text-base">
-                Program pelatihan komprehensif untuk meningkatkan kompetensi dan kapasitas guru dan tenaga pendidik
+            <div className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-xl bg-[#FFF4BA] flex items-center justify-center mb-5 group-hover:bg-[#293C88] transition-colors duration-300">
+                <svg className="w-6 h-6 text-[#293C88] group-hover:text-[#FED700] transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className="text-[#293C88] text-lg font-bold mb-2 leading-snug">Manajemen Kelas Tingkat Lanjut</h3>
+              <p className="text-[#868686] text-sm leading-relaxed">
+                Strategi manajemen kelas mutakhir untuk lingkungan belajar yang efektif dan kondusif.
               </p>
             </div>
 
             {/* Card 3 */}
-            <div className="bg-[#FFF4BA] rounded-[20px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-3">
-                Konsultasi Pendidikan
-              </h3>
-              <p className="text-[#000] font-poppins text-base">
-                Layanan konsultasi profesional untuk institusi pendidikan yang ingin meningkatkan kualitas pembelajaran
+            <div className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-xl bg-[#FFF4BA] flex items-center justify-center mb-5 group-hover:bg-[#293C88] transition-colors duration-300">
+                <svg className="w-6 h-6 text-[#293C88] group-hover:text-[#FED700] transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 className="text-[#293C88] text-lg font-bold mb-2 leading-snug">Strategi Pedagogis & Psikologis</h3>
+              <p className="text-[#868686] text-sm leading-relaxed">
+                Pendekatan berbasis psikologi perkembangan anak untuk pengajaran yang lebih berdampak.
               </p>
             </div>
 
             {/* Card 4 */}
-            <div className="bg-[#FFF4BA] rounded-[20px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-3">
-                Penelitian & Evaluasi
-              </h3>
-              <p className="text-[#000] font-poppins text-base">
-                Riset mendalam tentang efektivitas metodologi pembelajaran dan evaluasi program pendidikan
+            <div className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-xl bg-[#FFF4BA] flex items-center justify-center mb-5 group-hover:bg-[#293C88] transition-colors duration-300">
+                <svg className="w-6 h-6 text-[#293C88] group-hover:text-[#FED700] transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-[#293C88] text-lg font-bold mb-2 leading-snug">Keselamatan Siswa</h3>
+              <p className="text-[#868686] text-sm leading-relaxed">
+                Praktik terbaik dalam menjaga keselamatan dan kesejahteraan siswa di lingkungan sekolah.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* SECTION 4: Focus Areas */}
-      <div className="w-full py-20 bg-[#FFF4BA] relative overflow-hidden">
-        <div className="absolute left-0 top-1/4 w-40 h-40 bg-[#293C88] rounded-full opacity-10 -z-10" />
-        
-        <div className="max-w-screen-xl mx-auto px-6">
-          <h2 className="text-[40px] font-bold text-[#293C88] text-center mb-16">
-            Area Fokus
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Focus 1 */}
-            <div className="bg-white rounded-[15px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-4">
-                Literasi Dasar & Numerasi
-              </h3>
-              <p className="text-[#000] font-poppins text-base mb-6">
-                Pengembangan metodologi pembelajaran membaca, menulis, dan berhitung yang efektif dan menyenangkan
-              </p>
-              <div className="space-y-2">
-                <p className="text-[#868686] font-poppins text-sm">✓ Kurikulum literasi terintegrasi</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Strategi pembelajaran aktif</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Penilaian formatif</p>
-              </div>
-            </div>
-
-            {/* Focus 2 */}
-            <div className="bg-white rounded-[15px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-4">
-                Pendidikan Karakter
-              </h3>
-              <p className="text-[#000] font-poppins text-base mb-6">
-                Integrasi nilai-nilai karakter dan keterampilan hidup dalam setiap aspek pembelajaran
-              </p>
-              <div className="space-y-2">
-                <p className="text-[#868686] font-poppins text-sm">✓ Program karakter holistik</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Pembelajaran keterampilan sosial</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Kepemimpinan siswa</p>
-              </div>
-            </div>
-
-            {/* Focus 3 */}
-            <div className="bg-white rounded-[15px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-4">
-                Teknologi dalam Pendidikan
-              </h3>
-              <p className="text-[#000] font-poppins text-base mb-6">
-                Pemanfaatan teknologi untuk meningkatkan efektivitas dan aksesibilitas pembelajaran
-              </p>
-              <div className="space-y-2">
-                <p className="text-[#868686] font-poppins text-sm">✓ Platform pembelajaran digital</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Blended learning</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Literasi digital</p>
-              </div>
-            </div>
-
-            {/* Focus 4 */}
-            <div className="bg-white rounded-[15px] p-8">
-              <h3 className="text-[#293C88] text-2xl font-bold mb-4">
-                Inklusi & Keberagaman
-              </h3>
-              <p className="text-[#000] font-poppins text-base mb-6">
-                Memastikan semua peserta didik memiliki akses pendidikan berkualitas tanpa diskriminasi
-              </p>
-              <div className="space-y-2">
-                <p className="text-[#868686] font-poppins text-sm">✓ Pembelajaran inklusif</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Pendidikan khusus</p>
-                <p className="text-[#868686] font-poppins text-sm">✓ Kesetaraan pendidikan</p>
-              </div>
-            </div>
+      {/* ── BOTTOM CTA BANNER ──────────────────────────────────────── */}
+      <div className="w-full bg-[#293C88] py-16 px-6 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-80 h-80 bg-white opacity-5 rounded-full -translate-y-1/2 translate-x-1/2" />
+        <div className="absolute bottom-0 left-0 w-60 h-60 bg-[#FED700] opacity-10 rounded-full translate-y-1/2 -translate-x-1/2" />
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
+          <div>
+            <p className="text-[#FED700] font-semibold text-sm uppercase tracking-widest mb-2">Bergabunglah Bersama Kami</p>
+            <h2 className="text-white text-3xl md:text-4xl font-bold leading-tight">
+              Siap Meningkatkan Karier<br className="hidden md:block" /> Mengajar Anda?
+            </h2>
           </div>
-        </div>
-      </div>
-
-      {/* SECTION 5: Our Achievements */}
-      <div className="w-full py-20 relative overflow-hidden">
-        <div className="max-w-screen-xl mx-auto px-6">
-          <h2 className="text-[40px] font-bold text-[#293C88] text-center mb-16">
-            Pencapaian Kami
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {/* Achievement 1 */}
-            <div className="bg-[#F5F5F5] rounded-[15px] p-8 text-center">
-              <h3 className="text-[32px] font-bold text-[#FED700] mb-2">
-                100+
-              </h3>
-              <p className="text-[#293C88] font-poppins font-semibold text-base">
-                Institusi Pendidikan
-              </p>
-              <p className="text-[#868686] font-poppins text-sm mt-2">
-                Telah mendapat konsultasi
-              </p>
-            </div>
-
-            {/* Achievement 2 */}
-            <div className="bg-[#F5F5F5] rounded-[15px] p-8 text-center">
-              <h3 className="text-[32px] font-bold text-[#FED700] mb-2">
-                500+
-              </h3>
-              <p className="text-[#293C88] font-poppins font-semibold text-base">
-                Pendidik Terlatih
-              </p>
-              <p className="text-[#868686] font-poppins text-sm mt-2">
-                Melalui program pelatihan
-              </p>
-            </div>
-
-            {/* Achievement 3 */}
-            <div className="bg-[#F5F5F5] rounded-[15px] p-8 text-center">
-              <h3 className="text-[32px] font-bold text-[#FED700] mb-2">
-                20+
-              </h3>
-              <p className="text-[#293C88] font-poppins font-semibold text-base">
-                Tahun Pengalaman
-              </p>
-              <p className="text-[#868686] font-poppins text-sm mt-2">
-                Dalam pengembangan pendidikan
-              </p>
-            </div>
-
-            {/* Achievement 4 */}
-            <div className="bg-[#F5F5F5] rounded-[15px] p-8 text-center">
-              <h3 className="text-[32px] font-bold text-[#FED700] mb-2">
-                15+
-              </h3>
-              <p className="text-[#293C88] font-poppins font-semibold text-base">
-                Kurikulum Inovatif
-              </p>
-              <p className="text-[#868686] font-poppins text-sm mt-2">
-                Dikembangkan dan diimplementasikan
-              </p>
-            </div>
-          </div>
+          <a
+            href="/kontak"
+            className="shrink-0 bg-[#FED700] text-[#293C88] font-bold text-base px-8 py-4 rounded-full hover:bg-white transition-colors duration-300 shadow-lg"
+          >
+            Hubungi Kami
+          </a>
         </div>
       </div>
 

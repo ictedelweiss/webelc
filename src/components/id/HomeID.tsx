@@ -212,7 +212,7 @@ export default function HomeID() {
                 {/* Program Belajar yang Beragam */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonProgramBelajarBeragam.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Program Belajar yang Beragam" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Program Belajar yang Beragam</h3>
@@ -225,7 +225,7 @@ export default function HomeID() {
                 {/* Rasio Siswa yang Ideal */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonSiswaIdeal.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Rasio Siswa yang Ideal" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Rasio Siswa yang Ideal</h3>
@@ -238,7 +238,7 @@ export default function HomeID() {
                 {/* Fasilitas Moderen */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonFasilitas.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Fasilitas Moderen" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Fasilitas Moderen</h3>
@@ -277,10 +277,10 @@ export default function HomeID() {
 
               {/* --- SECOND SET (Duplicate for seamless loop) --- */}
               <div className="flex gap-6 pr-6" aria-hidden="true">
-                {/* Pengajar Profesional */}
+                {/* Pembelajaran yang Menyenangkan */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonPembelajaranMenyenangkan.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pembelajaran yang Menyenangkan" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Pembelajaran yang Menyenangkan</h3>
