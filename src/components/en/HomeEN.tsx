@@ -95,7 +95,7 @@ export default function HomeEN() {
               <img src="/Rectangle123(1).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 object-center" alt="IPDC" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Indonesia Pedagogics Development Center</h3>
+                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Indonesia Pedagogic Development Centre</h3>
                 <hr className="w-full border-white/50 mb-3" />
                 <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">A professional development program for teachers to strengthen innovative teaching strategies and leadership skills.</p>
                 <a href="/program/ipdc" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
@@ -206,10 +206,10 @@ export default function HomeEN() {
                   </div>
                 </div>
 
-                {/* Program Belajar yang Beragam */}
+                {/* Diverse Learning Programs */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonProgramBelajarBeragam.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Diverse Learning Programs" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Diverse Learning Programs</h3>
@@ -219,10 +219,10 @@ export default function HomeEN() {
                   </div>
                 </div>
 
-                {/* Rasio Siswa yang Ideal */}
+                {/* Ideal Student Ratio */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonSiswaIdeal.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Ideal Student Ratio" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Ideal Student Ratio</h3>
@@ -232,10 +232,10 @@ export default function HomeEN() {
                   </div>
                 </div>
 
-                {/* Fasilitas Moderen */}
+                {/* Modern Facilities */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonFasilitas.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Modern Facilities" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Modern Facilities</h3>
@@ -274,10 +274,10 @@ export default function HomeEN() {
 
               {/* --- SECOND SET (Duplicate for seamless loop) --- */}
               <div className="flex gap-6 pr-6" aria-hidden="true">
-                {/* Pengajar Profesional */}
+                {/* Fun Learning */}
                 <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
                   <div className="shrink-0 mt-1">
-                    <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
+                    <img src="/IkonPembelajaranMenyenangkan.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Fun Learning" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Fun Learning</h3>
