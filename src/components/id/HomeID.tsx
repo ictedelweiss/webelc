@@ -205,11 +205,11 @@ export default function HomeID() {
               {/* --- FIRST SET --- */}
               <div className="flex gap-6 pr-6">
                 {/* Pengajar Profesional */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Pengajar Profesional</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Didukung oleh tim pengajar yang berdedikasi tinggi, kompeten, dan memahami psikologi perkembangan anak
@@ -218,11 +218,11 @@ export default function HomeID() {
                 </div>
 
                 {/* Program Belajar yang Beragam */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonProgramBelajarBeragam.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Program Belajar yang Beragam" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Program Belajar yang Beragam</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Kami menawarkan berbagai jalur pendidikan yang dapat diikuti oleh peserta didik.
@@ -231,11 +231,11 @@ export default function HomeID() {
                 </div>
 
                 {/* Rasio Siswa yang Ideal */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonSiswaIdeal.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Rasio Siswa yang Ideal" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Rasio Siswa yang Ideal</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Rasio siswa ideal demi memastikan proses pembelajaran yang personal dan efektif bagi setiap siswa.
@@ -244,11 +244,11 @@ export default function HomeID() {
                 </div>
 
                 {/* Fasilitas Moderen */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonFasilitas.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Fasilitas Moderen" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Fasilitas Moderen</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Fasilitas modern yang dirancang untuk mendukung proses belajar yang nyaman, modern dan efektif.
@@ -257,11 +257,11 @@ export default function HomeID() {
                 </div>
 
                 {/* Bersertifikasi ISO 21001 */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/ElitePng161.png" className="w-[60px] md:w-[92px] h-auto object-contain drop-shadow-sm" alt="ISO 21001" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Bersertifikasi ISO 21001</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Sistem manajemen pendidikan berstandar internasional yang menjamin kualitas, konsistensi, dan kepuasan layanan
@@ -269,13 +269,13 @@ export default function HomeID() {
                   </div>
                 </div>
 
-                {/* Kurikulum Fleksibel */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
-                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Kurikulum Fleksibel" />
+                {/* Pembelajaran Fleksibel dan Terpersonalisasi */}
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
+                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Pembelajaran Fleksibel dan Terpersonalisasi" />
                   </div>
-                  <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-[26px] leading-tight font-bold mb-3">Kurikulum Fleksibel & Personal</h3>
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-[#293C88] text-xl md:text-[22px] leading-tight font-bold mb-3">Pembelajaran Fleksibel dan Terpersonalisasi</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Metode pembelajaran yang disesuaikan dengan kebutuhan setiap siswa untuk memaksimalkan potensi mereka
                     </p>
@@ -286,24 +286,24 @@ export default function HomeID() {
               {/* --- SECOND SET (Duplicate for seamless loop) --- */}
               <div className="flex gap-6 pr-6" aria-hidden="true">
                 {/* Pembelajaran yang Menyenangkan */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonPembelajaranMenyenangkan.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pembelajaran yang Menyenangkan" />
                   </div>
-                  <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Pembelajaran yang Menyenangkan</h3>
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-[#293C88] text-xl md:text-[22px] leading-tight font-bold mb-3">Pembelajaran yang Menyenangkan</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
-                      menciptakan pengalaman belajar yang menyenangkan dan berkesan, sehingga siswa tidak hanya memahami konsep, tetapi juga menikmati proses belajar itu sendiri.
+                      Pengalaman belajar yang menyenangkan, membuat siswa tidak hanya memahami konsep, tetapi juga menikmati proses belajar itu sendiri.
                     </p>
                   </div>
                 </div>
 
                 {/* Bersertifikasi ISO 21001 */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/ElitePng161.png" className="w-[60px] md:w-[92px] h-auto object-contain drop-shadow-sm" alt="ISO 21001" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Bersertifikasi ISO 21001</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Sistem manajemen pendidikan berstandar internasional yang menjamin kualitas, konsistensi, dan kepuasan layanan
@@ -311,13 +311,13 @@ export default function HomeID() {
                   </div>
                 </div>
 
-                {/* Kurikulum Fleksibel */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
-                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Kurikulum Fleksibel" />
+                {/* Pembelajaran Fleksibel dan Terpersonalisasi */}
+                <div className="bg-[#F6F6F6] rounded-[24px] px-6 py-4 lg:px-7 lg:py-5 min-h-[140px] md:min-h-[155px] flex flex-row items-center gap-5 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
+                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Pembelajaran Fleksibel dan Terpersonalisasi" />
                   </div>
-                  <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-[26px] leading-tight font-bold mb-3">Kurikulum Fleksibel & Personal</h3>
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-[#293C88] text-xl md:text-[26px] leading-tight font-bold mb-3">Pembelajaran Fleksibel dan Terpersonalisasi</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Metode pembelajaran yang disesuaikan dengan kebutuhan setiap siswa untuk memaksimalkan potensi mereka
                     </p>

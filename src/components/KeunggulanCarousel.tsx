@@ -30,7 +30,7 @@ export default function KeunggulanCarousel() {
     if (!scrollContainer) return;
     let animationFrame: number;
     let scrollAmount = 0;
-    let direction = 1;
+    const direction = 1;
     const speed = 0.5; // px per frame
 
     function animate() {
@@ -66,7 +66,7 @@ export default function KeunggulanCarousel() {
               alt={card.alt}
               className="w-[70px] h-[90px] md:w-[87px] md:h-[97px] object-contain mr-6"
             />
-            <div>
+            <div className="h-full flex flex-col justify-center">
               <p className="text-[#293C88] font-poppins text-lg md:text-2xl font-bold mb-2">
                 {card.title}
               </p>

@@ -202,11 +202,11 @@ export default function HomeEN() {
               {/* --- FIRST SET --- */}
               <div className="flex gap-6 pr-6">
                 {/* Pengajar Profesional */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/ElitePng162.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Pengajar Profesional" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Professional Teachers</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Supported by a highly dedicated, competent teaching team who understands child development psychology
@@ -215,11 +215,11 @@ export default function HomeEN() {
                 </div>
 
                 {/* Diverse Learning Programs */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonProgramBelajarBeragam.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Diverse Learning Programs" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Diverse Learning Programs</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       We offer various educational pathways that can be followed by learners.
@@ -228,11 +228,11 @@ export default function HomeEN() {
                 </div>
 
                 {/* Ideal Student Ratio */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonSiswaIdeal.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Ideal Student Ratio" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Ideal Student Ratio</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       An ideal student ratio to ensure a personalized and effective learning process for every student.
@@ -241,11 +241,11 @@ export default function HomeEN() {
                 </div>
 
                 {/* Modern Facilities */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonFasilitas.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Modern Facilities" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Modern Facilities</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Modern facilities designed to support a comfortable, modern, and effective learning process.
@@ -254,11 +254,11 @@ export default function HomeEN() {
                 </div>
 
                 {/* Bersertifikasi ISO 21001 */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/ElitePng161.png" className="w-[60px] md:w-[92px] h-auto object-contain drop-shadow-sm" alt="ISO 21001" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">ISO 21001 Certified</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       An internationally standardized educational management system that guarantees quality, consistency, and service satisfaction
@@ -266,13 +266,13 @@ export default function HomeEN() {
                   </div>
                 </div>
 
-                {/* Kurikulum Fleksibel */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
-                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Kurikulum Fleksibel" />
+                {/* Flexible and Personalized Learning */}
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
+                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Flexible and Personalized Learning" />
                   </div>
-                  <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-[26px] leading-tight font-bold mb-3">Flexible & Personalized Curriculum</h3>
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-[#293C88] text-xl md:text-[26px] leading-tight font-bold mb-3">Flexible and Personalized Learning</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Learning methods tailored to the needs of each student to maximize their potential
                     </p>
@@ -283,11 +283,11 @@ export default function HomeEN() {
               {/* --- SECOND SET (Duplicate for seamless loop) --- */}
               <div className="flex gap-6 pr-6" aria-hidden="true">
                 {/* Fun Learning */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/IkonPembelajaranMenyenangkan.png" className="w-[60px] md:w-[87px] h-auto object-contain drop-shadow-sm" alt="Fun Learning" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">Fun Learning</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Creating an enjoyable and memorable learning experience, so students not only understand concepts but also enjoy the learning process itself.
@@ -296,11 +296,11 @@ export default function HomeEN() {
                 </div>
 
                 {/* Bersertifikasi ISO 21001 */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
                     <img src="/ElitePng161.png" className="w-[60px] md:w-[92px] h-auto object-contain drop-shadow-sm" alt="ISO 21001" />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center">
                     <h3 className="text-[#293C88] text-xl md:text-2xl font-bold mb-3">ISO 21001 Certified</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       An internationally standardized educational management system that guarantees quality, consistency, and service satisfaction
@@ -308,13 +308,13 @@ export default function HomeEN() {
                   </div>
                 </div>
 
-                {/* Kurikulum Fleksibel */}
-                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 flex flex-row items-start gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
-                  <div className="shrink-0 mt-1">
-                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Kurikulum Fleksibel" />
+                {/* Flexible and Personalized Learning */}
+                <div className="bg-[#F6F6F6] rounded-[24px] p-6 lg:p-8 min-h-[170px] md:min-h-[190px] flex flex-row items-center gap-6 w-[350px] md:w-[450px] lg:w-[500px] shrink-0 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200">
+                  <div className="shrink-0 flex items-center">
+                    <img src="/ElitePng163.png" className="w-[60px] md:w-[100px] h-auto object-contain drop-shadow-sm" alt="Flexible and Personalized Learning" />
                   </div>
-                  <div className="flex flex-col">
-                    <h3 className="text-[#293C88] text-xl md:text-[26px] leading-tight font-bold mb-3">Flexible & Personalized Curriculum</h3>
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-[#293C88] text-xl md:text-[26px] leading-tight font-bold mb-3">Flexible and Personalized Learning</h3>
                     <p className="text-[#868686] text-sm leading-relaxed">
                       Learning methods tailored to the needs of each student to maximize their potential
                     </p>
