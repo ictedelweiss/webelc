@@ -75,69 +75,77 @@ export default function HomeID() {
 
             {/* Elite Academia */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden">
-              <img src="/Rectangle123.png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Elite Academia" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+              <img src="/Rectangle123.png" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="Elite Academia" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Elite Academia Homeschooling</h3>
-                <hr className="w-full border-white/50 mb-3" />
-                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program homeschooling yang fleksibel dan memberikan pengalaman belajar personal sesuai kebutuhan dan tujuan setiap individu.</p>
-                <a href="/program/elite-academia" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
-                  Pelajari Selengkapnya
-                  <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
-                    <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
-                  </svg>
-                </a>
+                <h3 className="text-xl md:text-[25px] font-semibold leading-tight">Elite Academia Homeschooling</h3>
+                <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
+                  <hr className="w-full border-white/50 mt-3 mb-3" />
+                  <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">Program homeschooling yang fleksibel dan memberikan pengalaman belajar personal sesuai kebutuhan dan tujuan setiap individu.</p>
+                  <a href="/program/elite-academia" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                    Pelajari Selengkapnya
+                    <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
+                      <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
 
             {/* IPDC */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
-              <img src="/Rectangle123(1).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 object-center" alt="IPDC" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+              <img src="/Rectangle123(1).png" className="absolute inset-0 w-full h-full object-cover object-center transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="IPDC" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Indonesia Pedagogics Development Center</h3>
-                <hr className="w-full border-white/50 mb-3" />
-                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program pengembangan profesional bagi guru untuk memperkuat strategi mengajar inovatif dan kemampuan kepemimpinan.</p>
-                <a href="/program/ipdc" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
-                  Pelajari Selengkapnya
-                  <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
-                    <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
-                  </svg>
-                </a>
+                <h3 className="text-xl md:text-[25px] font-semibold leading-tight">Indonesia Pedagogics Development Center</h3>
+                <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
+                  <hr className="w-full border-white/50 mt-3 mb-3" />
+                  <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">Program pengembangan profesional bagi guru untuk memperkuat strategi mengajar inovatif dan kemampuan kepemimpinan.</p>
+                  <a href="/program/ipdc" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                    Pelajari Selengkapnya
+                    <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
+                      <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
 
             {/* Playteracy */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l lg:border-t-0 border-white/20">
-              <img src="/Rectangle123(3).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Playteracy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+              <img src="/Rectangle123(3).png" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="Playteracy" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">Playteracy</h3>
-                <hr className="w-full border-white/50 mb-3" />
-                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program literasi Bahasa Inggris berbasis metode Letterland Phonics yang membantu anak-anak mengembangkan kemampuan membaca dan menulis secara menyenangkan.</p>
-                <a href="/program/playteracy" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
-                  Pelajari Selengkapnya
-                  <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
-                    <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
-                  </svg>
-                </a>
+                <h3 className="text-xl md:text-[25px] font-semibold leading-tight">Playteracy</h3>
+                <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
+                  <hr className="w-full border-white/50 mt-3 mb-3" />
+                  <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">Program literasi Bahasa Inggris berbasis metode Letterland Phonics yang membantu anak-anak mengembangkan kemampuan membaca dan menulis secara menyenangkan.</p>
+                  <a href="/program/playteracy" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                    Pelajari Selengkapnya
+                    <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
+                      <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
 
             {/* English Course */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
-              <img src="/Rectangle123(2).png" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="English Course" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+              <img src="/Rectangle123(2).png" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="English Course" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
-                <h3 className="text-xl md:text-[25px] font-semibold mb-2 md:mb-4 leading-tight">English Course</h3>
-                <hr className="w-full border-white/50 mb-3" />
-                <p className="text-white/80 text-xs md:text-sm leading-relaxed mb-4">Program Bahasa Inggris komunikatif dan interaktif yang menekankan penguasaan keempat keterampilan berbahasa.</p>
-                <a href="/program/english-course" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
-                  Pelajari Selengkapnya
-                  <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
-                    <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
-                  </svg>
-                </a>
+                <h3 className="text-xl md:text-[25px] font-semibold leading-tight">English Course</h3>
+                <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
+                  <hr className="w-full border-white/50 mt-3 mb-3" />
+                  <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">Program Bahasa Inggris komunikatif dan interaktif yang menekankan penguasaan keempat keterampilan berbahasa.</p>
+                  <a href="/program/english-course" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                    Pelajari Selengkapnya
+                    <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
+                      <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
