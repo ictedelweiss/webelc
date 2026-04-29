@@ -159,10 +159,10 @@ export default function HomeID() {
           <img src="/ElitePng128.png" className="absolute left-[5%] top-[80%] w-[194px] h-[169px] z-10 hidden md:block" alt="Decoration" />
 
           <div className="max-w-screen-xl mx-auto px-4 lg:px-8 relative z-20">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
               {/* Left Content */}
-              <div className="flex flex-col space-y-6 pt-10 lg:pt-0">
+              <div className="flex flex-col space-y-6 pt-0">
                 <p className="text-[#293C88] text-base font-semibold">
                   Keunggulan Kami
                 </p>
@@ -178,16 +178,16 @@ export default function HomeID() {
               </div>
 
               {/* Right Photos - offset layout */}
-              <div className="relative w-full flex items-start justify-center gap-4 md:gap-6 mt-8 lg:mt-0">
+              <div className="relative w-full flex items-start justify-center gap-4 md:gap-6 mt-8 lg:mt-0 lg:-translate-y-8">
                 {/* Photo 1: Left - taller, top-aligned */}
                 <div className="flex-shrink-0 flex items-start">
                   <img src="/Rectangle76.png" className="w-[140px] sm:w-[180px] md:w-[240px] h-[280px] sm:h-[360px] md:h-[480px] object-cover shadow-xl rounded-2xl" alt="Student learning" />
                 </div>
 
-                {/* Photo 2: Right - shorter, positioned lower with white frame */}
+                {/* Photo 2: Right - taller and slightly raised */}
 
-                <div>
-                  <img src="/Rectangle75.png" className="w-[130px] sm:w-[170px] md:w-[240px] h-[240px] sm:h-[290px] md:h-[380px] object-cover rounded-lg" alt="Student happy" />
+                <div className="-translate-y-4 md:-translate-y-8">
+                  <img src="/Rectangle75.png" className="w-[130px] sm:w-[170px] md:w-[240px] h-[280px] sm:h-[360px] md:h-[480px] object-contain rounded-2xl" alt="Student happy" />
                 </div>
 
               </div>

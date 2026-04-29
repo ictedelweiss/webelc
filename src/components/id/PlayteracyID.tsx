@@ -172,12 +172,9 @@ export default function PlayteracyID() {
           </div>
 
           {/* Bottom Row - Steps 4 & 5 */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Empty space */}
-            <div className="hidden md:block"></div>
-
+          <div className="flex flex-col md:flex-row justify-center gap-6">
             {/* Step 4 */}
-            <div className="relative">
+            <div className="relative w-full md:w-[calc((100%_-_3rem)/3)]">
               <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
                 <div className="w-14 h-14 rounded-full bg-[#293C88] flex items-center justify-center shadow-md">
                   <p className="text-white text-3xl font-bold">4</p>
@@ -194,7 +191,7 @@ export default function PlayteracyID() {
             </div>
 
             {/* Step 5 */}
-            <div className="relative">
+            <div className="relative w-full md:w-[calc((100%_-_3rem)/3)]">
               <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
                 <div className="w-14 h-14 rounded-full bg-[#293C88] flex items-center justify-center shadow-md">
                   <p className="text-white text-3xl font-bold">5</p>
