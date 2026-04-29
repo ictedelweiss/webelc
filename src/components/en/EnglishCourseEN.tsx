@@ -209,16 +209,16 @@ export default function EnglishCourseEN() {
         <div className="absolute bottom-0 left-0 w-60 h-60 bg-[#FED700] opacity-10 rounded-full translate-y-1/2 -translate-x-1/2" />
         <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
           <div>
-            <p className="text-[#FED700] font-semibold text-sm uppercase tracking-widest mb-2">Wujudkan Mimpimu Bersama Kami</p>
+            <p className="text-[#FED700] font-semibold text-sm uppercase tracking-widest mb-2">Make Your Dream Come True With Us</p>
             <h2 className="text-white text-3xl md:text-4xl font-bold leading-tight">
-              Siap Melangkah ke Sekolah<br className="hidden md:block" /> Impianmu?
+              Ready to Step Into Your<br className="hidden md:block" /> Dream School?
             </h2>
           </div>
           <a
             href="/kontak"
             className="shrink-0 bg-[#FED700] text-[#293C88] font-bold text-base px-8 py-4 rounded-full hover:bg-white transition-colors duration-300 shadow-lg"
           >
-            Konsultasi Gratis
+            Free Consultation
           </a>
         </div>
       </div>
