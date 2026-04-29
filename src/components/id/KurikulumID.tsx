@@ -146,15 +146,15 @@ export default function KurikulumID() {
           {/* Top row: 2 boxes */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
             {/* National Curriculum Box */}
-            <div className="space-y-4">
-              <div className="flex justify-start">
-                <div className="rounded-full bg-[#293C88] px-6 py-2">
-                  <p className="text-white font-poppins font-bold text-sm">
+            <div>
+              <div className="flex justify-center relative z-10 -mb-7">
+                <div className="rounded-full bg-[#293C88] px-8 py-3 shadow-sm">
+                  <p className="text-white font-poppins font-bold text-base md:text-lg">
                     National Curriculum
                   </p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center">
+              <div className="bg-[#FFF4BA] rounded-xl p-8 pt-14 min-h-[220px] flex items-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed">
                   Kurikulum Nasional menggunakan pendekatan Deep Learning, yaitu pembelajaran yang berfokus pada pemahaman mendalam
                   terhadap konsep, keterkaitan antartopik, dan penerapan pengetahuan dalam situasi nyata.
@@ -164,15 +164,15 @@ export default function KurikulumID() {
             </div>
 
             {/* International Curriculum Box */}
-            <div className="space-y-4">
-              <div className="flex justify-start">
-                <div className="rounded-full bg-[#293C88] px-6 py-2">
-                  <p className="text-white font-poppins font-bold text-sm">
+            <div>
+              <div className="flex justify-center relative z-10 -mb-7">
+                <div className="rounded-full bg-[#293C88] px-8 py-3 shadow-sm">
+                  <p className="text-white font-poppins font-bold text-base md:text-lg">
                     International Curriculum
                   </p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center">
+              <div className="bg-[#FFF4BA] rounded-xl p-8 pt-14 min-h-[220px] flex items-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed">
                   Pearson Edexcel Curriculum adalah kurikulum internasional berbasis standar Inggris yang menekankan pada penguasaan konsep,
                   kemampuan berpikir kritis, analitis, serta keterampilan pemecahan masalah.
@@ -184,15 +184,15 @@ export default function KurikulumID() {
 
           {/* Bottom row: Letterland box centered */}
           <div className="flex justify-center">
-            <div className="space-y-4 w-full lg:w-2/3">
-              <div className="flex justify-center">
-                <div className="rounded-full bg-[#293C88] px-6 py-2">
-                  <p className="text-white font-poppins font-bold text-sm">
+            <div className="w-full lg:w-2/3">
+              <div className="flex justify-center relative z-10 -mb-7">
+                <div className="rounded-full bg-[#293C88] px-8 py-3 shadow-sm">
+                  <p className="text-white font-poppins font-bold text-base md:text-lg">
                     Letterland
                   </p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center justify-center">
+              <div className="bg-[#FFF4BA] rounded-xl p-8 pt-14 min-h-[220px] flex items-center justify-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed text-center">
                   Letterland adalah program phonics dari Inggris yang digunakan dalam pembelajaran literasi bahasa Inggris anak usia dini.
                   Melalui pendekatan visual, imajinatif, dan berbasis cerita, setiap huruf dan bunyi diwakili oleh karakter yang menarik,

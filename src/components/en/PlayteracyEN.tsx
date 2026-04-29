@@ -1,28 +1,32 @@
 export default function PlayteracyEN() {
   return (
-    <div className="bg-white min-h-screen w-full">
+    <div className="bg-white min-h-screen w-full font-poppins">
 
       {/* SECTION 1: Yellow Hero with Breadcrumb and Title */}
-      <div className="relative w-full bg-[#FFF4BA] py-16 overflow-hidden">
+      <div className="relative w-full bg-[#FFF4BA] py-20 overflow-hidden">
+        <div className="absolute -top-10 -left-10 w-72 h-72 bg-[#293C88] opacity-5 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#293C88] opacity-5 rounded-full blur-3xl" />
         <div className="max-w-screen-xl mx-auto px-6 relative z-10">
           {/* Breadcrumb */}
-          <p className="text-[#293C88] font-poppins text-sm mb-8">
+          <p className="text-[#293C88] font-poppins text-sm mb-10">
             Homepage <span className="text-[#868686]">|</span> Programs <span className="text-[#868686]">|</span> Playteracy
           </p>
 
           {/* White Container for Title - Rounded pill shape */}
-          <div className="w-[280px] h-[70px] rounded-full bg-white shadow-md flex items-center justify-center mx-auto mb-6">
-            <p className="text-[#293C88] font-poppins text-3xl font-bold text-center">
+          <div className="inline-flex items-center gap-2 bg-[#293C88] text-white text-xs font-semibold px-5 py-2 rounded-full mb-6 tracking-wide uppercase">
+            <span className="w-2 h-2 rounded-full bg-[#FED700] inline-block" />
+            <p className="text-white font-poppins text-xs font-semibold text-center">
               Playteracy
             </p>
           </div>
 
           {/* Main Title and Description Section */}
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-bold text-[#293C88] mb-4">
+          <div className="max-w-3xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#293C88] leading-tight mb-6">
               Play &amp; Literacy
             </h1>
-            <p className="text-[#000] font-poppins text-sm md:text-base font-medium leading-relaxed">
+            <div className="w-24 h-1.5 bg-[#293C88] rounded-full mb-8" />
+            <p className="text-[#1a1a1a] font-poppins text-base md:text-lg font-medium leading-relaxed">
               Playteracy is a flagship program of Edelweiss Learning Center specially designed for children aged 2–8 years. This program helps children recognize letters, sounds, and read in English through the Letterland Phonics method, which is a fun, contextual, and proven effective learning approach used in more than 110 countries worldwide.
             </p>
           </div>
@@ -31,23 +35,25 @@ export default function PlayteracyEN() {
         {/* Decorative image */}
         <img
           src="/ElitePng1217.png"
-          className="w-32 h-32 absolute left-0 bottom-0 max-w-none opacity-80 hidden md:block"
+          className="w-32 h-32 absolute left-0 bottom-0 max-w-none opacity-80 hidden md:block z-10"
           alt="Decoration"
         />
       </div>
 
       {/* SECTION 2: Why Choose Playteracy */}
-      <div className="w-full py-16 md:py-20 bg-white">
-        <div className="max-w-screen-xl mx-auto px-6">
-          <div className="mb-12">
-            <p className="text-[#293C88] font-poppins text-sm font-semibold mb-2">
+      <div className="w-full py-16 md:py-20 bg-white relative overflow-hidden">
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#FFF4BA] rounded-full opacity-40 blur-3xl -z-0" />
+        <div className="max-w-screen-xl mx-auto px-6 relative z-10">
+          <div className="mb-12 max-w-3xl">
+            <p className="text-[#293C88] font-poppins text-sm font-semibold uppercase tracking-widest mb-4">
               Our Excellence
             </p>
-            <h2 className="text-2xl md:text-4xl font-bold text-[#293C88] mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#293C88] mb-6 leading-snug">
               Why Choose Playteracy
             </h2>
-            <div className="border-l-4 border-l-[#FED700] pl-6">
-              <p className="text-[#000] font-poppins text-sm md:text-base leading-relaxed">
+            <div className="w-16 h-1 bg-[#FED700] rounded-full mb-6" />
+            <div>
+              <p className="text-[#444] font-poppins text-base leading-relaxed">
                 Playteracy provides a learning experience that unites play and literacy (play + literacy). Every learning session is packed with engaging stories, songs, games, and creative activities that make children learn without feeling like they are learning. 
               </p>
             </div>
@@ -55,41 +61,41 @@ export default function PlayteracyEN() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Card 1 */}
-            <div className="bg-[#F5F5F5] border-l-4 border-l-[#293C88] p-6 rounded-lg">
-              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3">
+            <div className="bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3 leading-snug">
                 Letterland Method
               </h3>
-              <p className="text-[#000] font-poppins text-sm leading-relaxed">
+              <p className="text-[#868686] font-poppins text-sm leading-relaxed">
                 Playteracy is a Letterland method originating from the UK and used in 110 countries. 
               </p>
             </div>
 
             {/* Card 2 */}
-            <div className="bg-[#F5F5F5] border-l-4 border-l-[#FED700] p-6 rounded-lg">
-              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3">
+            <div className="bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3 leading-snug">
                 Teaching using stories and characters
               </h3>
-              <p className="text-[#000] font-poppins text-sm leading-relaxed">
+              <p className="text-[#868686] font-poppins text-sm leading-relaxed">
                 Each letter is introduced through unique character figures and memorable stories, so children can recognize letter sounds naturally. With this phonics method, children will remember new sounds just by the story. 
               </p>
             </div>
 
             {/* Card 3 */}
-            <div className="bg-[#F5F5F5] border-l-4 border-l-[#FED700] p-6 rounded-lg">
-              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3">
+            <div className="bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3 leading-snug">
                 Multisensory learning method
               </h3>
-              <p className="text-[#000] font-poppins text-sm leading-relaxed">
+              <p className="text-[#868686] font-poppins text-sm leading-relaxed">
                 Multisensory learning method through music, movement, games, art, songs, and role play. Children learn by engaging all senses—through music, movement, games, art, songs, and role play, making the learning process more meaningful and fun. 
               </p>
             </div>
 
             {/* Card 4 */}
-            <div className="bg-[#F5F5F5] border-l-4 border-l-[#293C88] p-6 rounded-lg">
-              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3">
+            <div className="bg-white p-7 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+              <h3 className="text-[#293C88] font-poppins text-lg font-bold mb-3 leading-snug">
                 Letterland certified teachers
               </h3>
-              <p className="text-[#000] font-poppins text-sm leading-relaxed">
+              <p className="text-[#868686] font-poppins text-sm leading-relaxed">
                 Letterland certified teachers, all Playteracy educators at Edelweiss Learning Center have attended official training and are Letterland certified, ensuring professional teaching quality that meets international standards.
               </p>
             </div>
@@ -98,9 +104,10 @@ export default function PlayteracyEN() {
       </div>
 
       {/* SECTION 3: 5-Step Process */}
-      <div className="w-full py-16 md:py-20 bg-white">
-        <div className="max-w-screen-xl mx-auto px-6">
-          <h2 className="text-2xl md:text-4xl font-bold text-[#293C88] mb-8 text-center">
+      <div className="w-full py-16 md:py-20 bg-[#F8F8F8] relative overflow-hidden">
+        <div className="absolute left-0 top-1/3 w-80 h-80 bg-[#FFF4BA] rounded-full opacity-60 blur-3xl" />
+        <div className="max-w-screen-xl mx-auto px-6 relative z-10">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#293C88] mb-8 text-center">
             How to introduce reading through Playteracy?
           </h2>
 
@@ -118,7 +125,7 @@ export default function PlayteracyEN() {
                   <p className="text-white text-3xl font-bold">1</p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
+              <div className="bg-white rounded-2xl p-5 pt-10 shadow-sm border border-gray-100">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
                   Meet and get to know the sound characters. 
                 </h3>
@@ -135,7 +142,7 @@ export default function PlayteracyEN() {
                   <p className="text-white text-3xl font-bold">2</p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
+              <div className="bg-white rounded-2xl p-5 pt-10 shadow-sm border border-gray-100">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
                   Learn the sounds of English letters using singing and storytelling methods. 
                 </h3>
@@ -152,7 +159,7 @@ export default function PlayteracyEN() {
                   <p className="text-white text-3xl font-bold">3</p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
+              <div className="bg-white rounded-2xl p-5 pt-10 shadow-sm border border-gray-100">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
                   Recognize letter shapes.
                 </h3>
@@ -175,7 +182,7 @@ export default function PlayteracyEN() {
                   <p className="text-white text-3xl font-bold">4</p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
+              <div className="bg-white rounded-2xl p-5 pt-10 shadow-sm border border-gray-100">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
                   Start reading simple words
                 </h3>
@@ -192,7 +199,7 @@ export default function PlayteracyEN() {
                   <p className="text-white text-3xl font-bold">5</p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-5 pt-10">
+              <div className="bg-white rounded-2xl p-5 pt-10 shadow-sm border border-gray-100">
                 <h3 className="text-[#293C88] font-poppins text-sm font-bold mb-2 text-center">
                   Supporting activities
                 </h3>
@@ -206,16 +213,18 @@ export default function PlayteracyEN() {
       </div>
 
       {/* SECTION 4: Level Program */}
-      <div className="w-full py-16 md:py-20 bg-white">
+      <div className="w-full py-16 md:py-20 bg-white relative overflow-hidden">
+        <div className="absolute right-0 bottom-0 w-80 h-80 bg-[#FFF4BA] rounded-full opacity-50 blur-3xl" />
         <div className="max-w-screen-xl mx-auto px-6">
-          <h2 className="text-2xl md:text-4xl font-bold text-[#293C88] mb-10">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#293C88] mb-4">
             Program Levels
           </h2>
+          <div className="w-16 h-1 bg-[#FED700] rounded-full mb-10" />
 
           {/* 2x2 Grid of Level Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Level 1 */}
-            <div className="bg-[#F5F5F5] rounded-lg p-6 text-center">
+            <div className="bg-white rounded-2xl p-7 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
               <div className="bg-[#293C88] rounded-full py-2 px-6 inline-block mb-6">
                 <p className="text-[#FED700] font-poppins text-sm font-bold">
                   Level 1
@@ -230,7 +239,7 @@ export default function PlayteracyEN() {
             </div>
 
             {/* Level 2 */}
-            <div className="bg-[#F5F5F5] rounded-lg p-6 text-center">
+            <div className="bg-white rounded-2xl p-7 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
               <div className="bg-[#293C88] rounded-full py-2 px-6 inline-block mb-6">
                 <p className="text-[#FED700] font-poppins text-sm font-bold">
                   Level 2
@@ -245,7 +254,7 @@ export default function PlayteracyEN() {
             </div>
 
             {/* Level 3 */}
-            <div className="bg-[#F5F5F5] rounded-lg p-6 text-center">
+            <div className="bg-white rounded-2xl p-7 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
               <div className="bg-[#293C88] rounded-full py-2 px-6 inline-block mb-6">
                 <p className="text-[#FED700] font-poppins text-sm font-bold">
                   Level 3
@@ -260,7 +269,7 @@ export default function PlayteracyEN() {
             </div>
 
             {/* Level 4 */}
-            <div className="bg-[#F5F5F5] rounded-lg p-6 text-center">
+            <div className="bg-white rounded-2xl p-7 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
               <div className="bg-[#293C88] rounded-full py-2 px-6 inline-block mb-6">
                 <p className="text-[#FED700] font-poppins text-sm font-bold">
                   Level 4

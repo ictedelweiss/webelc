@@ -144,15 +144,15 @@ export default function KurikulumEN() {
           {/* Top row: 2 boxes */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
             {/* National Curriculum Box */}
-            <div className="space-y-4">
-              <div className="flex justify-start">
-                <div className="rounded-full bg-[#293C88] px-6 py-2">
-                  <p className="text-white font-poppins font-bold text-sm">
+            <div>
+              <div className="flex justify-center relative z-10 -mb-7">
+                <div className="rounded-full bg-[#293C88] px-8 py-3 shadow-sm">
+                  <p className="text-white font-poppins font-bold text-base md:text-lg">
                     National Curriculum
                   </p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center">
+              <div className="bg-[#FFF4BA] rounded-xl p-8 pt-14 min-h-[220px] flex items-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed">
                   The National Curriculum utilizes a Deep Learning approach, which focuses on a deep understanding of concepts, the interconnections between topics, and the application of knowledge in real-life situations.
                   This approach encourages students to think reflectively, collaboratively, and creatively, as well as fosters character development.
@@ -161,15 +161,15 @@ export default function KurikulumEN() {
             </div>
 
             {/* International Curriculum Box */}
-            <div className="space-y-4">
-              <div className="flex justify-start">
-                <div className="rounded-full bg-[#293C88] px-6 py-2">
-                  <p className="text-white font-poppins font-bold text-sm">
+            <div>
+              <div className="flex justify-center relative z-10 -mb-7">
+                <div className="rounded-full bg-[#293C88] px-8 py-3 shadow-sm">
+                  <p className="text-white font-poppins font-bold text-base md:text-lg">
                     International Curriculum
                   </p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center">
+              <div className="bg-[#FFF4BA] rounded-xl p-8 pt-14 min-h-[220px] flex items-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed">
                   The Pearson Edexcel Curriculum is an international curriculum based on British standards that emphasizes concept mastery, critical and analytical thinking skills, as well as problem-solving abilities.
                   This curriculum encourages students to understand concepts deeply and apply them in various real-life contexts.
@@ -180,15 +180,15 @@ export default function KurikulumEN() {
 
           {/* Bottom row: Letterland box centered */}
           <div className="flex justify-center">
-            <div className="space-y-4 w-full lg:w-2/3">
-              <div className="flex justify-center">
-                <div className="rounded-full bg-[#293C88] px-6 py-2">
-                  <p className="text-white font-poppins font-bold text-sm">
+            <div className="w-full lg:w-2/3">
+              <div className="flex justify-center relative z-10 -mb-7">
+                <div className="rounded-full bg-[#293C88] px-8 py-3 shadow-sm">
+                  <p className="text-white font-poppins font-bold text-base md:text-lg">
                     Letterland
                   </p>
                 </div>
               </div>
-              <div className="bg-[#FFF4BA] rounded-xl p-8 min-h-[220px] flex items-center justify-center">
+              <div className="bg-[#FFF4BA] rounded-xl p-8 pt-14 min-h-[220px] flex items-center justify-center">
                 <p className="text-[#000] font-poppins text-base leading-relaxed text-center">
                   Letterland is a phonics program from the UK used in early childhood English literacy learning.
                   Through a visual, imaginative, and story-based approach, each letter and sound is represented by engaging characters,
