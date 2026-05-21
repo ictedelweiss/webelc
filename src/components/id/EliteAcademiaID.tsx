@@ -91,7 +91,7 @@ export default function EliteAcademiaID() {
             {/* Image on Left */}
             <div className="order-2 md:order-1">
               <img
-                src="/Rectangle60.png"
+                src="/elite_academia_why_choose.png"
                 alt="Elite Academia"
                 className="w-full rounded-3xl shadow-2xl"
               />
