@@ -11,7 +11,7 @@ const slides = [
     titleRight: null,
   },
   {
-    img: "/Rectangle48(6).png",
+    img: "/slider_elite.png",
     titleLine1: "Designed",
     titleLine2: "for You",
     subtitle: null,
@@ -19,21 +19,21 @@ const slides = [
     titleRightLine2: "Homeschooling",
   },
   {
-    img: "/Rectangle48(2).png",
+    img: "/slider_english_course.png",
     titleLine1: "Own Your",
     titleLine2: "English",
     subtitle: null,
     titleRight: "English Course",
   },
   {
-    img: "/Rectangle48(3).png",
+    img: "/slider_playteracy.png",
     titleLine1: "Find Your",
     titleLine2: "Words",
     subtitle: null,
     titleRight: "Playteracy",
   },
   {
-    img: "/Rectangle48(4).png",
+    img: "/slider_ipdc.png",
     titleLine1: "Teach with",
     titleLine2: "Impact",
     subtitle: null,
