@@ -75,7 +75,7 @@ export default function HomeID() {
 
             {/* Elite Academia */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden">
-              <img src="/homepage_elite.png" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="Elite Academia" />
+              <img src="/homepage_elite.webp" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="Elite Academia" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
                 <h3 className="text-xl md:text-[25px] font-semibold leading-tight">Elite Academia Homeschooling</h3>
@@ -94,7 +94,7 @@ export default function HomeID() {
 
             {/* IPDC */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
-              <img src="/homepage_ipdc.png" className="absolute inset-0 w-full h-full object-cover object-center transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="IPDC" />
+              <img src="/homepage_ipdc.webp" className="absolute inset-0 w-full h-full object-cover object-center transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="IPDC" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
                 <h3 className="text-xl md:text-[25px] font-semibold leading-tight">Indonesia Pedagogics Development Center</h3>
@@ -113,7 +113,7 @@ export default function HomeID() {
 
             {/* Playteracy */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l lg:border-t-0 border-white/20">
-              <img src="/homepage_playteracy.png" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="Playteracy" />
+              <img src="/homepage_playteracy.webp" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="Playteracy" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
                 <h3 className="text-xl md:text-[25px] font-semibold leading-tight">Playteracy</h3>
@@ -132,7 +132,7 @@ export default function HomeID() {
 
             {/* English Course */}
             <div className="group relative w-full h-[320px] sm:h-[400px] md:h-[440px] lg:h-[520px] overflow-hidden border-t md:border-t-0 md:border-l border-white/20">
-              <img src="/homepage_english_course.png" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="English Course" />
+              <img src="/homepage_english_course.webp" className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:blur-sm group-focus-within:scale-110 group-focus-within:blur-sm" alt="English Course" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/95 group-hover:via-black/55 group-focus-within:from-black/95 group-focus-within:via-black/55"></div>
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-8 flex flex-col items-start text-white">
                 <h3 className="text-xl md:text-[25px] font-semibold leading-tight">English Course</h3>
