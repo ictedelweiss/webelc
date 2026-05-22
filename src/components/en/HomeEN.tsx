@@ -178,13 +178,13 @@ export default function HomeEN() {
               <div className="relative w-full flex items-start justify-center gap-4 md:gap-6 mt-8 lg:mt-0 lg:-translate-y-8">
                 {/* Photo 1: Left - taller, top-aligned */}
                 <div className="flex-shrink-0 flex items-start">
-                  <img src="/Playteracy_WhyChoose.png" className="w-[140px] sm:w-[180px] md:w-[240px] h-[280px] sm:h-[360px] md:h-[480px] object-cover shadow-xl rounded-2xl" alt="Student learning" />
+                  <img src="/Playteracy_WhyChoose.webp" className="w-[140px] sm:w-[180px] md:w-[240px] h-[280px] sm:h-[360px] md:h-[480px] object-cover shadow-xl rounded-2xl" alt="Student learning" />
                 </div>
 
                 {/* Photo 2: Right - taller and slightly raised */}
 
                 <div className="-translate-y-4 md:-translate-y-8">
-                  <img src="/Elite_WhyChoose.png" className="w-[130px] sm:w-[170px] md:w-[240px] h-[280px] sm:h-[360px] md:h-[480px] object-contain rounded-2xl" alt="Student happy" />
+                  <img src="/Elite_WhyChoose.webp" className="w-[130px] sm:w-[170px] md:w-[240px] h-[340px] sm:h-[440px] md:h-[560px] object-cover rounded-2xl" alt="Student happy" />
                 </div>
 
               </div>
