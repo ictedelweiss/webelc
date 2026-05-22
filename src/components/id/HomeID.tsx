@@ -187,7 +187,7 @@ export default function HomeID() {
                 {/* Photo 2: Right - taller and slightly raised */}
 
                 <div className="-translate-y-4 md:-translate-y-8">
-                  <img src="/Elite_WhyChoose.webp" className="w-[130px] sm:w-[170px] md:w-[240px] h-[340px] sm:h-[440px] md:h-[560px] object-cover rounded-2xl" alt="Student happy" />
+                  <img src="/Elite_WhyChoose.webp" className="w-[130px] sm:w-[170px] md:w-[240px] h-[280px] sm:h-[360px] md:h-[480px] object-cover rounded-2xl" alt="Student happy" />
                 </div>
 
               </div>
