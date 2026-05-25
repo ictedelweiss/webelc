@@ -4,14 +4,14 @@ import { useState, useEffect, useCallback, useRef } from "react";
 
 const slides = [
   {
-    img: "/Rectangle48.png",
+    img: "/slider-7-values.png",
     titleLine1: "Seven Values Edelweiss",
     titleLine2: null,
     subtitle: "Respect, Independent, Religious, Accomplished, Knowledgeable, Integrity, Socially Responsible",
     titleRight: null,
   },
   {
-    img: "/slider_elite.webp",
+    img: "/slider-elite-fix.png",
     titleLine1: "Designed",
     titleLine2: "for You",
     subtitle: null,
@@ -19,14 +19,14 @@ const slides = [
     titleRightLine2: "Homeschooling",
   },
   {
-    img: "/slider_english_course.webp",
+    img: "/slider-ec-fix.png",
     titleLine1: "Own Your",
     titleLine2: "English",
     subtitle: null,
     titleRight: "English Course",
   },
   {
-    img: "/slider_playteracy.webp",
+    img: "/slider-playteracy-fix.png",
     titleLine1: "Find Your",
     titleLine2: "Words",
     subtitle: null,

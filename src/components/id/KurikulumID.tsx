@@ -53,14 +53,14 @@ export default function KurikulumID() {
             {/* Right: Student Images - hanya tampil di lg+ */}
             <div className="hidden lg:flex lg:col-span-2 justify-end gap-6 items-start">
               <img
-                src="/Rectangle108.png"
-                className="w-40 lg:w-48 h-64 lg:h-80 rounded-lg shadow-lg object-cover"
-                alt="Student 1"
+                src="/Kurikulum.png"
+                className="w-40 lg:w-48 h-80 lg:h-96 rounded-lg shadow-lg object-cover"
+                alt="Kurikulum 1"
               />
               <img
-                src="/Rectangle109.png"
-                className="w-40 lg:w-48 h-64 lg:h-80 rounded-lg shadow-lg object-cover"
-                alt="Student 2"
+                src="/Kurikulum2.png"
+                className="w-40 lg:w-48 h-80 lg:h-96 rounded-lg shadow-lg object-cover"
+                alt="Kurikulum 2"
               />
             </div>
           </div>
