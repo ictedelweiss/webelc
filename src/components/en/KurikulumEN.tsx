@@ -50,8 +50,8 @@ export default function KurikulumEN() {
               </div>
             </div>
 
-            {/* Right: Student Images - hanya tampil di lg+ */}
-            <div className="hidden lg:flex lg:col-span-2 justify-end gap-6 items-start">
+            {/* Right: Student Images */}
+            <div className="flex lg:col-span-2 justify-center lg:justify-end gap-4 lg:gap-6 items-start mt-8 lg:mt-0">
               <img
                 src="/Kurikulum.png"
                 className="w-40 lg:w-48 h-80 lg:h-96 rounded-lg shadow-lg object-cover"

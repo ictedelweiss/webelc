@@ -4,6 +4,15 @@ import { useState, useEffect, useCallback, useRef } from "react";
 
 const slides = [
   {
+    img: "/slider-open-admission.png",
+    titleLine1: null,
+    titleLine2: null,
+    subtitle: null,
+    titleRight: null,
+    isSpecial: true,
+    duration: 10000,
+  },
+  {
     img: "/slider-7-values.png",
     titleLine1: "Seven Values Edelweiss",
     titleLine2: null,
@@ -45,31 +54,24 @@ const slides = [
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
   const [animating, setAnimating] = useState(false);
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
-
-  const startTimer = useCallback(() => {
-    if (timerRef.current) clearInterval(timerRef.current);
-    timerRef.current = setInterval(() => {
-      setCurrent((c) => (c + 1) % slides.length);
-    }, 2000);
-  }, []);
 
   useEffect(() => {
-    startTimer();
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [startTimer]);
+    if (animating) return;
+    const duration = slides[current]?.duration || 2000;
+    const timer = setTimeout(() => {
+      setCurrent((c) => (c + 1) % slides.length);
+    }, duration);
+    return () => clearTimeout(timer);
+  }, [current, animating]);
 
   const goTo = useCallback(
     (index: number) => {
       if (animating) return;
       setAnimating(true);
       setCurrent(index);
-      startTimer();
       setTimeout(() => setAnimating(false), 500);
     },
-    [animating, startTimer]
+    [animating]
   );
 
   const next = useCallback(() => {
@@ -97,55 +99,70 @@ export default function HeroSlider() {
           <img
             src={s.img}
             className="w-full h-full object-cover object-center absolute inset-0"
-            alt={s.titleLine1}
+            alt={s.titleLine1 || "Slider Image"}
           />
 
           {/* Gradient Overlay for Text Readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+          {!s.isSpecial && (
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+          )}
 
           {/* Text Content overlaying the image */}
-          <div className="absolute bottom-8 md:bottom-20 left-0 w-full px-4 sm:px-8 md:px-16 lg:px-24 flex flex-col">
-            {/* Dividing Yellow Line */}
-            <div className="w-full h-[3px] bg-[#FFF4BA] mb-3 md:mb-6 rounded-full" />
+          {s.isSpecial ? (
+            <div className="absolute bottom-6 sm:bottom-10 md:bottom-16 lg:bottom-20 left-0 w-full px-4 sm:px-8 md:px-16 lg:px-24 flex z-20">
+              <a 
+                href="https://wa.me/6281287962774" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="bg-[#002B5B] hover:bg-[#001f40] text-white font-poppins font-semibold py-2 px-6 md:py-3 md:px-8 rounded-full shadow-lg transition duration-300 pointer-events-auto"
+              >
+                Contact Us
+              </a>
+            </div>
+          ) : (
+            <div className="absolute bottom-8 md:bottom-20 left-0 w-full px-4 sm:px-8 md:px-16 lg:px-24 flex flex-col z-20">
+              {/* Dividing Yellow Line */}
+              <div className="w-full h-[3px] bg-[#FFF4BA] mb-3 md:mb-6 rounded-full" />
 
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-end w-full gap-3 md:gap-8">
-              {/* Left: Main Title */}
-              <div className="flex flex-col flex-1">
-                <h2 className="text-[#FFF4BA] font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-wide drop-shadow-md capitalize">
-                  {s.titleLine1}
-                  {s.titleLine2 && (
-                    <>
-                      <br />
-                      <span>{s.titleLine2}</span>
-                    </>
-                  )}
-                </h2>
-                {s.subtitle && (
-                  <p className="text-white/90 font-poppins text-xs sm:text-sm md:text-base font-medium mt-2 md:mt-3 leading-relaxed tracking-wide max-w-2xl">
-                    {s.subtitle}
-                  </p>
-                )}
-              </div>
-
-              {/* Right: Program Name */}
-              {s.titleRight && (
-                <div className="flex-shrink-0 md:text-right">
-                  <span className="block text-white/60 font-poppins text-[10px] sm:text-xs uppercase tracking-[0.2em] mb-1">
-                    Program
-                  </span>
-                  <h3 className="text-[#FFF4BA] font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.15] drop-shadow-md capitalize tracking-wide">
-                    {s.titleRight}
-                    {s.titleRightLine2 && (
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-end w-full gap-3 md:gap-8">
+                {/* Left: Main Title */}
+                <div className="flex flex-col flex-1">
+                  <h2 className="text-[#FFF4BA] font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-wide drop-shadow-md capitalize">
+                    {s.titleLine1}
+                    {s.titleLine2 && (
                       <>
                         <br />
-                        <span>{s.titleRightLine2}</span>
+                        <span>{s.titleLine2}</span>
                       </>
                     )}
-                  </h3>
+                  </h2>
+                  {s.subtitle && (
+                    <p className="text-white/90 font-poppins text-xs sm:text-sm md:text-base font-medium mt-2 md:mt-3 leading-relaxed tracking-wide max-w-2xl">
+                      {s.subtitle}
+                    </p>
+                  )}
                 </div>
-              )}
+
+                {/* Right: Program Name */}
+                {s.titleRight && (
+                  <div className="flex-shrink-0 md:text-right">
+                    <span className="block text-white/60 font-poppins text-[10px] sm:text-xs uppercase tracking-[0.2em] mb-1">
+                      Program
+                    </span>
+                    <h3 className="text-[#FFF4BA] font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[1.15] drop-shadow-md capitalize tracking-wide">
+                      {s.titleRight}
+                      {s.titleRightLine2 && (
+                        <>
+                          <br />
+                          <span>{s.titleRightLine2}</span>
+                        </>
+                      )}
+                    </h3>
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       ))}
 

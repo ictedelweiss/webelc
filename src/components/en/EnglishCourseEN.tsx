@@ -55,8 +55,8 @@ export default function EnglishCourseEN() {
               </p>
             </div>
 
-            {/* Right side: Image - hidden on mobile */}
-            <div className="hidden lg:flex items-center justify-center">
+            {/* Right side: Image */}
+            <div className="flex items-center justify-center mt-8 lg:mt-0">
               <img src="/ec.png" alt="English Course" className="w-full max-w-md h-auto object-cover rounded-3xl shadow-2xl" />
             </div>
           </div>
