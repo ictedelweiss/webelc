@@ -114,6 +114,14 @@ export default function Navbar() {
           </button>
           
           <LanguageSwitcherUI />
+          <a
+            href="https://admission.edelweisslearningcenter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#FED700] text-[#293C88] font-poppins text-base font-semibold px-5 py-2 rounded-full hover:bg-yellow-400 transition-colors ml-2"
+          >
+            Enroll Now
+          </a>
         </nav>
       </div>
 
@@ -169,6 +177,17 @@ export default function Navbar() {
             <Link href="/kontak" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">Contact</Link>
             <Link href="/artikel" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">Articles</Link>
             <div className="px-4 py-2"><LanguageSwitcherUI /></div>
+            <div className="px-4 pt-2 pb-4">
+              <a
+                href="https://admission.edelweisslearningcenter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#FED700] text-[#293C88] font-poppins text-base font-semibold px-5 py-3 rounded-lg text-center block w-full hover:bg-yellow-400 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Enroll Now
+              </a>
+            </div>
           </div>
         </div>
       )}
