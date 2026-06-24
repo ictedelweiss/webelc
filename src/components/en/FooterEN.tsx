@@ -38,16 +38,16 @@ export default function Footer() {
               About<br />Edelweiss Learning<br />Center
             </p>
             <div className="flex flex-col gap-2 mt-2">
-              <Link href="/visi-misi" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/visi-misi" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 Vision and Mission
               </Link>
-              <Link href="/foundation" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/foundation" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 Foundation
               </Link>
-              <Link href="/kurikulum" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/kurikulum" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 Our Curriculum
               </Link>
-              <Link href="/kontak" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/kontak" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 Contact Us
               </Link>
             </div>
@@ -59,16 +59,16 @@ export default function Footer() {
               Edelweiss Learning<br />Center<br />Programs
             </p>
             <div className="flex flex-col gap-2 mt-2">
-              <Link href="/program/elite-academia" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/program/elite-academia" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 Elite Academia
               </Link>
-              <Link href="/program/english-course" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/program/english-course" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 English Course
               </Link>
-              <Link href="/program/playteracy" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/program/playteracy" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 Playteracy
               </Link>
-              <Link href="/program/ipdc" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
+              <Link href="/en/program/ipdc" className="text-white font-poppins text-base hover:text-[#FED700] transition-colors">
                 IPDC
               </Link>
             </div>

@@ -177,7 +177,7 @@ export default function EditArticleClient({ params }: { params: Promise<{ id: st
               <span className="font-normal text-amber-600 ml-2 text-xs">⚠ Mengubah slug dapat memutus link yang sudah tersebar</span>
             </label>
             <div className="flex rounded-xl overflow-hidden border border-gray-200 focus-within:ring-2 focus-within:ring-[#293C88] focus-within:border-transparent">
-              <span className="bg-gray-50 text-gray-700 px-3 py-2.5 text-sm border-r border-gray-200 flex-shrink-0">/artikel?slug=</span>
+              <span className="bg-gray-50 text-gray-700 px-3 py-2.5 text-sm border-r border-gray-200 flex-shrink-0">/artikel/</span>
               <input
                 type="text" name="slug" required
                 value={formData.slug} onChange={handleChange}

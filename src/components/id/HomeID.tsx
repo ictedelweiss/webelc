@@ -4,8 +4,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   "name": "Edelweiss Learning Center",
-  "url": "https://www.edelweisslearningcenter.com",
-  "logo": "https://www.edelweisslearningcenter.com/ElitePng112.png",
+  "url": "https://edelweisslearningcenter.com",
+  "logo": "https://edelweisslearningcenter.com/ElitePng112.png",
   "description": "Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi dengan program Elite Academia, English Course, Playteracy, dan IPDC sejak 2005.",
   "foundingDate": "2005",
   "address": {
@@ -22,10 +22,10 @@ const jsonLd = {
     "@type": "OfferCatalog",
     "name": "Program Pendidikan",
     "itemListElement": [
-      { "@type": "Course", "name": "Elite Academia", "url": "https://www.edelweisslearningcenter.com/program/elite-academia" },
-      { "@type": "Course", "name": "English Course", "url": "https://www.edelweisslearningcenter.com/program/english-course" },
-      { "@type": "Course", "name": "Playteracy", "url": "https://www.edelweisslearningcenter.com/program/playteracy" },
-      { "@type": "Course", "name": "IPDC", "url": "https://www.edelweisslearningcenter.com/program/ipdc" }
+      { "@type": "Course", "name": "Elite Academia", "url": "https://edelweisslearningcenter.com/program/elite-academia" },
+      { "@type": "Course", "name": "English Course", "url": "https://edelweisslearningcenter.com/program/english-course" },
+      { "@type": "Course", "name": "Playteracy", "url": "https://edelweisslearningcenter.com/program/playteracy" },
+      { "@type": "Course", "name": "IPDC", "url": "https://edelweisslearningcenter.com/program/ipdc" }
     ]
   }
 };

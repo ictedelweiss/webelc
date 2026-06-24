@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 import { LanguageProvider } from "@/context/LanguageContext";
+import { SITE_URL } from "@/lib/seo";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,11 +22,14 @@ export const metadata: Metadata = {
   description: "Edelweiss Learning Center — Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi dengan program Elite Academia, English Course, Playteracy, dan IPDC sejak 2005.",
   keywords: ["lembaga pendidikan Bekasi", "homeschooling Bekasi", "kursus bahasa Inggris anak", "Playteracy", "IPDC guru", "Elite Academia", "Edelweiss Learning Center"],
   authors: [{ name: "Edelweiss Learning Center" }],
-  metadataBase: new URL("https://www.edelweisslearningcenter.com"),
+  metadataBase: new URL(SITE_URL),
+  robots: process.env.CF_PAGES_BRANCH && process.env.CF_PAGES_BRANCH !== "main"
+    ? { index: false, follow: false }
+    : { index: true, follow: true },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://www.edelweisslearningcenter.com",
+    url: SITE_URL,
     siteName: "Edelweiss Learning Center",
     title: "Edelweiss Learning Center",
     description: "Lembaga pendidikan berkualitas bersertifikasi ISO 21001 di Bekasi dengan program Elite Academia, English Course, Playteracy, dan IPDC sejak 2005.",

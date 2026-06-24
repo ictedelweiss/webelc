@@ -88,17 +88,17 @@ export default function ProgramPageEN() {
               {/* Program Dropdown Menu */}
               {programDropdown && (
                 <div className="absolute top-full left-0 md:left-0 w-full mt-2 bg-white rounded-[20px] border border-gray-200 shadow-lg z-10 overflow-hidden">
-                  <Link href="/program/elite-academia">
+                  <Link href="/en/program/elite-academia">
                     <div className="px-6 py-4 hover:bg-[#F5F5F5] cursor-pointer text-[#293C88] font-poppins font-medium border-b border-gray-100 last:border-0 transition-colors">
                       Elite Academia
                     </div>
                   </Link>
-                  <Link href="/program/english-course">
+                  <Link href="/en/program/english-course">
                     <div className="px-6 py-4 hover:bg-[#F5F5F5] cursor-pointer text-[#293C88] font-poppins font-medium border-b border-gray-100 last:border-0 transition-colors">
                       English Course
                     </div>
                   </Link>
-                  <Link href="/program/playteracy">
+                  <Link href="/en/program/playteracy">
                     <div className="px-6 py-4 hover:bg-[#F5F5F5] cursor-pointer text-[#293C88] font-poppins font-medium border-b border-gray-100 last:border-0 transition-colors">
                       Playteracy
                     </div>
@@ -130,17 +130,17 @@ export default function ProgramPageEN() {
               {/* Kurikulum Dropdown Menu */}
               {kurikulumDropdown && (
                 <div className="absolute top-full right-0 w-full md:w-[250px] mt-2 bg-white rounded-[20px] border border-gray-200 shadow-lg z-10 overflow-hidden">
-                  <Link href="/kurikulum">
+                  <Link href="/en/kurikulum">
                     <div className="px-6 py-4 hover:bg-[#F5F5F5] cursor-pointer text-[#293C88] font-poppins font-medium border-b border-gray-100 last:border-0 transition-colors">
                       National Curriculum
                     </div>
                   </Link>
-                  <Link href="/kurikulum">
+                  <Link href="/en/kurikulum">
                     <div className="px-6 py-4 hover:bg-[#F5F5F5] cursor-pointer text-[#293C88] font-poppins font-medium border-b border-gray-100 last:border-0 transition-colors">
                       International Curriculum
                     </div>
                   </Link>
-                  <Link href="/kurikulum">
+                  <Link href="/en/kurikulum">
                     <div className="px-6 py-4 hover:bg-[#F5F5F5] cursor-pointer text-[#293C88] font-poppins font-medium border-b border-gray-100 last:border-0 transition-colors">
                       Special Curriculum
                     </div>
@@ -152,7 +152,7 @@ export default function ProgramPageEN() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {programs.map((program) => (
-              <Link href={`/program/${program.id}`} key={program.id}>
+              <Link href={`/en/program/${program.id}`} key={program.id}>
                 <div className="h-full rounded-[20px] bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] p-8 hover:shadow-lg transition-all duration-300 cursor-pointer border border-gray-100 hover:border-[#FED700]">
                   {/* Image Container */}
                   <div className="h-[120px] flex items-center justify-center mb-6">

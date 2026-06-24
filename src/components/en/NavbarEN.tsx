@@ -17,7 +17,7 @@ export default function Navbar() {
     <div className="bg-[#FFF] fixed top-0 left-0 w-full z-50 shadow-sm">
       <div className="max-w-screen-xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" onClick={() => setMobileMenuOpen(false)}>
+        <Link href="/en" onClick={() => setMobileMenuOpen(false)}>
           <img
             src="/ElitePng112.png"
             className="w-[140px] md:w-[180px] h-[45px] md:h-[55px] object-contain"
@@ -44,7 +44,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation Menu */}
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="/" className="text-[#293C88] font-poppins text-base font-medium hover:text-[#FED700] transition-colors">
+          <Link href="/en" className="text-[#293C88] font-poppins text-base font-medium hover:text-[#FED700] transition-colors">
             Home
           </Link>
 
@@ -65,8 +65,8 @@ export default function Navbar() {
             </button>
             {tentangKamiOpen && (
               <div className="absolute top-full left-0 mt-0 bg-white rounded-lg shadow-xl py-2 min-w-[180px] border border-gray-100 z-50">
-                <Link href="/visi-misi" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Vision & Mission</Link>
-                <Link href="/foundation" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Foundation</Link>
+                <Link href="/en/visi-misi" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Vision & Mission</Link>
+                <Link href="/en/foundation" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Foundation</Link>
               </div>
             )}
           </div>
@@ -88,18 +88,18 @@ export default function Navbar() {
             </button>
             {programOpen && (
               <div className="absolute top-full left-0 mt-0 bg-white rounded-lg shadow-xl py-2 min-w-[200px] border border-gray-100 z-50">
-                <Link href="/program/elite-academia" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Elite Academia Homeschooling</Link>
-                <Link href="/program/english-course" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">English Course</Link>
-                <Link href="/program/playteracy" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Playteracy</Link>
-                <Link href="/program/ipdc" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Indonesia Pedagogics Development Center</Link>
+                <Link href="/en/program/elite-academia" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Elite Academia Homeschooling</Link>
+                <Link href="/en/program/english-course" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">English Course</Link>
+                <Link href="/en/program/playteracy" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Playteracy</Link>
+                <Link href="/en/program/ipdc" className="block px-4 py-2.5 text-[#293C88] font-poppins text-sm hover:bg-[#FFF4BA] transition-colors">Indonesia Pedagogics Development Center</Link>
               </div>
             )}
           </div>
 
-          <Link href="/kurikulum" className="text-[#293C88] font-poppins text-base font-medium hover:text-[#FED700] transition-colors">
+          <Link href="/en/kurikulum" className="text-[#293C88] font-poppins text-base font-medium hover:text-[#FED700] transition-colors">
             Curriculum
           </Link>
-          <Link href="/kontak" className="text-[#293C88] font-poppins text-base font-medium hover:text-[#FED700] transition-colors">
+          <Link href="/en/kontak" className="text-[#293C88] font-poppins text-base font-medium hover:text-[#FED700] transition-colors">
             Contact
           </Link>
           <Link href="/artikel" className="text-[#293C88] font-poppins text-base font-medium hover:text-[#FED700] transition-colors">
@@ -129,7 +129,7 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-gray-100 bg-white">
           <div className="px-4 py-4 flex flex-col gap-2 shadow-lg pb-6">
-            <Link href="/" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">
+            <Link href="/en" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">
               Home
             </Link>
 
@@ -146,8 +146,8 @@ export default function Navbar() {
               </button>
               {mobileTentangKamiOpen && (
                 <div className="pl-8 flex flex-col py-1 bg-gray-50/50">
-                  <Link href="/visi-misi" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Vision & Mission</Link>
-                  <Link href="/foundation" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Foundation</Link>
+                  <Link href="/en/visi-misi" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Vision & Mission</Link>
+                  <Link href="/en/foundation" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Foundation</Link>
                 </div>
               )}
             </div>
@@ -165,16 +165,16 @@ export default function Navbar() {
               </button>
               {mobileProgramOpen && (
                 <div className="pl-8 flex flex-col py-1 bg-gray-50/50">
-                  <Link href="/program/elite-academia" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Elite Academia</Link>
-                  <Link href="/program/english-course" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">English Course</Link>
-                  <Link href="/program/playteracy" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Playteracy</Link>
-                  <Link href="/program/ipdc" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">IPDC</Link>
+                  <Link href="/en/program/elite-academia" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Elite Academia</Link>
+                  <Link href="/en/program/english-course" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">English Course</Link>
+                  <Link href="/en/program/playteracy" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">Playteracy</Link>
+                  <Link href="/en/program/ipdc" onClick={() => setMobileMenuOpen(false)} className="py-2.5 text-[#293C88] font-poppins text-sm border-l-2 border-[#FED700] pl-4">IPDC</Link>
                 </div>
               )}
             </div>
 
-            <Link href="/kurikulum" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">Curriculum</Link>
-            <Link href="/kontak" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">Contact</Link>
+            <Link href="/en/kurikulum" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">Curriculum</Link>
+            <Link href="/en/kontak" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">Contact</Link>
             <Link href="/artikel" onClick={() => setMobileMenuOpen(false)} className="px-4 py-3 text-[#293C88] font-poppins font-medium rounded hover:bg-gray-50">Articles</Link>
             <div className="px-4 py-2"><LanguageSwitcherUI /></div>
             <div className="px-4 pt-2 pb-4">

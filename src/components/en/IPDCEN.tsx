@@ -166,7 +166,7 @@ export default function IPDCEN() {
             </h2>
           </div>
           <a
-            href="/kontak"
+            href="/en/kontak"
             className="shrink-0 bg-[#FED700] text-[#293C88] font-bold text-base px-8 py-4 rounded-full hover:bg-white transition-colors duration-300 shadow-lg"
           >
             Contact Us

@@ -160,7 +160,7 @@ export default function NewArticle() {
               <span className="font-normal text-gray-400 ml-2 text-xs">(otomatis dari judul)</span>
             </label>
             <div className="flex rounded-xl overflow-hidden border border-gray-200 focus-within:ring-2 focus-within:ring-[#293C88] focus-within:border-transparent">
-              <span className="bg-gray-50 text-gray-400 px-3 py-2.5 text-sm border-r border-gray-200 flex-shrink-0">/artikel?slug=</span>
+              <span className="bg-gray-50 text-gray-400 px-3 py-2.5 text-sm border-r border-gray-200 flex-shrink-0">/artikel/</span>
               <input
                 type="text" name="slug" required
                 value={formData.slug} onChange={handleChange}

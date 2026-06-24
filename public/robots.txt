@@ -1,5 +1,5 @@
 # Robots.txt — Edelweiss Learning Center
-# https://www.edelweisslearningcenter.com
+# https://edelweisslearningcenter.com
 
 User-agent: *
 Allow: /
@@ -10,4 +10,4 @@ Disallow: /admin/login
 Disallow: /admin/dashboard
 
 # Sitemap
-Sitemap: https://www.edelweisslearningcenter.com/sitemap.xml
+Sitemap: https://edelweisslearningcenter.com/sitemap.xml

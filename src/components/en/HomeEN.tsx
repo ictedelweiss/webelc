@@ -4,8 +4,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   "name": "Edelweiss Learning Center",
-  "url": "https://www.edelweisslearningcenter.com",
-  "logo": "https://www.edelweisslearningcenter.com/ElitePng112.png",
+  "url": "https://edelweisslearningcenter.com/en",
+  "logo": "https://edelweisslearningcenter.com/ElitePng112.png",
   "description": "Quality educational institution with ISO 21001 certification in Bekasi with Elite Academia, English Course, Playteracy, and IPDC programs since 2005.",
   "foundingDate": "2005",
   "address": {
@@ -22,10 +22,10 @@ const jsonLd = {
     "@type": "OfferCatalog",
     "name": "Program Pendidikan",
     "itemListElement": [
-      { "@type": "Course", "name": "Elite Academia", "url": "https://www.edelweisslearningcenter.com/program/elite-academia" },
-      { "@type": "Course", "name": "English Course", "url": "https://www.edelweisslearningcenter.com/program/english-course" },
-      { "@type": "Course", "name": "Playteracy", "url": "https://www.edelweisslearningcenter.com/program/playteracy" },
-      { "@type": "Course", "name": "IPDC", "url": "https://www.edelweisslearningcenter.com/program/ipdc" }
+      { "@type": "Course", "name": "Elite Academia", "url": "https://edelweisslearningcenter.com/en/program/elite-academia" },
+      { "@type": "Course", "name": "English Course", "url": "https://edelweisslearningcenter.com/en/program/english-course" },
+      { "@type": "Course", "name": "Playteracy", "url": "https://edelweisslearningcenter.com/en/program/playteracy" },
+      { "@type": "Course", "name": "IPDC", "url": "https://edelweisslearningcenter.com/en/program/ipdc" }
     ]
   }
 };
@@ -82,7 +82,7 @@ export default function HomeEN() {
                 <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
                   <hr className="w-full border-white/50 mt-3 mb-3" />
                   <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">A flexible homeschooling program providing a personalized learning experience tailored to each individual's needs and goals.</p>
-                  <a href="/program/elite-academia" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                  <a href="/en/program/elite-academia" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                     Learn More
                     <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
                       <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
@@ -101,7 +101,7 @@ export default function HomeEN() {
                 <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
                   <hr className="w-full border-white/50 mt-3 mb-3" />
                   <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">A professional development program for teachers to strengthen innovative teaching strategies and leadership skills.</p>
-                  <a href="/program/ipdc" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                  <a href="/en/program/ipdc" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                     Learn More
                     <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
                       <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
@@ -120,7 +120,7 @@ export default function HomeEN() {
                 <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
                   <hr className="w-full border-white/50 mt-3 mb-3" />
                   <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">An English literacy program based on the Letterland Phonics method that helps children develop reading and writing skills in a fun way.</p>
-                  <a href="/program/playteracy" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                  <a href="/en/program/playteracy" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                     Learn More
                     <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
                       <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
@@ -139,7 +139,7 @@ export default function HomeEN() {
                 <div className="max-h-0 translate-y-8 overflow-hidden opacity-0 transition-all duration-500 ease-out group-hover:max-h-56 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:max-h-56 group-focus-within:translate-y-0 group-focus-within:opacity-100">
                   <hr className="w-full border-white/50 mt-3 mb-3" />
                   <p className="text-white/85 text-xs md:text-sm leading-relaxed mb-4">A communicative and interactive English program that emphasizes mastery of the four language skills.</p>
-                  <a href="/program/english-course" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
+                  <a href="/en/program/english-course" className="flex items-center gap-3 text-base hover:text-[#FFF4BA] transition-colors">
                     Learn More
                     <svg width="22" height="8" viewBox="0 0 22 8" fill="none">
                       <path d="M21.4486 4.03568C21.6438 3.84042 21.6438 3.52384 21.4486 3.32858L18.2666 0.146595C18.0713 -0.0486672 17.7548 -0.0486672 17.5595 0.146595C17.3642 0.341857 17.3642 0.65844 17.5595 0.853702L20.3879 3.68213L17.5595 6.51056C17.3642 6.70582 17.3642 7.0224 17.5595 7.21766C17.7548 7.41293 18.0713 7.41293 18.2666 7.21766L21.4486 4.03568ZM0 3.68213L0 4.18213H21.095V3.68213V3.18213L0 3.18213L0 3.68213Z" fill="currentColor" />
